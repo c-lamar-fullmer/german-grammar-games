@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Games · Deutsch Spiele{% endblock %}
+
+{% block content %}
+<h1>Games</h1>
+
+<ul class="game-list">
+  {% for game in games %}
+    <li class="card">
+      <h2><a href="{{ url_for('game', slug=game.slug) }}">{{ game.title }}</a></h2>
+      <p>{{ game.description }}</p>
+      {% if not game.ready %}<p class="muted">Coming soon</p>{% endif %}
+    </li>
+  {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %}{{ game.title }} · Deutsch Spiele{% endblock %}
+
+{% block content %}
+<h1>{{ game.title }}</h1>
+<p>{{ game.description }}</p>
+
+{% if game.ready %}
+  <div id="game-root" data-slug="{{ game.slug }}"></div>
+{% else %}
+  <p class="muted">This game is coming soon.</p>
+{% endif %}
+{% endblock %}
+
+{% block scripts %}
+{% if game.ready %}
+<script src="{{ url_for('static', filename='js/games/' ~ game.slug ~ '.js') }}"></script>
+{% endif %}
+{% endblock %}
