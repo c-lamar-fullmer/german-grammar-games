@@ -47,3 +47,4 @@ tests/            automated tests (run with: pytest)
 - Save scores and progress (a database such as SQLite)
 - User accounts and login (Flask sessions)
 - Deploying it somewhere
+# german-grammar-games
