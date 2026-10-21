@@ -52,7 +52,18 @@ def game(slug):
     game = find_game(slug)
     if game is None:
         abort(404)
-    return render_template("game.html", game=game)
+
+    # Optional extras. A game only gets a "Grammar" tab if it has a guide page
+    # (templates/guides/<slug>.html) and a "Vocabulary" tab if it has a
+    # vocabulary file (data/vocab/<slug>.json).
+    has_guide = (BASE_DIR / "templates" / "guides" / f"{slug}.html").exists()
+    vocab_path = DATA_DIR / "vocab" / f"{slug}.json"
+    vocab = None
+    if vocab_path.exists():
+        with open(vocab_path, encoding="utf-8") as f:
+            vocab = json.load(f)
+
+    return render_template("game.html", game=game, has_guide=has_guide, vocab=vocab)
 
 
 # ---------- API (returns JSON for JavaScript to use) ----------

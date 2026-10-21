@@ -17,3 +17,54 @@ def test_questions_api_returns_404_json_when_no_questions():
     response = client.get("/api/games/passiv/questions")
     assert response.status_code == 404
     assert "error" in response.get_json()
+
+
+def test_praeteritum_story_data_is_valid():
+    import re
+
+    client = app.test_client()
+    response = client.get("/api/games/praeteritum/questions")
+    assert response.status_code == 200
+    for story in response.get_json()["stories"]:
+        markers = [int(n) for n in re.findall(r"\{(\d+)\}", story["text"])]
+        assert len(markers) == 10
+        assert markers == [blank["id"] for blank in story["blanks"]]
+
+
+def test_every_blank_has_an_answer():
+    client = app.test_client()
+    stories = client.get("/api/games/praeteritum/questions").get_json()["stories"]
+    assert len(stories) >= 2
+    for story in stories:
+        for blank in story["blanks"]:
+            assert blank["answer"].strip()
+            assert blank["infinitive"].strip()
+
+
+def test_praeteritum_page_has_grammar_and_vocabulary_tabs():
+    client = app.test_client()
+    html = client.get("/games/praeteritum").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "Präteritum (simple past)" in html  # text of the grammar guide
+    assert "The 100 verbs" in html             # first vocabulary table
+
+
+def test_game_without_guide_or_vocab_only_has_play_tab():
+    client = app.test_client()
+    html = client.get("/games/passiv").get_data(as_text=True)
+    assert 'data-tab="play"' in html
+    assert 'data-tab="grammar"' not in html
+    assert 'data-tab="vocab"' not in html
+
+
+def test_vocabulary_file_is_complete():
+    import json
+    from pathlib import Path
+
+    path = Path(__file__).parent.parent / "data" / "vocab" / "praeteritum.json"
+    sections = json.loads(path.read_text(encoding="utf-8"))["sections"]
+    for section in sections:
+        for row in section["rows"]:
+            assert len(row) == len(section["columns"])
+    assert len(sections[0]["rows"]) == 100  # the 100 verbs

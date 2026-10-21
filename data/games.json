@@ -1,5 +1,11 @@
 [
   {
+    "slug": "praeteritum",
+    "title": "Präteritum",
+    "description": "Fill in the simple past forms in a short story.",
+    "ready": true
+  },
+  {
     "slug": "konjunktiv-ii",
     "title": "Konjunktiv II",
     "description": "Wishes, polite requests and hypotheticals.",

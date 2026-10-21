@@ -20,11 +20,12 @@ Open http://127.0.0.1:5000. The server restarts automatically when you save a fi
 
 ```
 app.py            the backend: pages and the JSON API
-templates/        HTML pages (base.html is the shared layout)
+templates/        HTML pages (base.html is the shared layout; guides/ holds grammar guides)
 static/css/       styles
 static/js/        main.js (shared helpers) and games/ (one script per game)
 data/games.json   the list of games shown on the site
 data/questions/   question data for each game, one JSON file per game
+data/vocab/       vocabulary lists (optional, one JSON file per game)
 tests/            automated tests (run with: pytest)
 ```
 
@@ -42,9 +43,46 @@ tests/            automated tests (run with: pytest)
 2. Put its questions in `data/questions/<slug>.json`.
 3. Write `static/js/games/<slug>.js`. Put your game inside the `#game-root` element.
 
+## Story format (Präteritum game)
+
+Stories live in `data/questions/praeteritum.json`. Each story looks like this:
+
+```json
+{
+  "title": "Der erste Arbeitstag",
+  "text": "Gestern {1} mein erster Arbeitstag. Ich {2} früh aufstehen ...",
+  "blanks": [
+    { "id": 1, "infinitive": "sein", "answer": "war", "type": "irregular", "person": "er" },
+    { "id": 2, "infinitive": "müssen", "answer": "musste", "type": "irregular", "person": "ich" }
+  ]
+}
+```
+
+- `{1}`, `{2}`, ... in `text` mark the blanks; the numbers must match the `id`s. Each story has 10.
+- `person` is one of `ich`, `du`, `er` (er/sie/es), `wir`, `ihr`, `sie` (plural), `Sie` (formal).
+- `alt` (optional) is a list of other accepted answers, e.g. `"alt": ["sendetet"]`.
+- `tip` (optional) is a short note shown after checking.
+- Your best score for each story is saved in your browser (localStorage).
+
+## Grammar and vocabulary tabs
+
+A game page always has a **Play** tab. It gets two more tabs automatically if these files exist
+(`<slug>` is the game's slug, e.g. `praeteritum`):
+
+- `templates/guides/<slug>.html` gives the **Grammar** tab. It is plain HTML, so edit the text freely.
+- `data/vocab/<slug>.json` gives the **Vocabulary** tab (with a search box). Format:
+
+```json
+{ "sections": [
+  { "title": "The 100 verbs", "note": "optional text", "columns": ["Infinitive", "English"],
+    "rows": [["gehen", "to go"], ["kommen", "to come"]] }
+] }
+```
+
+A tab can be opened directly with a link such as `/games/praeteritum#grammar`.
+
 ## Ideas for later
 
 - Save scores and progress (a database such as SQLite)
 - User accounts and login (Flask sessions)
 - Deploying it somewhere
-# german-grammar-games

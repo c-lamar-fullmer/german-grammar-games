@@ -1,0 +1,25 @@
+{# Shows a vocabulary file (data/vocab/<slug>.json). Used inside game.html.
+   File format: { "sections": [ { "title": "...", "note": "...", "columns": [...], "rows": [[...], ...] } ] } #}
+
+<input type="search" id="vocab-search" class="search" placeholder="Search words (German or English)…" aria-label="Search vocabulary">
+
+{% for section in vocab.sections %}
+<div class="vocab-section">
+  <h3>{{ section.title }}</h3>
+  {% if section.note %}<p class="muted">{{ section.note }}</p>{% endif %}
+  <div class="table-wrap">
+    <table class="vocab-table">
+      <thead>
+        <tr>{% for column in section.columns %}<th>{{ column }}</th>{% endfor %}</tr>
+      </thead>
+      <tbody>
+        {% for row in section.rows %}
+        <tr>{% for cell in row %}<td>{{ cell }}</td>{% endfor %}</tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endfor %}
+
+<p id="vocab-empty" class="muted" hidden>No words match your search.</p>

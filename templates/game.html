@@ -6,10 +6,31 @@
 <h1>{{ game.title }}</h1>
 <p>{{ game.description }}</p>
 
-{% if game.ready %}
-  <div id="game-root" data-slug="{{ game.slug }}"></div>
-{% else %}
-  <p class="muted">This game is coming soon.</p>
+{# Tabs: Play is always there; Grammar and Vocabulary only if the game has them. #}
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" data-tab="play">Play</button>
+  {% if has_guide %}<button class="tab" role="tab" data-tab="grammar">Grammar</button>{% endif %}
+  {% if vocab %}<button class="tab" role="tab" data-tab="vocab">Vocabulary</button>{% endif %}
+</div>
+
+<section id="tab-play" class="tab-panel">
+  {% if game.ready %}
+    <div id="game-root" data-slug="{{ game.slug }}"></div>
+  {% else %}
+    <p class="muted">This game is coming soon.</p>
+  {% endif %}
+</section>
+
+{% if has_guide %}
+<section id="tab-grammar" class="tab-panel guide" hidden>
+  {% include "guides/" ~ game.slug ~ ".html" %}
+</section>
+{% endif %}
+
+{% if vocab %}
+<section id="tab-vocab" class="tab-panel" hidden>
+  {% include "vocab.html" %}
+</section>
 {% endif %}
 {% endblock %}
 

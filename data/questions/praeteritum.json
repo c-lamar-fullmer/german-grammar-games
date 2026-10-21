@@ -1,0 +1,839 @@
+{
+  "stories": [
+    {
+      "title": "Der verlorene Rucksack",
+      "text": "Letzten Samstag {1} Lena mit dem Zug nach Hamburg. Sie {2} früher in dieser Stadt und wollte ihre alte Freundin Mia besuchen. Am Bahnhof {3} Mia schon auf sie. Die beiden {4} zusammen in ein kleines Café. Lena {5} einen Kaffee und ein Stück Kuchen. Plötzlich {6} sie, dass ihr Rucksack nicht mehr da {7}. Sie {8} überall, aber sie {9} ihn nicht. Da {10} der Kellner an den Tisch. Er lächelte und gab ihr den Rucksack zurück.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "fahren",
+          "answer": "fuhr",
+          "type": "irregular"
+        },
+        {
+          "id": 2,
+          "infinitive": "wohnen",
+          "answer": "wohnte",
+          "type": "regular"
+        },
+        {
+          "id": 3,
+          "infinitive": "warten",
+          "answer": "wartete",
+          "type": "regular",
+          "tip": "Stems ending in -t or -d add an extra -e-: wart-e-te."
+        },
+        {
+          "id": 4,
+          "infinitive": "gehen",
+          "answer": "gingen",
+          "type": "irregular",
+          "tip": "Plural (die beiden) takes -en."
+        },
+        {
+          "id": 5,
+          "infinitive": "nehmen",
+          "answer": "nahm",
+          "type": "irregular"
+        },
+        {
+          "id": 6,
+          "infinitive": "merken",
+          "answer": "merkte",
+          "type": "regular"
+        },
+        {
+          "id": 7,
+          "infinitive": "sein",
+          "answer": "war",
+          "type": "irregular"
+        },
+        {
+          "id": 8,
+          "infinitive": "suchen",
+          "answer": "suchte",
+          "type": "regular"
+        },
+        {
+          "id": 9,
+          "infinitive": "finden",
+          "answer": "fand",
+          "type": "irregular"
+        },
+        {
+          "id": 10,
+          "infinitive": "kommen",
+          "answer": "kam",
+          "type": "irregular"
+        }
+      ]
+    },
+    {
+      "title": "Der erste Arbeitstag",
+      "text": "Gestern {1} mein erster Arbeitstag. Ich {2} früh aufstehen und {3} mit dem Bus ins Büro. Meine neue Chefin {4} schon am Eingang auf mich. Sie {5} mir meinen Schreibtisch und {6} mir die wichtigsten Regeln. Danach {7} ich die anderen Kollegen. Zum Mittagessen {8} wir alle zusammen in die Kantine. Am Nachmittag {9} ich zum ersten Mal allein am Computer. Meine Kollegen {10} bis sechs Uhr im Büro, aber ich durfte schon früher nach Hause. Am Abend fühlte ich mich müde, aber glücklich.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "sein",
+          "answer": "war",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 2,
+          "infinitive": "müssen",
+          "answer": "musste",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 3,
+          "infinitive": "fahren",
+          "answer": "fuhr",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 4,
+          "infinitive": "warten",
+          "answer": "wartete",
+          "type": "regular",
+          "person": "er",
+          "tip": "Stems ending in -t or -d (or -fn) insert an extra -e-: wartete."
+        },
+        {
+          "id": 5,
+          "infinitive": "zeigen",
+          "answer": "zeigte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 6,
+          "infinitive": "erklären",
+          "answer": "erklärte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 7,
+          "infinitive": "treffen",
+          "answer": "traf",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 8,
+          "infinitive": "gehen",
+          "answer": "gingen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 9,
+          "infinitive": "arbeiten",
+          "answer": "arbeitete",
+          "type": "regular",
+          "person": "ich",
+          "tip": "Stems ending in -t or -d (or -fn) insert an extra -e-: arbeitete."
+        },
+        {
+          "id": 10,
+          "infinitive": "bleiben",
+          "answer": "blieben",
+          "type": "irregular",
+          "person": "sie"
+        }
+      ]
+    },
+    {
+      "title": "Ein Brief an zwei Freunde",
+      "text": "Liebe Lena, lieber Jonas, letzten Sommer {1} wir zusammen ans Meer. Jeden Morgen {2} ihr schon vor dem Frühstück im Wasser, und ich {3} noch lange im Bett. Mittags {4} wir alle zusammen im Garten des Hotels. Lena, du {5} jeden Tag drei Brötchen, und Jonas {6} am Strand fast den ganzen Tag. Abends {7} ihr beide Tee auf dem Balkon. Die anderen Gäste {8} bis spät in die Nacht, und wir {9} mit ihnen. Manchmal {10} Jonas sogar ein Lied dazu. Das war ein toller Urlaub!",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "reisen",
+          "answer": "reisten",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 2,
+          "infinitive": "schwimmen",
+          "answer": "schwammt",
+          "type": "irregular",
+          "person": "ihr"
+        },
+        {
+          "id": 3,
+          "infinitive": "liegen",
+          "answer": "lag",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 4,
+          "infinitive": "sitzen",
+          "answer": "saßen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 5,
+          "infinitive": "essen",
+          "answer": "aßt",
+          "type": "irregular",
+          "person": "du"
+        },
+        {
+          "id": 6,
+          "infinitive": "schlafen",
+          "answer": "schlief",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 7,
+          "infinitive": "trinken",
+          "answer": "trankt",
+          "type": "irregular",
+          "person": "ihr"
+        },
+        {
+          "id": 8,
+          "infinitive": "tanzen",
+          "answer": "tanzten",
+          "type": "regular",
+          "person": "sie"
+        },
+        {
+          "id": 9,
+          "infinitive": "feiern",
+          "answer": "feierten",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "singen",
+          "answer": "sang",
+          "type": "irregular",
+          "person": "er"
+        }
+      ]
+    },
+    {
+      "title": "Der Umzug",
+      "text": "Im Mai {1} ich in eine neue Wohnung im dritten Stock. Ich {2} dringend Hilfe, denn das Haus hatte keinen Aufzug. Mein Bruder {3} mir sofort. Er {4} den schweren Schrank allein nach oben, und ihr, liebe Freunde, {5} Pizza für alle. Meine Eltern {6} mir einen neuen Teppich. Plötzlich {7} ein Karton die Treppe hinunter und {8} sich. Am Abend {9} wir müde auf dem Balkon, und ich {10} langsam die Tür hinter uns.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "ziehen",
+          "answer": "zog",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 2,
+          "infinitive": "brauchen",
+          "answer": "brauchte",
+          "type": "regular",
+          "person": "ich"
+        },
+        {
+          "id": 3,
+          "infinitive": "helfen",
+          "answer": "half",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 4,
+          "infinitive": "tragen",
+          "answer": "trug",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "kaufen",
+          "answer": "kauftet",
+          "type": "regular",
+          "person": "ihr"
+        },
+        {
+          "id": 6,
+          "infinitive": "versprechen",
+          "answer": "versprachen",
+          "type": "irregular",
+          "person": "sie"
+        },
+        {
+          "id": 7,
+          "infinitive": "fallen",
+          "answer": "fiel",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 8,
+          "infinitive": "öffnen",
+          "answer": "öffnete",
+          "type": "regular",
+          "person": "er",
+          "tip": "Stems ending in -t or -d (or -fn) insert an extra -e-: öffnete."
+        },
+        {
+          "id": 9,
+          "infinitive": "stehen",
+          "answer": "standen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "schließen",
+          "answer": "schloss",
+          "type": "irregular",
+          "person": "ich"
+        }
+      ]
+    },
+    {
+      "title": "Ein Abend im Restaurant",
+      "text": "Erinnerst du dich an den Abend im italienischen Restaurant? Der Kellner {1} dir sofort den Fisch, und du {2} ihn ohne zu zögern. Ich {3} nur um einen Salat. Nach zehn Minuten {4} der Kellner das Essen, und alles {5} wunderbar. Du {6} die ganze Zeit, denn du {7} den Koch von früher. Wir {8} lange über unsere Pläne und {9} dem Kellner am Ende viel Trinkgeld. Nur dein Handy {10} du am Tisch.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "empfehlen",
+          "answer": "empfahl",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 2,
+          "infinitive": "nehmen",
+          "answer": "nahmst",
+          "type": "irregular",
+          "person": "du"
+        },
+        {
+          "id": 3,
+          "infinitive": "bitten",
+          "answer": "bat",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 4,
+          "infinitive": "bringen",
+          "answer": "brachte",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "schmecken",
+          "answer": "schmeckte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 6,
+          "infinitive": "lächeln",
+          "answer": "lächeltest",
+          "type": "regular",
+          "person": "du"
+        },
+        {
+          "id": 7,
+          "infinitive": "kennen",
+          "answer": "kanntest",
+          "type": "irregular",
+          "person": "du"
+        },
+        {
+          "id": 8,
+          "infinitive": "sprechen",
+          "answer": "sprachen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 9,
+          "infinitive": "geben",
+          "answer": "gaben",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "vergessen",
+          "answer": "vergaßt",
+          "type": "irregular",
+          "person": "du"
+        }
+      ]
+    },
+    {
+      "title": "Mein erstes Studienjahr",
+      "text": "Vor zwei Jahren {1} ich mein Studium in Köln. Ich {2} Informatik, aber am Anfang {3} ich fast nichts. In der ersten Woche {4} mich die Professorin: „Was {5} Sie schon über Programmieren?“ Ich {6} ehrlich: „Fast nichts.“ Meine Mitbewohner {7} jeden Abend zusammen, und wir {8} viele Bücher. Meine Mutter {9} mir jede Woche einen Brief. Ihr, liebe Kommilitonen, {10} damals bestimmt auch: „Das schaffen wir nie!“",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "beginnen",
+          "answer": "begann",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 2,
+          "infinitive": "studieren",
+          "answer": "studierte",
+          "type": "regular",
+          "person": "ich"
+        },
+        {
+          "id": 3,
+          "infinitive": "verstehen",
+          "answer": "verstand",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 4,
+          "infinitive": "fragen",
+          "answer": "fragte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "wissen",
+          "answer": "wussten",
+          "type": "irregular",
+          "person": "Sie"
+        },
+        {
+          "id": 6,
+          "infinitive": "antworten",
+          "answer": "antwortete",
+          "type": "regular",
+          "person": "ich",
+          "tip": "Stems ending in -t or -d (or -fn) insert an extra -e-: antwortete."
+        },
+        {
+          "id": 7,
+          "infinitive": "lernen",
+          "answer": "lernten",
+          "type": "regular",
+          "person": "sie"
+        },
+        {
+          "id": 8,
+          "infinitive": "lesen",
+          "answer": "lasen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 9,
+          "infinitive": "schreiben",
+          "answer": "schrieb",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 10,
+          "infinitive": "denken",
+          "answer": "dachtet",
+          "type": "irregular",
+          "person": "ihr"
+        }
+      ]
+    },
+    {
+      "title": "Das Fußballspiel",
+      "text": "Am Sonntag {1} wir im Stadion gegen die Mannschaft aus Bremen. Schon nach fünf Minuten {2} unser Stürmer allein auf das Tor zu. Er {3} hoch und schoss, aber der Torwart {4} den Ball. Danach {5} der Torwart ihn weit nach vorn. Und ihr Fans {6} so laut, dass wir noch einmal Mut bekamen. In der Pause lobte mich der Trainer: „Du {7} heute schneller als alle anderen!“ Wir {8} auf ein zweites Tor. Am Ende {9} wir 2:1, und die Gegner {10} zum ersten Mal in dieser Saison.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "spielen",
+          "answer": "spielten",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 2,
+          "infinitive": "laufen",
+          "answer": "lief",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 3,
+          "infinitive": "springen",
+          "answer": "sprang",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 4,
+          "infinitive": "halten",
+          "answer": "hielt",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "werfen",
+          "answer": "warf",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 6,
+          "infinitive": "rufen",
+          "answer": "rieft",
+          "type": "irregular",
+          "person": "ihr"
+        },
+        {
+          "id": 7,
+          "infinitive": "rennen",
+          "answer": "ranntest",
+          "type": "irregular",
+          "person": "du"
+        },
+        {
+          "id": 8,
+          "infinitive": "hoffen",
+          "answer": "hofften",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 9,
+          "infinitive": "gewinnen",
+          "answer": "gewannen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "verlieren",
+          "answer": "verloren",
+          "type": "irregular",
+          "person": "sie"
+        }
+      ]
+    },
+    {
+      "title": "Das verbrannte Abendessen",
+      "text": "Gestern {1} wir zusammen Abendessen. Ich {2} das Gemüse, und du {3} es in kleine Stücke. Plötzlich {4} wir ein lautes Piepen. Unser Nachbar {5} herein und {6}: „Hier riecht es nach Rauch!“ Wir {7} sofort nach dem Herd. Die Suppe {8} an! Wir {9} den Topf stehen und bestellten Pizza. Ich {10} damals, dass Kochen einfach ist.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "machen",
+          "answer": "machten",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 2,
+          "infinitive": "waschen",
+          "answer": "wusch",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 3,
+          "infinitive": "schneiden",
+          "answer": "schnittest",
+          "type": "irregular",
+          "person": "du"
+        },
+        {
+          "id": 4,
+          "infinitive": "hören",
+          "answer": "hörten",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 5,
+          "infinitive": "kommen",
+          "answer": "kam",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 6,
+          "infinitive": "sagen",
+          "answer": "sagte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 7,
+          "infinitive": "sehen",
+          "answer": "sahen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 8,
+          "infinitive": "brennen",
+          "answer": "brannte",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 9,
+          "infinitive": "lassen",
+          "answer": "ließen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "glauben",
+          "answer": "glaubte",
+          "type": "regular",
+          "person": "ich"
+        }
+      ]
+    },
+    {
+      "title": "Die Reise nach Rom",
+      "text": "Im Oktober {1} wir nach Rom. Am Flughafen {2} ich lange meinen Koffer, aber ich {3} ihn nirgends. Eine Mitarbeiterin {4} mir die Nummer des Fundbüros. Sie fragte: „Wann {5} Sie das Flugzeug?“ Zum Glück {6} nichts Schlimmes, denn der Koffer war schon im Büro. Ich rief euch an, und ihr {7} mir sofort etwas Geld. Die Straße im Zentrum {8} mir bekannt vor. Die Touristen {9} in den Bus ein, und ich {10} mich, zu Fuß zu gehen.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "fliegen",
+          "answer": "flogen",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 2,
+          "infinitive": "suchen",
+          "answer": "suchte",
+          "type": "regular",
+          "person": "ich"
+        },
+        {
+          "id": 3,
+          "infinitive": "finden",
+          "answer": "fand",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 4,
+          "infinitive": "nennen",
+          "answer": "nannte",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "verlassen",
+          "answer": "verließen",
+          "type": "irregular",
+          "person": "Sie"
+        },
+        {
+          "id": 6,
+          "infinitive": "passieren",
+          "answer": "passierte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 7,
+          "infinitive": "senden",
+          "answer": "sandtet",
+          "type": "irregular",
+          "person": "ihr",
+          "alt": [
+            "sendetet"
+          ]
+        },
+        {
+          "id": 8,
+          "infinitive": "vorkommen",
+          "answer": "kam",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 9,
+          "infinitive": "steigen",
+          "answer": "stiegen",
+          "type": "irregular",
+          "person": "sie"
+        },
+        {
+          "id": 10,
+          "infinitive": "entscheiden",
+          "answer": "entschied",
+          "type": "irregular",
+          "person": "ich"
+        }
+      ]
+    },
+    {
+      "title": "Großmutters Haus",
+      "text": "Als Kind {1} ich bei meinen Großeltern auf dem Land, und ihr {2} in der Stadt. Im Garten {3} Äpfel, Birnen und viele Blumen. Das Haus {4} schon meinem Urgroßvater. Opa {5} uns jeden Abend eine neue Geschichte. Vor drei Jahren {6} mein Opa. Danach {7} das Haus leer und still. Viele Leute {8} uns Geld dafür, aber wir {9} es nicht. Weißt du noch, was im letzten Sommer {10}? Da waren wir alle zusammen im Garten.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "leben",
+          "answer": "lebte",
+          "type": "regular",
+          "person": "ich"
+        },
+        {
+          "id": 2,
+          "infinitive": "wohnen",
+          "answer": "wohntet",
+          "type": "regular",
+          "person": "ihr"
+        },
+        {
+          "id": 3,
+          "infinitive": "wachsen",
+          "answer": "wuchsen",
+          "type": "irregular",
+          "person": "sie"
+        },
+        {
+          "id": 4,
+          "infinitive": "gehören",
+          "answer": "gehörte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "erzählen",
+          "answer": "erzählte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 6,
+          "infinitive": "sterben",
+          "answer": "starb",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 7,
+          "infinitive": "scheinen",
+          "answer": "schien",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 8,
+          "infinitive": "bieten",
+          "answer": "boten",
+          "type": "irregular",
+          "person": "sie"
+        },
+        {
+          "id": 9,
+          "infinitive": "verkaufen",
+          "answer": "verkauften",
+          "type": "regular",
+          "person": "wir"
+        },
+        {
+          "id": 10,
+          "infinitive": "geschehen",
+          "answer": "geschah",
+          "type": "irregular",
+          "person": "er"
+        }
+      ]
+    },
+    {
+      "title": "Meine Kindheit",
+      "text": "Als Kind {1} ich einen besten Freund namens Tim. Wir {2} beide Fußball, und wir {3} fast jeden Tag Sport. Tim {4} schon früh sehr schnell laufen. Ich {5} unbedingt so gut sein wie er. Mein Vater sagte: „Du {6} nicht aufgeben!“ Tim {7} oft, den Ball ins Tor zu schießen. Meine Mutter sagte: „Ihr {8} nur bis acht Uhr draußen bleiben.“ Die Kirchenuhr {9} acht, und wir mussten nach Hause. Eines Tages {10} ich zehn Jahre alt, und Tim schenkte mir einen neuen Ball.",
+      "blanks": [
+        {
+          "id": 1,
+          "infinitive": "haben",
+          "answer": "hatte",
+          "type": "irregular",
+          "person": "ich"
+        },
+        {
+          "id": 2,
+          "infinitive": "mögen",
+          "answer": "mochten",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 3,
+          "infinitive": "treiben",
+          "answer": "trieben",
+          "type": "irregular",
+          "person": "wir"
+        },
+        {
+          "id": 4,
+          "infinitive": "können",
+          "answer": "konnte",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 5,
+          "infinitive": "wollen",
+          "answer": "wollte",
+          "type": "regular",
+          "person": "ich"
+        },
+        {
+          "id": 6,
+          "infinitive": "sollen",
+          "answer": "solltest",
+          "type": "regular",
+          "person": "du"
+        },
+        {
+          "id": 7,
+          "infinitive": "versuchen",
+          "answer": "versuchte",
+          "type": "regular",
+          "person": "er"
+        },
+        {
+          "id": 8,
+          "infinitive": "dürfen",
+          "answer": "durftet",
+          "type": "irregular",
+          "person": "ihr"
+        },
+        {
+          "id": 9,
+          "infinitive": "schlagen",
+          "answer": "schlug",
+          "type": "irregular",
+          "person": "er"
+        },
+        {
+          "id": 10,
+          "infinitive": "werden",
+          "answer": "wurde",
+          "type": "irregular",
+          "person": "ich"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1523 @@
+{
+ "sections": [
+  {
+   "title": "The 100 verbs",
+   "note": "Präteritum shown for er/sie/es (ich is the same). Type: regular = stem + -te; irregular = vowel change; mixed = vowel change + -te.",
+   "columns": [
+    "Infinitive",
+    "Präteritum (er/sie/es)",
+    "Type",
+    "English"
+   ],
+   "rows": [
+    [
+     "sein",
+     "war",
+     "irregular",
+     "to be"
+    ],
+    [
+     "haben",
+     "hatte",
+     "irregular (mixed)",
+     "to have"
+    ],
+    [
+     "werden",
+     "wurde",
+     "irregular",
+     "to become; will (future)"
+    ],
+    [
+     "können",
+     "konnte",
+     "irregular (mixed)",
+     "can, to be able to"
+    ],
+    [
+     "müssen",
+     "musste",
+     "irregular (mixed)",
+     "must, to have to"
+    ],
+    [
+     "wollen",
+     "wollte",
+     "regular",
+     "to want to"
+    ],
+    [
+     "sollen",
+     "sollte",
+     "regular",
+     "should, to be supposed to"
+    ],
+    [
+     "dürfen",
+     "durfte",
+     "irregular (mixed)",
+     "may, to be allowed to"
+    ],
+    [
+     "mögen",
+     "mochte",
+     "irregular (mixed)",
+     "to like"
+    ],
+    [
+     "wissen",
+     "wusste",
+     "irregular (mixed)",
+     "to know (a fact)"
+    ],
+    [
+     "machen",
+     "machte",
+     "regular",
+     "to make, to do"
+    ],
+    [
+     "sagen",
+     "sagte",
+     "regular",
+     "to say"
+    ],
+    [
+     "fragen",
+     "fragte",
+     "regular",
+     "to ask (a question)"
+    ],
+    [
+     "antworten",
+     "antwortete",
+     "regular",
+     "to answer"
+    ],
+    [
+     "glauben",
+     "glaubte",
+     "regular",
+     "to believe, to think"
+    ],
+    [
+     "leben",
+     "lebte",
+     "regular",
+     "to live (be alive)"
+    ],
+    [
+     "wohnen",
+     "wohnte",
+     "regular",
+     "to live (reside)"
+    ],
+    [
+     "arbeiten",
+     "arbeitete",
+     "regular",
+     "to work"
+    ],
+    [
+     "spielen",
+     "spielte",
+     "regular",
+     "to play"
+    ],
+    [
+     "lernen",
+     "lernte",
+     "regular",
+     "to learn"
+    ],
+    [
+     "kaufen",
+     "kaufte",
+     "regular",
+     "to buy"
+    ],
+    [
+     "verkaufen",
+     "verkaufte",
+     "regular",
+     "to sell"
+    ],
+    [
+     "hören",
+     "hörte",
+     "regular",
+     "to hear, to listen"
+    ],
+    [
+     "suchen",
+     "suchte",
+     "regular",
+     "to look for, to search"
+    ],
+    [
+     "brauchen",
+     "brauchte",
+     "regular",
+     "to need"
+    ],
+    [
+     "zeigen",
+     "zeigte",
+     "regular",
+     "to show"
+    ],
+    [
+     "öffnen",
+     "öffnete",
+     "regular",
+     "to open"
+    ],
+    [
+     "schließen",
+     "schloss",
+     "irregular",
+     "to close"
+    ],
+    [
+     "warten",
+     "wartete",
+     "regular",
+     "to wait"
+    ],
+    [
+     "hoffen",
+     "hoffte",
+     "regular",
+     "to hope"
+    ],
+    [
+     "versuchen",
+     "versuchte",
+     "regular",
+     "to try"
+    ],
+    [
+     "erzählen",
+     "erzählte",
+     "regular",
+     "to tell (a story)"
+    ],
+    [
+     "erklären",
+     "erklärte",
+     "regular",
+     "to explain"
+    ],
+    [
+     "gehören",
+     "gehörte",
+     "regular",
+     "to belong to"
+    ],
+    [
+     "schmecken",
+     "schmeckte",
+     "regular",
+     "to taste"
+    ],
+    [
+     "lächeln",
+     "lächelte",
+     "regular",
+     "to smile"
+    ],
+    [
+     "reisen",
+     "reiste",
+     "regular",
+     "to travel"
+    ],
+    [
+     "studieren",
+     "studierte",
+     "regular",
+     "to study (at university)"
+    ],
+    [
+     "tanzen",
+     "tanzte",
+     "regular",
+     "to dance"
+    ],
+    [
+     "feiern",
+     "feierte",
+     "regular",
+     "to celebrate, to party"
+    ],
+    [
+     "gehen",
+     "ging",
+     "irregular",
+     "to go, to walk"
+    ],
+    [
+     "kommen",
+     "kam",
+     "irregular",
+     "to come"
+    ],
+    [
+     "sehen",
+     "sah",
+     "irregular",
+     "to see"
+    ],
+    [
+     "geben",
+     "gab",
+     "irregular",
+     "to give"
+    ],
+    [
+     "nehmen",
+     "nahm",
+     "irregular",
+     "to take"
+    ],
+    [
+     "sprechen",
+     "sprach",
+     "irregular",
+     "to speak"
+    ],
+    [
+     "finden",
+     "fand",
+     "irregular",
+     "to find"
+    ],
+    [
+     "stehen",
+     "stand",
+     "irregular",
+     "to stand"
+    ],
+    [
+     "sitzen",
+     "saß",
+     "irregular",
+     "to sit"
+    ],
+    [
+     "liegen",
+     "lag",
+     "irregular",
+     "to lie (be lying)"
+    ],
+    [
+     "fahren",
+     "fuhr",
+     "irregular",
+     "to drive, to go (by vehicle)"
+    ],
+    [
+     "laufen",
+     "lief",
+     "irregular",
+     "to run, to walk"
+    ],
+    [
+     "tragen",
+     "trug",
+     "irregular",
+     "to carry, to wear"
+    ],
+    [
+     "essen",
+     "aß",
+     "irregular",
+     "to eat"
+    ],
+    [
+     "trinken",
+     "trank",
+     "irregular",
+     "to drink"
+    ],
+    [
+     "schlafen",
+     "schlief",
+     "irregular",
+     "to sleep"
+    ],
+    [
+     "schreiben",
+     "schrieb",
+     "irregular",
+     "to write"
+    ],
+    [
+     "lesen",
+     "las",
+     "irregular",
+     "to read"
+    ],
+    [
+     "helfen",
+     "half",
+     "irregular",
+     "to help"
+    ],
+    [
+     "treffen",
+     "traf",
+     "irregular",
+     "to meet"
+    ],
+    [
+     "bleiben",
+     "blieb",
+     "irregular",
+     "to stay, to remain"
+    ],
+    [
+     "bringen",
+     "brachte",
+     "irregular (mixed)",
+     "to bring"
+    ],
+    [
+     "denken",
+     "dachte",
+     "irregular (mixed)",
+     "to think"
+    ],
+    [
+     "kennen",
+     "kannte",
+     "irregular (mixed)",
+     "to know (a person or place)"
+    ],
+    [
+     "nennen",
+     "nannte",
+     "irregular (mixed)",
+     "to name, to call"
+    ],
+    [
+     "verstehen",
+     "verstand",
+     "irregular",
+     "to understand"
+    ],
+    [
+     "beginnen",
+     "begann",
+     "irregular",
+     "to begin"
+    ],
+    [
+     "gewinnen",
+     "gewann",
+     "irregular",
+     "to win"
+    ],
+    [
+     "verlieren",
+     "verlor",
+     "irregular",
+     "to lose"
+    ],
+    [
+     "vergessen",
+     "vergaß",
+     "irregular",
+     "to forget"
+    ],
+    [
+     "bieten",
+     "bot",
+     "irregular",
+     "to offer"
+    ],
+    [
+     "bitten",
+     "bat",
+     "irregular",
+     "to ask for, to request"
+    ],
+    [
+     "fliegen",
+     "flog",
+     "irregular",
+     "to fly"
+    ],
+    [
+     "fallen",
+     "fiel",
+     "irregular",
+     "to fall"
+    ],
+    [
+     "halten",
+     "hielt",
+     "irregular",
+     "to hold; to stop"
+    ],
+    [
+     "lassen",
+     "ließ",
+     "irregular",
+     "to let, to allow; to leave"
+    ],
+    [
+     "rufen",
+     "rief",
+     "irregular",
+     "to call, to shout"
+    ],
+    [
+     "scheinen",
+     "schien",
+     "irregular",
+     "to seem; to shine"
+    ],
+    [
+     "schlagen",
+     "schlug",
+     "irregular",
+     "to hit, to strike"
+    ],
+    [
+     "schneiden",
+     "schnitt",
+     "irregular",
+     "to cut"
+    ],
+    [
+     "sterben",
+     "starb",
+     "irregular",
+     "to die"
+    ],
+    [
+     "treiben",
+     "trieb",
+     "irregular",
+     "to drive, to push; to do (Sport treiben)"
+    ],
+    [
+     "werfen",
+     "warf",
+     "irregular",
+     "to throw"
+    ],
+    [
+     "ziehen",
+     "zog",
+     "irregular",
+     "to pull; to move (house)"
+    ],
+    [
+     "springen",
+     "sprang",
+     "irregular",
+     "to jump"
+    ],
+    [
+     "singen",
+     "sang",
+     "irregular",
+     "to sing"
+    ],
+    [
+     "schwimmen",
+     "schwamm",
+     "irregular",
+     "to swim"
+    ],
+    [
+     "steigen",
+     "stieg",
+     "irregular",
+     "to climb, to rise"
+    ],
+    [
+     "wachsen",
+     "wuchs",
+     "irregular",
+     "to grow"
+    ],
+    [
+     "waschen",
+     "wusch",
+     "irregular",
+     "to wash"
+    ],
+    [
+     "brennen",
+     "brannte",
+     "irregular (mixed)",
+     "to burn"
+    ],
+    [
+     "rennen",
+     "rannte",
+     "irregular (mixed)",
+     "to run (fast), to race"
+    ],
+    [
+     "senden",
+     "sandte / sendete",
+     "irregular (mixed)",
+     "to send"
+    ],
+    [
+     "empfehlen",
+     "empfahl",
+     "irregular",
+     "to recommend"
+    ],
+    [
+     "geschehen",
+     "geschah",
+     "irregular",
+     "to happen"
+    ],
+    [
+     "passieren",
+     "passierte",
+     "regular",
+     "to happen"
+    ],
+    [
+     "verlassen",
+     "verließ",
+     "irregular",
+     "to leave (a place or person)"
+    ],
+    [
+     "versprechen",
+     "versprach",
+     "irregular",
+     "to promise"
+    ],
+    [
+     "entscheiden",
+     "entschied",
+     "irregular",
+     "to decide"
+    ],
+    [
+     "vorkommen",
+     "kam … vor",
+     "irregular",
+     "to seem (mir kommt … vor); to occur"
+    ]
+   ]
+  },
+  {
+   "title": "Der verlorene Rucksack",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "letzten Samstag",
+     "last Saturday"
+    ],
+    [
+     "der Zug",
+     "train"
+    ],
+    [
+     "früher",
+     "earlier, in the past"
+    ],
+    [
+     "die Freundin",
+     "(female) friend"
+    ],
+    [
+     "besuchen",
+     "to visit"
+    ],
+    [
+     "der Bahnhof",
+     "train station"
+    ],
+    [
+     "das Café",
+     "café"
+    ],
+    [
+     "das Stück Kuchen",
+     "piece of cake"
+    ],
+    [
+     "plötzlich",
+     "suddenly"
+    ],
+    [
+     "der Rucksack",
+     "backpack"
+    ],
+    [
+     "nicht mehr",
+     "no longer, not any more"
+    ],
+    [
+     "überall",
+     "everywhere"
+    ],
+    [
+     "der Kellner",
+     "waiter"
+    ],
+    [
+     "zurückgeben",
+     "to give back"
+    ],
+    [
+     "merken",
+     "to notice (only in this story)"
+    ]
+   ]
+  },
+  {
+   "title": "Der erste Arbeitstag",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "der Arbeitstag",
+     "working day"
+    ],
+    [
+     "früh",
+     "early"
+    ],
+    [
+     "aufstehen",
+     "to get up"
+    ],
+    [
+     "der Bus",
+     "bus"
+    ],
+    [
+     "das Büro",
+     "office"
+    ],
+    [
+     "die Chefin",
+     "(female) boss"
+    ],
+    [
+     "der Eingang",
+     "entrance"
+    ],
+    [
+     "der Schreibtisch",
+     "desk"
+    ],
+    [
+     "die Regel, -n",
+     "rule"
+    ],
+    [
+     "wichtig",
+     "important"
+    ],
+    [
+     "die Kollegen",
+     "colleagues"
+    ],
+    [
+     "das Mittagessen",
+     "lunch"
+    ],
+    [
+     "die Kantine",
+     "canteen"
+    ],
+    [
+     "zum ersten Mal",
+     "for the first time"
+    ],
+    [
+     "allein",
+     "alone"
+    ],
+    [
+     "nach Hause",
+     "(to) home"
+    ],
+    [
+     "sich fühlen",
+     "to feel"
+    ],
+    [
+     "müde",
+     "tired"
+    ],
+    [
+     "glücklich",
+     "happy"
+    ]
+   ]
+  },
+  {
+   "title": "Ein Brief an zwei Freunde",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "lieb- (Liebe Lena …)",
+     "dear (in a letter)"
+    ],
+    [
+     "das Meer",
+     "sea"
+    ],
+    [
+     "zusammen",
+     "together"
+    ],
+    [
+     "das Frühstück",
+     "breakfast"
+    ],
+    [
+     "das Wasser",
+     "water"
+    ],
+    [
+     "das Bett",
+     "bed"
+    ],
+    [
+     "mittags",
+     "at midday, at lunchtime"
+    ],
+    [
+     "der Garten",
+     "garden"
+    ],
+    [
+     "das Brötchen",
+     "bread roll"
+    ],
+    [
+     "der Strand",
+     "beach"
+    ],
+    [
+     "den ganzen Tag",
+     "all day long"
+    ],
+    [
+     "abends",
+     "in the evening"
+    ],
+    [
+     "der Tee",
+     "tea"
+    ],
+    [
+     "der Balkon",
+     "balcony"
+    ],
+    [
+     "der Gast, die Gäste",
+     "guest"
+    ],
+    [
+     "die Nacht",
+     "night"
+    ],
+    [
+     "das Lied",
+     "song"
+    ],
+    [
+     "dazu",
+     "along with it"
+    ],
+    [
+     "sogar",
+     "even"
+    ],
+    [
+     "der Urlaub",
+     "vacation, holiday"
+    ],
+    [
+     "toll",
+     "great"
+    ]
+   ]
+  },
+  {
+   "title": "Der Umzug",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "der Umzug",
+     "move (to a new home)"
+    ],
+    [
+     "die Wohnung",
+     "apartment"
+    ],
+    [
+     "der Stock",
+     "floor, storey"
+    ],
+    [
+     "dringend",
+     "urgently"
+    ],
+    [
+     "die Hilfe",
+     "help"
+    ],
+    [
+     "der Aufzug",
+     "elevator"
+    ],
+    [
+     "sofort",
+     "immediately"
+    ],
+    [
+     "der Schrank",
+     "wardrobe, cupboard"
+    ],
+    [
+     "schwer",
+     "heavy"
+    ],
+    [
+     "nach oben",
+     "upstairs, up"
+    ],
+    [
+     "der Teppich",
+     "rug, carpet"
+    ],
+    [
+     "plötzlich",
+     "suddenly"
+    ],
+    [
+     "der Karton",
+     "cardboard box"
+    ],
+    [
+     "die Treppe",
+     "stairs"
+    ],
+    [
+     "hinunter",
+     "down"
+    ],
+    [
+     "sich öffnen",
+     "to open (by itself)"
+    ],
+    [
+     "müde",
+     "tired"
+    ],
+    [
+     "der Balkon",
+     "balcony"
+    ],
+    [
+     "langsam",
+     "slowly"
+    ],
+    [
+     "die Tür",
+     "door"
+    ],
+    [
+     "hinter",
+     "behind"
+    ]
+   ]
+  },
+  {
+   "title": "Ein Abend im Restaurant",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "sich erinnern an",
+     "to remember"
+    ],
+    [
+     "italienisch",
+     "Italian"
+    ],
+    [
+     "der Fisch",
+     "fish"
+    ],
+    [
+     "sofort",
+     "immediately"
+    ],
+    [
+     "ohne zu zögern",
+     "without hesitating"
+    ],
+    [
+     "der Salat",
+     "salad"
+    ],
+    [
+     "nur",
+     "only"
+    ],
+    [
+     "nach zehn Minuten",
+     "after ten minutes"
+    ],
+    [
+     "das Essen",
+     "food, meal"
+    ],
+    [
+     "wunderbar",
+     "wonderful"
+    ],
+    [
+     "die ganze Zeit",
+     "the whole time"
+    ],
+    [
+     "der Koch",
+     "cook, chef"
+    ],
+    [
+     "von früher",
+     "from earlier, from back then"
+    ],
+    [
+     "lange",
+     "for a long time"
+    ],
+    [
+     "der Plan, die Pläne",
+     "plan"
+    ],
+    [
+     "das Trinkgeld",
+     "tip (money)"
+    ],
+    [
+     "das Handy",
+     "cell phone"
+    ],
+    [
+     "der Tisch",
+     "table"
+    ],
+    [
+     "am Ende",
+     "in the end"
+    ]
+   ]
+  },
+  {
+   "title": "Mein erstes Studienjahr",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "das Studium",
+     "studies (at university)"
+    ],
+    [
+     "vor zwei Jahren",
+     "two years ago"
+    ],
+    [
+     "die Informatik",
+     "computer science"
+    ],
+    [
+     "am Anfang",
+     "at the beginning"
+    ],
+    [
+     "fast nichts",
+     "almost nothing"
+    ],
+    [
+     "in der ersten Woche",
+     "in the first week"
+    ],
+    [
+     "die Professorin",
+     "(female) professor"
+    ],
+    [
+     "das Programmieren",
+     "programming"
+    ],
+    [
+     "ehrlich",
+     "honest(ly)"
+    ],
+    [
+     "die Mitbewohner",
+     "housemates, flatmates"
+    ],
+    [
+     "jeden Abend",
+     "every evening"
+    ],
+    [
+     "das Buch, die Bücher",
+     "book"
+    ],
+    [
+     "der Brief",
+     "letter"
+    ],
+    [
+     "die Kommilitonen",
+     "fellow students"
+    ],
+    [
+     "damals",
+     "back then"
+    ],
+    [
+     "bestimmt",
+     "surely, certainly"
+    ],
+    [
+     "schaffen",
+     "to manage, to make it"
+    ],
+    [
+     "nie",
+     "never"
+    ]
+   ]
+  },
+  {
+   "title": "Das Fußballspiel",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "das Stadion",
+     "stadium"
+    ],
+    [
+     "die Mannschaft",
+     "team"
+    ],
+    [
+     "der Stürmer",
+     "striker"
+    ],
+    [
+     "auf das Tor zu",
+     "toward the goal"
+    ],
+    [
+     "das Tor",
+     "goal"
+    ],
+    [
+     "der Torwart",
+     "goalkeeper"
+    ],
+    [
+     "schießen",
+     "to shoot"
+    ],
+    [
+     "der Ball",
+     "ball"
+    ],
+    [
+     "weit nach vorn",
+     "far forward"
+    ],
+    [
+     "der Fan, die Fans",
+     "fan"
+    ],
+    [
+     "laut",
+     "loud(ly)"
+    ],
+    [
+     "der Mut",
+     "courage"
+    ],
+    [
+     "bekommen",
+     "to get, to receive"
+    ],
+    [
+     "der Trainer",
+     "coach"
+    ],
+    [
+     "loben",
+     "to praise"
+    ],
+    [
+     "die Pause",
+     "break, half-time"
+    ],
+    [
+     "schnell, schneller",
+     "fast, faster"
+    ],
+    [
+     "der Gegner",
+     "opponent"
+    ],
+    [
+     "die Saison",
+     "season"
+    ],
+    [
+     "am Ende",
+     "in the end"
+    ]
+   ]
+  },
+  {
+   "title": "Das verbrannte Abendessen",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "das Abendessen",
+     "dinner"
+    ],
+    [
+     "das Gemüse",
+     "vegetables"
+    ],
+    [
+     "das Stück, die Stücke",
+     "piece"
+    ],
+    [
+     "plötzlich",
+     "suddenly"
+    ],
+    [
+     "laut",
+     "loud"
+    ],
+    [
+     "das Piepen",
+     "beeping"
+    ],
+    [
+     "der Nachbar",
+     "neighbor"
+    ],
+    [
+     "herein",
+     "in, inside (toward the speaker)"
+    ],
+    [
+     "riechen",
+     "to smell"
+    ],
+    [
+     "der Rauch",
+     "smoke"
+    ],
+    [
+     "der Herd",
+     "stove"
+    ],
+    [
+     "die Suppe",
+     "soup"
+    ],
+    [
+     "anbrennen",
+     "to burn (food in a pot)"
+    ],
+    [
+     "der Topf",
+     "pot"
+    ],
+    [
+     "bestellen",
+     "to order"
+    ],
+    [
+     "damals",
+     "back then"
+    ],
+    [
+     "einfach",
+     "easy, simple"
+    ],
+    [
+     "das Kochen",
+     "cooking"
+    ]
+   ]
+  },
+  {
+   "title": "Die Reise nach Rom",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "die Reise",
+     "trip, journey"
+    ],
+    [
+     "der Flughafen",
+     "airport"
+    ],
+    [
+     "der Koffer",
+     "suitcase"
+    ],
+    [
+     "nirgends",
+     "nowhere"
+    ],
+    [
+     "die Mitarbeiterin",
+     "(female) employee"
+    ],
+    [
+     "die Nummer",
+     "number"
+    ],
+    [
+     "das Fundbüro",
+     "lost-and-found office"
+    ],
+    [
+     "das Flugzeug",
+     "airplane"
+    ],
+    [
+     "zum Glück",
+     "luckily, fortunately"
+    ],
+    [
+     "schlimm",
+     "bad, serious"
+    ],
+    [
+     "anrufen",
+     "to call (by phone)"
+    ],
+    [
+     "etwas",
+     "some, something"
+    ],
+    [
+     "das Geld",
+     "money"
+    ],
+    [
+     "die Straße",
+     "street"
+    ],
+    [
+     "das Zentrum",
+     "center"
+    ],
+    [
+     "bekannt",
+     "familiar, known"
+    ],
+    [
+     "der Tourist, die Touristen",
+     "tourist"
+    ],
+    [
+     "einsteigen",
+     "to get in, to board"
+    ],
+    [
+     "zu Fuß",
+     "on foot"
+    ]
+   ]
+  },
+  {
+   "title": "Großmutters Haus",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "die Großeltern",
+     "grandparents"
+    ],
+    [
+     "auf dem Land",
+     "in the countryside"
+    ],
+    [
+     "die Stadt",
+     "city, town"
+    ],
+    [
+     "der Apfel, die Äpfel",
+     "apple"
+    ],
+    [
+     "die Birne",
+     "pear"
+    ],
+    [
+     "die Blume",
+     "flower"
+    ],
+    [
+     "der Urgroßvater",
+     "great-grandfather"
+    ],
+    [
+     "der Opa",
+     "grandpa"
+    ],
+    [
+     "jeden Abend",
+     "every evening"
+    ],
+    [
+     "die Geschichte",
+     "story"
+    ],
+    [
+     "vor drei Jahren",
+     "three years ago"
+    ],
+    [
+     "leer",
+     "empty"
+    ],
+    [
+     "still",
+     "quiet, silent"
+    ],
+    [
+     "dafür",
+     "for it, in return"
+    ],
+    [
+     "Weißt du noch …?",
+     "Do you remember …?"
+    ]
+   ]
+  },
+  {
+   "title": "Meine Kindheit",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "die Kindheit",
+     "childhood"
+    ],
+    [
+     "der Freund",
+     "(male) friend"
+    ],
+    [
+     "namens",
+     "named, called"
+    ],
+    [
+     "der Fußball",
+     "soccer"
+    ],
+    [
+     "der Sport",
+     "sports"
+    ],
+    [
+     "früh",
+     "early"
+    ],
+    [
+     "schnell",
+     "fast"
+    ],
+    [
+     "unbedingt",
+     "absolutely, at all costs"
+    ],
+    [
+     "aufgeben",
+     "to give up"
+    ],
+    [
+     "schießen",
+     "to shoot"
+    ],
+    [
+     "oft",
+     "often"
+    ],
+    [
+     "draußen",
+     "outside"
+    ],
+    [
+     "bis acht Uhr",
+     "until eight o'clock"
+    ],
+    [
+     "die Kirchenuhr",
+     "church clock"
+    ],
+    [
+     "eines Tages",
+     "one day"
+    ],
+    [
+     "schenken",
+     "to give (as a gift)"
+    ],
+    [
+     "neu",
+     "new"
+    ]
+   ]
+  }
+ ]
+}

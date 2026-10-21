@@ -41,3 +41,73 @@ main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
 .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem; }
 .card h2 { margin-top: 0; font-size: 1.2rem; }
 .muted { color: #6b7280; }
+
+/* ---------- games ---------- */
+
+button.button { border: none; font: inherit; cursor: pointer; margin-right: 0.5rem; }
+button.button:hover { background: #92400e; }
+button.secondary { background: #6b7280; }
+button.secondary:hover { background: #4b5563; }
+
+.story { font-size: 1.15rem; line-height: 2.4; }
+.blank { white-space: nowrap; }
+.blank input {
+  font: inherit;
+  padding: 0.1rem 0.4rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  text-align: center;
+}
+.blank input:focus { outline: 2px solid #b45309; border-color: transparent; }
+.infinitive { color: #6b7280; font-size: 0.95rem; }
+
+.blank.correct input { background: #dcfce7; border-color: #16a34a; color: #166534; }
+.blank.wrong input { background: #fee2e2; border-color: #dc2626; color: #991b1b; }
+.answer { color: #166534; font-weight: bold; }
+
+.result { margin-top: 1.5rem; }
+.score { font-size: 1.4rem; font-weight: bold; }
+
+#game-root h3 { margin-top: 0; font-size: 1.1rem; }
+#game-root .game-list .card button { margin-top: 0.25rem; }
+
+/* ---------- tabs ---------- */
+
+[hidden] { display: none !important; }
+
+.tabs { display: flex; gap: 0.25rem; border-bottom: 1px solid #e5e7eb; margin: 1.5rem 0 1.25rem; }
+.tab {
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  font: inherit;
+  padding: 0.6rem 1rem;
+  color: #6b7280;
+  cursor: pointer;
+}
+.tab:hover { color: #1f2933; }
+.tab.active { color: #b45309; border-bottom-color: #b45309; font-weight: 600; }
+
+/* ---------- grammar guide ---------- */
+
+.guide { max-width: 760px; }
+.guide h2 { margin-top: 0; }
+.guide h3 { margin: 1.1rem 0 0.3rem; font-size: 1.05rem; color: #92400e; }
+.guide p, .guide li { margin: 0.2rem 0; }
+.guide { font-size: 0.95rem; line-height: 1.5; }
+.guide details { margin: 1rem 0 0.5rem; }
+.guide summary { cursor: pointer; font-weight: 600; color: #92400e; }
+.guide ul { padding-left: 1.25rem; margin: 0.3rem 0; }
+.guide .box { background: #fff7ed; border-left: 4px solid #b45309; padding: 0.5rem 1rem; margin: 0.75rem 0; border-radius: 4px; }
+.guide .small { font-size: 0.9rem; }
+
+/* ---------- tables (guide + vocabulary) ---------- */
+
+.table-wrap { overflow-x: auto; }
+.guide table, .vocab-table { border-collapse: collapse; width: 100%; font-size: 0.95rem; background: #fff; }
+.guide th, .guide td, .vocab-table th, .vocab-table td { border: 1px solid #e5e7eb; padding: 0.25rem 0.55rem; text-align: left; }
+.guide th, .vocab-table th { background: #f3f4f6; }
+.guide td.hl { background: #fef3c7; font-weight: 600; }
+
+.search { width: 100%; max-width: 420px; font: inherit; padding: 0.5rem 0.75rem; border: 1px solid #d1d5db; border-radius: 6px; margin-bottom: 1rem; }
+.vocab-section h3 { margin: 1.5rem 0 0.4rem; font-size: 1.1rem; }
