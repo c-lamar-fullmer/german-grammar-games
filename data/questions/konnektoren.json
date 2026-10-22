@@ -1,0 +1,659 @@
+{
+ "connectors": {
+  "weil": {
+   "label": "weil",
+   "meaning": "because",
+   "kind": "conjunction",
+   "type": "reason",
+   "rule": "weil (because) gives the REASON and sends the verb to the END of its clause: Ich bleibe zu Hause, weil es regnet. If the weil-clause comes first, the main clause starts with its verb: Weil es regnet, bleibe ich zu Hause."
+  },
+  "obwohl": {
+   "label": "obwohl",
+   "meaning": "although",
+   "kind": "conjunction",
+   "type": "contrast",
+   "rule": "obwohl (although) introduces an OBSTACLE and sends the verb to the END of its clause: Ich gehe spazieren, obwohl es regnet. If the obwohl-clause comes first, the main clause starts with its verb: Obwohl es regnet, gehe ich spazieren."
+  },
+  "deshalb": {
+   "label": "deshalb",
+   "meaning": "therefore, that's why",
+   "kind": "adverb",
+   "type": "reason",
+   "rule": "deshalb (therefore) points to the RESULT. It takes position 1 of its clause, so the verb comes right after it (position 2): Es regnet, deshalb bleibe ich zu Hause."
+  },
+  "trotzdem": {
+   "label": "trotzdem",
+   "meaning": "nevertheless, anyway",
+   "kind": "adverb",
+   "type": "contrast",
+   "rule": "trotzdem (nevertheless) shows what happens anyway. It takes position 1 of its clause, so the verb comes right after it (position 2): Es regnet, trotzdem gehe ich spazieren."
+  }
+ },
+ "roundLength": 10,
+ "exercises": [
+  {
+   "id": "r1-weil",
+   "pair": "r1",
+   "connector": "weil",
+   "a": "Es regnet.",
+   "b": "Ich bleibe zu Hause.",
+   "answers": [
+    "Ich bleibe zu Hause, weil es regnet.",
+    "Weil es regnet, bleibe ich zu Hause."
+   ],
+   "verb": "bleibe",
+   "subFinal": "regnet"
+  },
+  {
+   "id": "r1-deshalb",
+   "pair": "r1",
+   "connector": "deshalb",
+   "a": "Es regnet.",
+   "b": "Ich bleibe zu Hause.",
+   "answers": [
+    "Es regnet, deshalb bleibe ich zu Hause.",
+    "Es regnet, ich bleibe deshalb zu Hause."
+   ],
+   "verb": "bleibe",
+   "subFinal": "regnet"
+  },
+  {
+   "id": "r2-weil",
+   "pair": "r2",
+   "connector": "weil",
+   "a": "Ich bin müde.",
+   "b": "Ich gehe früh ins Bett.",
+   "answers": [
+    "Ich gehe früh ins Bett, weil ich müde bin.",
+    "Weil ich müde bin, gehe ich früh ins Bett."
+   ],
+   "verb": "gehe",
+   "subFinal": "bin"
+  },
+  {
+   "id": "r2-deshalb",
+   "pair": "r2",
+   "connector": "deshalb",
+   "a": "Ich bin müde.",
+   "b": "Ich gehe früh ins Bett.",
+   "answers": [
+    "Ich bin müde, deshalb gehe ich früh ins Bett.",
+    "Ich bin müde, ich gehe deshalb früh ins Bett."
+   ],
+   "verb": "gehe",
+   "subFinal": "bin"
+  },
+  {
+   "id": "r3-weil",
+   "pair": "r3",
+   "connector": "weil",
+   "a": "Der Bus hat Verspätung.",
+   "b": "Wir kommen zu spät.",
+   "answers": [
+    "Wir kommen zu spät, weil der Bus Verspätung hat.",
+    "Weil der Bus Verspätung hat, kommen wir zu spät."
+   ],
+   "verb": "kommen",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r3-deshalb",
+   "pair": "r3",
+   "connector": "deshalb",
+   "a": "Der Bus hat Verspätung.",
+   "b": "Wir kommen zu spät.",
+   "answers": [
+    "Der Bus hat Verspätung, deshalb kommen wir zu spät.",
+    "Der Bus hat Verspätung, wir kommen deshalb zu spät."
+   ],
+   "verb": "kommen",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r4-weil",
+   "pair": "r4",
+   "connector": "weil",
+   "a": "Anna hat Geburtstag.",
+   "b": "Wir feiern heute Abend.",
+   "answers": [
+    "Wir feiern heute Abend, weil Anna Geburtstag hat.",
+    "Weil Anna Geburtstag hat, feiern wir heute Abend."
+   ],
+   "verb": "feiern",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r4-deshalb",
+   "pair": "r4",
+   "connector": "deshalb",
+   "a": "Anna hat Geburtstag.",
+   "b": "Wir feiern heute Abend.",
+   "answers": [
+    "Anna hat Geburtstag, deshalb feiern wir heute Abend.",
+    "Anna hat Geburtstag, wir feiern deshalb heute Abend."
+   ],
+   "verb": "feiern",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r5-weil",
+   "pair": "r5",
+   "connector": "weil",
+   "a": "Ich habe Hunger.",
+   "b": "Ich esse einen Apfel.",
+   "answers": [
+    "Ich esse einen Apfel, weil ich Hunger habe.",
+    "Weil ich Hunger habe, esse ich einen Apfel."
+   ],
+   "verb": "esse",
+   "subFinal": "habe"
+  },
+  {
+   "id": "r5-deshalb",
+   "pair": "r5",
+   "connector": "deshalb",
+   "a": "Ich habe Hunger.",
+   "b": "Ich esse einen Apfel.",
+   "answers": [
+    "Ich habe Hunger, deshalb esse ich einen Apfel.",
+    "Ich habe Hunger, ich esse deshalb einen Apfel."
+   ],
+   "verb": "esse",
+   "subFinal": "habe"
+  },
+  {
+   "id": "r6-weil",
+   "pair": "r6",
+   "connector": "weil",
+   "a": "Die Wohnung ist zu klein.",
+   "b": "Wir ziehen nächsten Monat um.",
+   "answers": [
+    "Wir ziehen nächsten Monat um, weil die Wohnung zu klein ist.",
+    "Weil die Wohnung zu klein ist, ziehen wir nächsten Monat um."
+   ],
+   "verb": "ziehen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "r6-deshalb",
+   "pair": "r6",
+   "connector": "deshalb",
+   "a": "Die Wohnung ist zu klein.",
+   "b": "Wir ziehen nächsten Monat um.",
+   "answers": [
+    "Die Wohnung ist zu klein, deshalb ziehen wir nächsten Monat um.",
+    "Die Wohnung ist zu klein, wir ziehen deshalb nächsten Monat um."
+   ],
+   "verb": "ziehen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "r7-weil",
+   "pair": "r7",
+   "connector": "weil",
+   "a": "Ich muss morgen früh aufstehen.",
+   "b": "Ich stelle den Wecker auf sechs Uhr.",
+   "answers": [
+    "Ich stelle den Wecker auf sechs Uhr, weil ich morgen früh aufstehen muss.",
+    "Weil ich morgen früh aufstehen muss, stelle ich den Wecker auf sechs Uhr."
+   ],
+   "verb": "stelle",
+   "subFinal": "muss"
+  },
+  {
+   "id": "r7-deshalb",
+   "pair": "r7",
+   "connector": "deshalb",
+   "a": "Ich muss morgen früh aufstehen.",
+   "b": "Ich stelle den Wecker auf sechs Uhr.",
+   "answers": [
+    "Ich muss morgen früh aufstehen, deshalb stelle ich den Wecker auf sechs Uhr.",
+    "Ich muss morgen früh aufstehen, ich stelle deshalb den Wecker auf sechs Uhr."
+   ],
+   "verb": "stelle",
+   "subFinal": "muss"
+  },
+  {
+   "id": "r8-weil",
+   "pair": "r8",
+   "connector": "weil",
+   "a": "Es ist sehr heiß.",
+   "b": "Wir gehen schwimmen.",
+   "answers": [
+    "Wir gehen schwimmen, weil es sehr heiß ist.",
+    "Weil es sehr heiß ist, gehen wir schwimmen."
+   ],
+   "verb": "gehen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "r8-deshalb",
+   "pair": "r8",
+   "connector": "deshalb",
+   "a": "Es ist sehr heiß.",
+   "b": "Wir gehen schwimmen.",
+   "answers": [
+    "Es ist sehr heiß, deshalb gehen wir schwimmen.",
+    "Es ist sehr heiß, wir gehen deshalb schwimmen."
+   ],
+   "verb": "gehen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "r9-weil",
+   "pair": "r9",
+   "connector": "weil",
+   "a": "Er hat seinen Schlüssel verloren.",
+   "b": "Er kommt nicht in die Wohnung.",
+   "answers": [
+    "Er kommt nicht in die Wohnung, weil er seinen Schlüssel verloren hat.",
+    "Weil er seinen Schlüssel verloren hat, kommt er nicht in die Wohnung."
+   ],
+   "verb": "kommt",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r9-deshalb",
+   "pair": "r9",
+   "connector": "deshalb",
+   "a": "Er hat seinen Schlüssel verloren.",
+   "b": "Er kommt nicht in die Wohnung.",
+   "answers": [
+    "Er hat seinen Schlüssel verloren, deshalb kommt er nicht in die Wohnung.",
+    "Er hat seinen Schlüssel verloren, er kommt deshalb nicht in die Wohnung."
+   ],
+   "verb": "kommt",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r10-weil",
+   "pair": "r10",
+   "connector": "weil",
+   "a": "Wir haben morgen eine Prüfung.",
+   "b": "Wir lernen heute den ganzen Tag.",
+   "answers": [
+    "Wir lernen heute den ganzen Tag, weil wir morgen eine Prüfung haben.",
+    "Weil wir morgen eine Prüfung haben, lernen wir heute den ganzen Tag."
+   ],
+   "verb": "lernen",
+   "subFinal": "haben"
+  },
+  {
+   "id": "r10-deshalb",
+   "pair": "r10",
+   "connector": "deshalb",
+   "a": "Wir haben morgen eine Prüfung.",
+   "b": "Wir lernen heute den ganzen Tag.",
+   "answers": [
+    "Wir haben morgen eine Prüfung, deshalb lernen wir heute den ganzen Tag.",
+    "Wir haben morgen eine Prüfung, wir lernen deshalb heute den ganzen Tag."
+   ],
+   "verb": "lernen",
+   "subFinal": "haben"
+  },
+  {
+   "id": "r11-weil",
+   "pair": "r11",
+   "connector": "weil",
+   "a": "Der Zug fällt aus.",
+   "b": "Wir nehmen das Taxi.",
+   "answers": [
+    "Wir nehmen das Taxi, weil der Zug ausfällt.",
+    "Weil der Zug ausfällt, nehmen wir das Taxi."
+   ],
+   "verb": "nehmen",
+   "subFinal": "ausfällt"
+  },
+  {
+   "id": "r11-deshalb",
+   "pair": "r11",
+   "connector": "deshalb",
+   "a": "Der Zug fällt aus.",
+   "b": "Wir nehmen das Taxi.",
+   "answers": [
+    "Der Zug fällt aus, deshalb nehmen wir das Taxi.",
+    "Der Zug fällt aus, wir nehmen deshalb das Taxi."
+   ],
+   "verb": "nehmen",
+   "subFinal": "ausfällt"
+  },
+  {
+   "id": "r12-weil",
+   "pair": "r12",
+   "connector": "weil",
+   "a": "Sie hat im Lotto gewonnen.",
+   "b": "Sie kauft ein Haus.",
+   "answers": [
+    "Sie kauft ein Haus, weil sie im Lotto gewonnen hat.",
+    "Weil sie im Lotto gewonnen hat, kauft sie ein Haus."
+   ],
+   "verb": "kauft",
+   "subFinal": "hat"
+  },
+  {
+   "id": "r12-deshalb",
+   "pair": "r12",
+   "connector": "deshalb",
+   "a": "Sie hat im Lotto gewonnen.",
+   "b": "Sie kauft ein Haus.",
+   "answers": [
+    "Sie hat im Lotto gewonnen, deshalb kauft sie ein Haus.",
+    "Sie hat im Lotto gewonnen, sie kauft deshalb ein Haus."
+   ],
+   "verb": "kauft",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c1-obwohl",
+   "pair": "c1",
+   "connector": "obwohl",
+   "a": "Es regnet.",
+   "b": "Ich gehe spazieren.",
+   "answers": [
+    "Ich gehe spazieren, obwohl es regnet.",
+    "Obwohl es regnet, gehe ich spazieren."
+   ],
+   "verb": "gehe",
+   "subFinal": "regnet"
+  },
+  {
+   "id": "c1-trotzdem",
+   "pair": "c1",
+   "connector": "trotzdem",
+   "a": "Es regnet.",
+   "b": "Ich gehe spazieren.",
+   "answers": [
+    "Es regnet, trotzdem gehe ich spazieren.",
+    "Es regnet, ich gehe trotzdem spazieren."
+   ],
+   "verb": "gehe",
+   "subFinal": "regnet"
+  },
+  {
+   "id": "c2-obwohl",
+   "pair": "c2",
+   "connector": "obwohl",
+   "a": "Ich bin krank.",
+   "b": "Ich gehe zur Arbeit.",
+   "answers": [
+    "Ich gehe zur Arbeit, obwohl ich krank bin.",
+    "Obwohl ich krank bin, gehe ich zur Arbeit."
+   ],
+   "verb": "gehe",
+   "subFinal": "bin"
+  },
+  {
+   "id": "c2-trotzdem",
+   "pair": "c2",
+   "connector": "trotzdem",
+   "a": "Ich bin krank.",
+   "b": "Ich gehe zur Arbeit.",
+   "answers": [
+    "Ich bin krank, trotzdem gehe ich zur Arbeit.",
+    "Ich bin krank, ich gehe trotzdem zur Arbeit."
+   ],
+   "verb": "gehe",
+   "subFinal": "bin"
+  },
+  {
+   "id": "c3-obwohl",
+   "pair": "c3",
+   "connector": "obwohl",
+   "a": "Er ist sehr müde.",
+   "b": "Er arbeitet bis spät in die Nacht.",
+   "answers": [
+    "Er arbeitet bis spät in die Nacht, obwohl er sehr müde ist.",
+    "Obwohl er sehr müde ist, arbeitet er bis spät in die Nacht."
+   ],
+   "verb": "arbeitet",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c3-trotzdem",
+   "pair": "c3",
+   "connector": "trotzdem",
+   "a": "Er ist sehr müde.",
+   "b": "Er arbeitet bis spät in die Nacht.",
+   "answers": [
+    "Er ist sehr müde, trotzdem arbeitet er bis spät in die Nacht.",
+    "Er ist sehr müde, er arbeitet trotzdem bis spät in die Nacht."
+   ],
+   "verb": "arbeitet",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c4-obwohl",
+   "pair": "c4",
+   "connector": "obwohl",
+   "a": "Das Kleid ist sehr teuer.",
+   "b": "Anna kauft das Kleid.",
+   "answers": [
+    "Anna kauft das Kleid, obwohl das Kleid sehr teuer ist.",
+    "Obwohl das Kleid sehr teuer ist, kauft Anna das Kleid."
+   ],
+   "verb": "kauft",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c4-trotzdem",
+   "pair": "c4",
+   "connector": "trotzdem",
+   "a": "Das Kleid ist sehr teuer.",
+   "b": "Anna kauft das Kleid.",
+   "answers": [
+    "Das Kleid ist sehr teuer, trotzdem kauft Anna das Kleid.",
+    "Das Kleid ist sehr teuer, Anna kauft trotzdem das Kleid."
+   ],
+   "verb": "kauft",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c5-obwohl",
+   "pair": "c5",
+   "connector": "obwohl",
+   "a": "Ich habe wenig Zeit.",
+   "b": "Ich besuche meine Oma.",
+   "answers": [
+    "Ich besuche meine Oma, obwohl ich wenig Zeit habe.",
+    "Obwohl ich wenig Zeit habe, besuche ich meine Oma."
+   ],
+   "verb": "besuche",
+   "subFinal": "habe"
+  },
+  {
+   "id": "c5-trotzdem",
+   "pair": "c5",
+   "connector": "trotzdem",
+   "a": "Ich habe wenig Zeit.",
+   "b": "Ich besuche meine Oma.",
+   "answers": [
+    "Ich habe wenig Zeit, trotzdem besuche ich meine Oma.",
+    "Ich habe wenig Zeit, ich besuche trotzdem meine Oma."
+   ],
+   "verb": "besuche",
+   "subFinal": "habe"
+  },
+  {
+   "id": "c6-obwohl",
+   "pair": "c6",
+   "connector": "obwohl",
+   "a": "Es ist sehr kalt.",
+   "b": "Die Kinder spielen draußen.",
+   "answers": [
+    "Die Kinder spielen draußen, obwohl es sehr kalt ist.",
+    "Obwohl es sehr kalt ist, spielen die Kinder draußen."
+   ],
+   "verb": "spielen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c6-trotzdem",
+   "pair": "c6",
+   "connector": "trotzdem",
+   "a": "Es ist sehr kalt.",
+   "b": "Die Kinder spielen draußen.",
+   "answers": [
+    "Es ist sehr kalt, trotzdem spielen die Kinder draußen.",
+    "Es ist sehr kalt, die Kinder spielen trotzdem draußen."
+   ],
+   "verb": "spielen",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c7-obwohl",
+   "pair": "c7",
+   "connector": "obwohl",
+   "a": "Er hat nicht gelernt.",
+   "b": "Er besteht die Prüfung.",
+   "answers": [
+    "Er besteht die Prüfung, obwohl er nicht gelernt hat.",
+    "Obwohl er nicht gelernt hat, besteht er die Prüfung."
+   ],
+   "verb": "besteht",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c7-trotzdem",
+   "pair": "c7",
+   "connector": "trotzdem",
+   "a": "Er hat nicht gelernt.",
+   "b": "Er besteht die Prüfung.",
+   "answers": [
+    "Er hat nicht gelernt, trotzdem besteht er die Prüfung.",
+    "Er hat nicht gelernt, er besteht trotzdem die Prüfung."
+   ],
+   "verb": "besteht",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c8-obwohl",
+   "pair": "c8",
+   "connector": "obwohl",
+   "a": "Der Film ist sehr lang.",
+   "b": "Wir bleiben bis zum Ende.",
+   "answers": [
+    "Wir bleiben bis zum Ende, obwohl der Film sehr lang ist.",
+    "Obwohl der Film sehr lang ist, bleiben wir bis zum Ende."
+   ],
+   "verb": "bleiben",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c8-trotzdem",
+   "pair": "c8",
+   "connector": "trotzdem",
+   "a": "Der Film ist sehr lang.",
+   "b": "Wir bleiben bis zum Ende.",
+   "answers": [
+    "Der Film ist sehr lang, trotzdem bleiben wir bis zum Ende.",
+    "Der Film ist sehr lang, wir bleiben trotzdem bis zum Ende."
+   ],
+   "verb": "bleiben",
+   "subFinal": "ist"
+  },
+  {
+   "id": "c9-obwohl",
+   "pair": "c9",
+   "connector": "obwohl",
+   "a": "Der Wecker klingelt.",
+   "b": "Ich stehe nicht auf.",
+   "answers": [
+    "Ich stehe nicht auf, obwohl der Wecker klingelt.",
+    "Obwohl der Wecker klingelt, stehe ich nicht auf."
+   ],
+   "verb": "stehe",
+   "subFinal": "klingelt"
+  },
+  {
+   "id": "c9-trotzdem",
+   "pair": "c9",
+   "connector": "trotzdem",
+   "a": "Der Wecker klingelt.",
+   "b": "Ich stehe nicht auf.",
+   "answers": [
+    "Der Wecker klingelt, trotzdem stehe ich nicht auf.",
+    "Der Wecker klingelt, ich stehe trotzdem nicht auf."
+   ],
+   "verb": "stehe",
+   "subFinal": "klingelt"
+  },
+  {
+   "id": "c10-obwohl",
+   "pair": "c10",
+   "connector": "obwohl",
+   "a": "Die Wohnung hat keinen Balkon.",
+   "b": "Wir mieten die Wohnung.",
+   "answers": [
+    "Wir mieten die Wohnung, obwohl die Wohnung keinen Balkon hat.",
+    "Obwohl die Wohnung keinen Balkon hat, mieten wir die Wohnung."
+   ],
+   "verb": "mieten",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c10-trotzdem",
+   "pair": "c10",
+   "connector": "trotzdem",
+   "a": "Die Wohnung hat keinen Balkon.",
+   "b": "Wir mieten die Wohnung.",
+   "answers": [
+    "Die Wohnung hat keinen Balkon, trotzdem mieten wir die Wohnung.",
+    "Die Wohnung hat keinen Balkon, wir mieten trotzdem die Wohnung."
+   ],
+   "verb": "mieten",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c11-obwohl",
+   "pair": "c11",
+   "connector": "obwohl",
+   "a": "Sie hat keine Lust.",
+   "b": "Sie geht zum Training.",
+   "answers": [
+    "Sie geht zum Training, obwohl sie keine Lust hat.",
+    "Obwohl sie keine Lust hat, geht sie zum Training."
+   ],
+   "verb": "geht",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c11-trotzdem",
+   "pair": "c11",
+   "connector": "trotzdem",
+   "a": "Sie hat keine Lust.",
+   "b": "Sie geht zum Training.",
+   "answers": [
+    "Sie hat keine Lust, trotzdem geht sie zum Training.",
+    "Sie hat keine Lust, sie geht trotzdem zum Training."
+   ],
+   "verb": "geht",
+   "subFinal": "hat"
+  },
+  {
+   "id": "c12-obwohl",
+   "pair": "c12",
+   "connector": "obwohl",
+   "a": "Er verdient wenig Geld.",
+   "b": "Er liebt seinen Job.",
+   "answers": [
+    "Er liebt seinen Job, obwohl er wenig Geld verdient.",
+    "Obwohl er wenig Geld verdient, liebt er seinen Job."
+   ],
+   "verb": "liebt",
+   "subFinal": "verdient"
+  },
+  {
+   "id": "c12-trotzdem",
+   "pair": "c12",
+   "connector": "trotzdem",
+   "a": "Er verdient wenig Geld.",
+   "b": "Er liebt seinen Job.",
+   "answers": [
+    "Er verdient wenig Geld, trotzdem liebt er seinen Job.",
+    "Er verdient wenig Geld, er liebt trotzdem seinen Job."
+   ],
+   "verb": "liebt",
+   "subFinal": "verdient"
+  }
+ ]
+}

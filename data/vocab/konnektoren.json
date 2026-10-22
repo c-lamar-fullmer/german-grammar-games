@@ -1,0 +1,285 @@
+{
+ "sections": [
+  {
+   "title": "The connectors",
+   "note": "weil and obwohl are conjunctions (they start a subordinate clause). deshalb and trotzdem are adverbs (they count as position 1 in a main clause).",
+   "columns": [
+    "German",
+    "English",
+    "Type",
+    "Verb position",
+    "Example"
+   ],
+   "rows": [
+    [
+     "weil",
+     "because",
+     "conjunction",
+     "at the END of the weil-clause",
+     "Ich bleibe zu Hause, weil es regnet."
+    ],
+    [
+     "obwohl",
+     "although, even though",
+     "conjunction",
+     "at the END of the obwohl-clause",
+     "Ich gehe spazieren, obwohl es regnet."
+    ],
+    [
+     "deshalb",
+     "therefore, that's why",
+     "adverb",
+     "right AFTER deshalb",
+     "Es regnet, deshalb bleibe ich zu Hause."
+    ],
+    [
+     "trotzdem",
+     "nevertheless, anyway",
+     "adverb",
+     "right AFTER trotzdem",
+     "Es regnet, trotzdem gehe ich spazieren."
+    ],
+    [
+     "deswegen, darum",
+     "therefore (same as deshalb)",
+     "adverb",
+     "right AFTER the word",
+     "Es regnet, deswegen bleibe ich zu Hause."
+    ]
+   ]
+  },
+  {
+   "title": "Words from the exercises",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "der Apfel",
+     "apple"
+    ],
+    [
+     "die Arbeit",
+     "work"
+    ],
+    [
+     "arbeiten",
+     "to work"
+    ],
+    [
+     "aufstehen",
+     "to get up"
+    ],
+    [
+     "ausfallen",
+     "to be cancelled"
+    ],
+    [
+     "der Balkon",
+     "balcony"
+    ],
+    [
+     "bestehen",
+     "to pass (an exam)"
+    ],
+    [
+     "besuchen",
+     "to visit"
+    ],
+    [
+     "bis spät in die Nacht",
+     "until late at night"
+    ],
+    [
+     "bis zum Ende",
+     "until the end"
+    ],
+    [
+     "der Bus",
+     "bus"
+    ],
+    [
+     "den ganzen Tag",
+     "all day long"
+    ],
+    [
+     "draußen",
+     "outside"
+    ],
+    [
+     "feiern",
+     "to celebrate"
+    ],
+    [
+     "der Film",
+     "movie"
+    ],
+    [
+     "früh",
+     "early"
+    ],
+    [
+     "der Geburtstag",
+     "birthday"
+    ],
+    [
+     "das Haus",
+     "house"
+    ],
+    [
+     "heiß",
+     "hot"
+    ],
+    [
+     "heute Abend",
+     "this evening"
+    ],
+    [
+     "der Hunger",
+     "hunger"
+    ],
+    [
+     "im Lotto gewinnen",
+     "to win the lottery"
+    ],
+    [
+     "ins Bett gehen",
+     "to go to bed"
+    ],
+    [
+     "der Job",
+     "job"
+    ],
+    [
+     "kalt",
+     "cold"
+    ],
+    [
+     "kaufen",
+     "to buy"
+    ],
+    [
+     "keine Lust haben",
+     "to not feel like it"
+    ],
+    [
+     "die Kinder",
+     "children"
+    ],
+    [
+     "das Kleid",
+     "dress"
+    ],
+    [
+     "klingeln",
+     "to ring"
+    ],
+    [
+     "krank",
+     "sick"
+    ],
+    [
+     "lang",
+     "long"
+    ],
+    [
+     "mieten",
+     "to rent"
+    ],
+    [
+     "morgen",
+     "tomorrow"
+    ],
+    [
+     "müde",
+     "tired"
+    ],
+    [
+     "nächsten Monat",
+     "next month"
+    ],
+    [
+     "die Oma",
+     "grandma"
+    ],
+    [
+     "die Prüfung",
+     "exam"
+    ],
+    [
+     "regnen",
+     "to rain"
+    ],
+    [
+     "der Schlüssel",
+     "key"
+    ],
+    [
+     "schwimmen gehen",
+     "to go swimming"
+    ],
+    [
+     "spazieren gehen",
+     "to go for a walk"
+    ],
+    [
+     "das Taxi",
+     "taxi"
+    ],
+    [
+     "teuer",
+     "expensive"
+    ],
+    [
+     "das Training",
+     "training session"
+    ],
+    [
+     "umziehen",
+     "to move (house)"
+    ],
+    [
+     "verdienen",
+     "to earn"
+    ],
+    [
+     "verlieren",
+     "to lose"
+    ],
+    [
+     "die Verspätung",
+     "delay"
+    ],
+    [
+     "der Wecker",
+     "alarm clock"
+    ],
+    [
+     "wenig Geld",
+     "little money"
+    ],
+    [
+     "wenig Zeit",
+     "little time"
+    ],
+    [
+     "die Wohnung",
+     "apartment"
+    ],
+    [
+     "zu Hause",
+     "at home"
+    ],
+    [
+     "zu klein",
+     "too small"
+    ],
+    [
+     "zu spät",
+     "too late"
+    ]
+   ]
+  }
+ ]
+}

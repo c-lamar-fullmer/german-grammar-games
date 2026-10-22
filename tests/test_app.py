@@ -68,3 +68,26 @@ def test_vocabulary_file_is_complete():
         for row in section["rows"]:
             assert len(row) == len(section["columns"])
     assert len(sections[0]["rows"]) == 100  # the 100 verbs
+
+
+def test_connector_exercises_are_consistent():
+    import re
+
+    client = app.test_client()
+    data = client.get("/api/games/konnektoren/questions").get_json()
+    assert set(data["connectors"]) == {"weil", "obwohl", "deshalb", "trotzdem"}
+    assert len(data["exercises"]) >= 20
+    for exercise in data["exercises"]:
+        assert exercise["connector"] in data["connectors"]
+        word_lists = [sorted(w.lower() for w in re.findall(r"\w+", a)) for a in exercise["answers"]]
+        assert all(words == word_lists[0] for words in word_lists)       # every answer uses the same words
+        assert exercise["connector"] in word_lists[0]                    # and contains the connector
+        assert all(a.count(",") == 1 for a in exercise["answers"])       # one comma between the clauses
+
+
+def test_connectors_page_has_all_three_tabs():
+    client = app.test_client()
+    html = client.get("/games/konnektoren").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "The connectors" in html

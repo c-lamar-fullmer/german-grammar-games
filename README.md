@@ -64,6 +64,23 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
 - `tip` (optional) is a short note shown after checking.
 - Your best score for each story is saved in your browser (localStorage).
 
+## Exercise format (connectors game)
+
+`data/questions/konnektoren.json` holds the four connectors (with their grammar rule) and the exercises:
+
+```json
+{ "id": "c1-trotzdem", "pair": "c1", "connector": "trotzdem",
+  "a": "Es regnet.", "b": "Ich gehe spazieren.",
+  "answers": ["Es regnet, trotzdem gehe ich spazieren.", "Es regnet, ich gehe trotzdem spazieren."],
+  "verb": "gehe", "subFinal": "regnet" }
+```
+
+- `answers` lists every correct sentence. The first one is shown as "the" solution.
+- You type the sentence. Only the words and their order are checked (capital letters are ignored, and
+  `ae/oe/ue/ss` count as `ä/ö/ü/ß`). A missing comma gets a note but still counts as correct.
+- `verb` and `subFinal` are used for the tips after a wrong answer.
+- A round uses each `pair` (the same two clauses) at most once.
+
 ## Grammar and vocabulary tabs
 
 A game page always has a **Play** tab. It gets two more tabs automatically if these files exist

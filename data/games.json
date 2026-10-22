@@ -6,6 +6,12 @@
     "ready": true
   },
   {
+    "slug": "konnektoren",
+    "title": "Weil, obwohl, deshalb, trotzdem",
+    "description": "Type the full sentence from two clauses and a connector, against the clock.",
+    "ready": true
+  },
+  {
     "slug": "konjunktiv-ii",
     "title": "Konjunktiv II",
     "description": "Wishes, polite requests and hypotheticals.",
