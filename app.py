@@ -5,6 +5,7 @@ Then open:    http://127.0.0.1:5000
 """
 
 import json
+import os
 from pathlib import Path
 
 from flask import Flask, abort, jsonify, render_template
@@ -15,8 +16,9 @@ DATA_DIR = BASE_DIR / "data"
 app = Flask(__name__)
 
 # Flask needs a secret key once you add logins (it signs the session cookie).
-# Fine for local use; load it from an environment variable before deploying.
-app.secret_key = "dev-only-change-me"
+# Locally it falls back to a dummy value. On the server, set a real SECRET_KEY
+# environment variable (never put the real key in the code or on GitHub).
+app.secret_key = os.environ.get("SECRET_KEY", "dev-only-change-me")
 
 
 # ---------- helpers ----------
@@ -89,4 +91,6 @@ def not_found(error):
 
 
 if __name__ == "__main__":
-    app.run(debug=True)  # debug=True reloads the server when you save a file
+    # Only used locally (python app.py). On Render, gunicorn starts the app and
+    # this block never runs. Set FLASK_DEBUG=0 to turn debug mode off.
+    app.run(debug=os.environ.get("FLASK_DEBUG", "1") == "1")
