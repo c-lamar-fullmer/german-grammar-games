@@ -1,0 +1,304 @@
+{
+ "sections": [
+  {
+   "title": "sein and haben: all forms",
+   "note": "Present: the Präsens and the helper verb in the Perfekt. Past: the Präteritum.",
+   "columns": [
+    "Person",
+    "sein (present)",
+    "sein (past)",
+    "haben (present)",
+    "haben (past)"
+   ],
+   "rows": [
+    [
+     "ich",
+     "bin",
+     "war",
+     "habe",
+     "hatte"
+    ],
+    [
+     "du",
+     "bist",
+     "warst",
+     "hast",
+     "hattest"
+    ],
+    [
+     "er / sie / es",
+     "ist",
+     "war",
+     "hat",
+     "hatte"
+    ],
+    [
+     "wir",
+     "sind",
+     "waren",
+     "haben",
+     "hatten"
+    ],
+    [
+     "ihr",
+     "seid",
+     "wart",
+     "habt",
+     "hattet"
+    ],
+    [
+     "sie / Sie",
+     "sind",
+     "waren",
+     "haben",
+     "hatten"
+    ]
+   ]
+  },
+  {
+   "title": "Perfekt: the verbs in the exercises",
+   "note": "Helper = which verb you use in the Perfekt: Ich bin gefahren / Ich habe gesehen.",
+   "columns": [
+    "Verb",
+    "Participle",
+    "Helper",
+    "English"
+   ],
+   "rows": [
+    [
+     "fahren",
+     "gefahren",
+     "sein",
+     "to go, to travel (by vehicle)"
+    ],
+    [
+     "fahren + object",
+     "gefahren",
+     "haben",
+     "to drive (a car)"
+    ],
+    [
+     "aufstehen",
+     "aufgestanden",
+     "sein",
+     "to get up"
+    ],
+    [
+     "ankommen",
+     "angekommen",
+     "sein",
+     "to arrive"
+    ],
+    [
+     "einschlafen",
+     "eingeschlafen",
+     "sein",
+     "to fall asleep"
+    ],
+    [
+     "bleiben",
+     "geblieben",
+     "sein",
+     "to stay"
+    ],
+    [
+     "passieren",
+     "passiert",
+     "sein",
+     "to happen"
+    ],
+    [
+     "laufen",
+     "gelaufen",
+     "sein",
+     "to run, to walk"
+    ],
+    [
+     "fliegen",
+     "geflogen",
+     "sein",
+     "to fly"
+    ],
+    [
+     "sterben",
+     "gestorben",
+     "sein",
+     "to die"
+    ],
+    [
+     "werden",
+     "geworden",
+     "sein",
+     "to become"
+    ],
+    [
+     "umziehen",
+     "umgezogen",
+     "sein",
+     "to move (house)"
+    ],
+    [
+     "abfahren",
+     "abgefahren",
+     "sein",
+     "to depart"
+    ],
+    [
+     "schwimmen (to a place)",
+     "geschwommen",
+     "sein",
+     "to swim across / to"
+    ],
+    [
+     "schwimmen (activity)",
+     "geschwommen",
+     "haben",
+     "to swim (for fun or sport)"
+    ],
+    [
+     "wachsen",
+     "gewachsen",
+     "sein",
+     "to grow"
+    ],
+    [
+     "sehen",
+     "gesehen",
+     "haben",
+     "to see"
+    ],
+    [
+     "essen",
+     "gegessen",
+     "haben",
+     "to eat"
+    ],
+    [
+     "machen",
+     "gemacht",
+     "haben",
+     "to make, to do"
+    ],
+    [
+     "arbeiten",
+     "gearbeitet",
+     "haben",
+     "to work"
+    ],
+    [
+     "schlafen",
+     "geschlafen",
+     "haben",
+     "to sleep"
+    ],
+    [
+     "spielen",
+     "gespielt",
+     "haben",
+     "to play"
+    ],
+    [
+     "lesen",
+     "gelesen",
+     "haben",
+     "to read"
+    ],
+    [
+     "anrufen",
+     "angerufen",
+     "haben",
+     "to call (on the phone)"
+    ],
+    [
+     "sich freuen",
+     "(sich) gefreut",
+     "haben",
+     "to be happy, to look forward"
+    ],
+    [
+     "sich treffen",
+     "(sich) getroffen",
+     "haben",
+     "to meet"
+    ],
+    [
+     "lernen",
+     "gelernt",
+     "haben",
+     "to learn, to study"
+    ],
+    [
+     "regnen",
+     "geregnet",
+     "haben",
+     "to rain"
+    ]
+   ]
+  },
+  {
+   "title": "Time words",
+   "columns": [
+    "German",
+    "English"
+   ],
+   "rows": [
+    [
+     "gestern",
+     "yesterday"
+    ],
+    [
+     "heute",
+     "today"
+    ],
+    [
+     "morgen",
+     "tomorrow"
+    ],
+    [
+     "letzte Woche",
+     "last week"
+    ],
+    [
+     "letzten Sommer",
+     "last summer"
+    ],
+    [
+     "letztes Jahr",
+     "last year"
+    ],
+    [
+     "nächste Woche",
+     "next week"
+    ],
+    [
+     "vor zwei Jahren",
+     "two years ago"
+    ],
+    [
+     "früher",
+     "in the past, formerly"
+    ],
+    [
+     "als Kind",
+     "as a child"
+    ],
+    [
+     "schon einmal",
+     "already once, ever"
+    ],
+    [
+     "letzte Nacht",
+     "last night"
+    ],
+    [
+     "den ganzen Abend",
+     "the whole evening"
+    ],
+    [
+     "den ganzen Tag",
+     "all day"
+    ]
+   ]
+  }
+ ]
+}

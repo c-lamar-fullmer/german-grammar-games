@@ -12,6 +12,12 @@
     "ready": true
   },
   {
+    "slug": "sein-haben",
+    "title": "Sein oder haben?",
+    "description": "Pick sein or haben with the arrow keys: Präsens, Perfekt and Präteritum.",
+    "ready": true
+  },
+  {
     "slug": "konjunktiv-ii",
     "title": "Konjunktiv II",
     "description": "Wishes, polite requests and hypotheticals.",

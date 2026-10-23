@@ -1,0 +1,699 @@
+{
+ "roundLength": 15,
+ "tenses": {
+  "present": {
+   "label": "Präsens",
+   "english": "present"
+  },
+  "perfect": {
+   "label": "Perfekt",
+   "english": "present perfect"
+  },
+  "preterite": {
+   "label": "Präteritum",
+   "english": "simple past"
+  }
+ },
+ "exercises": [
+  {
+   "id": "pre1",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ heute sehr müde.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin heute sehr müde.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre2",
+   "tense": "present",
+   "person": "du",
+   "sentence": "___ du schon fertig?",
+   "answer": "sein",
+   "form": "Bist",
+   "full": "Bist du schon fertig?",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre3",
+   "tense": "present",
+   "person": "wir",
+   "sentence": "Wir ___ zu Hause.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind zu Hause.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre4",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Meine Schwester ___ Ärztin.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Meine Schwester ist Ärztin.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre5",
+   "tense": "present",
+   "person": "ihr",
+   "sentence": "Ihr ___ immer pünktlich.",
+   "answer": "sein",
+   "form": "seid",
+   "full": "Ihr seid immer pünktlich.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre6",
+   "tense": "present",
+   "person": "Sie",
+   "sentence": "___ Sie aus Deutschland?",
+   "answer": "sein",
+   "form": "Sind",
+   "full": "Sind Sie aus Deutschland?",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre7",
+   "tense": "present",
+   "person": "sie",
+   "sentence": "Die Kinder ___ im Garten.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Die Kinder sind im Garten.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre8",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ 19 Jahre alt.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin 19 Jahre alt.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre9",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Das Wetter ___ heute schön.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Das Wetter ist heute schön.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre10",
+   "tense": "present",
+   "person": "wir",
+   "sentence": "Wir ___ nächste Woche in Berlin.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind nächste Woche in Berlin.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre11",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ großen Hunger.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe großen Hunger.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre12",
+   "tense": "present",
+   "person": "du",
+   "sentence": "___ du morgen Zeit?",
+   "answer": "haben",
+   "form": "Hast",
+   "full": "Hast du morgen Zeit?",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre13",
+   "tense": "present",
+   "person": "wir",
+   "sentence": "Wir ___ einen Hund.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben einen Hund.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre14",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Mein Bruder ___ Angst vor Spinnen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Mein Bruder hat Angst vor Spinnen.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre15",
+   "tense": "present",
+   "person": "ihr",
+   "sentence": "Ihr ___ heute eine Prüfung.",
+   "answer": "haben",
+   "form": "habt",
+   "full": "Ihr habt heute eine Prüfung.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre16",
+   "tense": "present",
+   "person": "Sie",
+   "sentence": "___ Sie Kinder?",
+   "answer": "haben",
+   "form": "Haben",
+   "full": "Haben Sie Kinder?",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre17",
+   "tense": "present",
+   "person": "sie",
+   "sentence": "Die Studenten ___ viele Hausaufgaben.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Die Studenten haben viele Hausaufgaben.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre18",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ Kopfschmerzen.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe Kopfschmerzen.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre19",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Anna ___ morgen Geburtstag.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Anna hat morgen Geburtstag.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre20",
+   "tense": "present",
+   "person": "du",
+   "sentence": "Du ___ recht.",
+   "answer": "haben",
+   "form": "hast",
+   "full": "Du hast recht.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre21",
+   "tense": "preterite",
+   "person": "ich",
+   "sentence": "Gestern ___ ich sehr müde.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Gestern war ich sehr müde.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre22",
+   "tense": "preterite",
+   "person": "du",
+   "sentence": "Wo ___ du letzte Woche?",
+   "answer": "sein",
+   "form": "warst",
+   "full": "Wo warst du letzte Woche?",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre23",
+   "tense": "preterite",
+   "person": "wir",
+   "sentence": "Wir ___ letzten Sommer in Italien.",
+   "answer": "sein",
+   "form": "waren",
+   "full": "Wir waren letzten Sommer in Italien.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre24",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Der Film ___ ziemlich langweilig.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Der Film war ziemlich langweilig.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre25",
+   "tense": "preterite",
+   "person": "ihr",
+   "sentence": "Ihr ___ gestern nicht in der Schule.",
+   "answer": "sein",
+   "form": "wart",
+   "full": "Ihr wart gestern nicht in der Schule.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre26",
+   "tense": "preterite",
+   "person": "Sie",
+   "sentence": "___ Sie schon einmal in Wien?",
+   "answer": "sein",
+   "form": "Waren",
+   "full": "Waren Sie schon einmal in Wien?",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre27",
+   "tense": "preterite",
+   "person": "sie",
+   "sentence": "Die Kinder ___ gestern krank.",
+   "answer": "sein",
+   "form": "waren",
+   "full": "Die Kinder waren gestern krank.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre28",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Meine Oma ___ früher Lehrerin.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Meine Oma war früher Lehrerin.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre29",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Es ___ gestern sehr kalt.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Es war gestern sehr kalt.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre30",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Die Prüfung ___ nicht schwer.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Die Prüfung war nicht schwer.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+  },
+  {
+   "id": "pre31",
+   "tense": "preterite",
+   "person": "ich",
+   "sentence": "Gestern ___ ich keine Zeit.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Gestern hatte ich keine Zeit.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre32",
+   "tense": "preterite",
+   "person": "du",
+   "sentence": "___ du als Kind einen Hund?",
+   "answer": "haben",
+   "form": "Hattest",
+   "full": "Hattest du als Kind einen Hund?",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre33",
+   "tense": "preterite",
+   "person": "wir",
+   "sentence": "Wir ___ letzte Woche eine Prüfung.",
+   "answer": "haben",
+   "form": "hatten",
+   "full": "Wir hatten letzte Woche eine Prüfung.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre34",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Er ___ gestern Kopfschmerzen.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Er hatte gestern Kopfschmerzen.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre35",
+   "tense": "preterite",
+   "person": "ihr",
+   "sentence": "Ihr ___ im Urlaub viel Glück.",
+   "answer": "haben",
+   "form": "hattet",
+   "full": "Ihr hattet im Urlaub viel Glück.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre36",
+   "tense": "preterite",
+   "person": "Sie",
+   "sentence": "___ Sie gestern Zeit?",
+   "answer": "haben",
+   "form": "Hatten",
+   "full": "Hatten Sie gestern Zeit?",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre37",
+   "tense": "preterite",
+   "person": "sie",
+   "sentence": "Die Kinder ___ großen Hunger.",
+   "answer": "haben",
+   "form": "hatten",
+   "full": "Die Kinder hatten großen Hunger.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre38",
+   "tense": "preterite",
+   "person": "sie",
+   "sentence": "Meine Eltern ___ früher ein Haus auf dem Land.",
+   "answer": "haben",
+   "form": "hatten",
+   "full": "Meine Eltern hatten früher ein Haus auf dem Land.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre39",
+   "tense": "preterite",
+   "person": "ich",
+   "sentence": "Ich ___ als Kind Angst im Dunkeln.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Ich hatte als Kind Angst im Dunkeln.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "pre40",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Anna ___ gestern Geburtstag.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Anna hatte gestern Geburtstag.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+  },
+  {
+   "id": "per41",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Gestern ___ ich nach Berlin gefahren.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Gestern bin ich nach Berlin gefahren.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per42",
+   "tense": "perfect",
+   "person": "du",
+   "sentence": "___ du schon aufgestanden?",
+   "answer": "sein",
+   "form": "Bist",
+   "full": "Bist du schon aufgestanden?",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per43",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ um acht Uhr angekommen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind um acht Uhr angekommen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per44",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ letzte Nacht früh eingeschlafen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Er ist letzte Nacht früh eingeschlafen.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per45",
+   "tense": "perfect",
+   "person": "ihr",
+   "sentence": "Ihr ___ gestern zu Hause geblieben.",
+   "answer": "sein",
+   "form": "seid",
+   "full": "Ihr seid gestern zu Hause geblieben.",
+   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+  },
+  {
+   "id": "per46",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Was ___ passiert?",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Was ist passiert?",
+   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+  },
+  {
+   "id": "per47",
+   "tense": "perfect",
+   "person": "sie",
+   "sentence": "Die Kinder ___ in den Park gelaufen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Die Kinder sind in den Park gelaufen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per48",
+   "tense": "perfect",
+   "person": "Sie",
+   "sentence": "___ Sie schon einmal nach Spanien geflogen?",
+   "answer": "sein",
+   "form": "Sind",
+   "full": "Sind Sie schon einmal nach Spanien geflogen?",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per49",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Meine Großmutter ___ vor zwei Jahren gestorben.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Meine Großmutter ist vor zwei Jahren gestorben.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per50",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Mein Bruder ___ Arzt geworden.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Mein Bruder ist Arzt geworden.",
+   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+  },
+  {
+   "id": "per51",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ letztes Jahr nach Hamburg umgezogen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind letztes Jahr nach Hamburg umgezogen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per52",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Zug ___ schon abgefahren.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Der Zug ist schon abgefahren.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per53",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ über den See geschwommen.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin über den See geschwommen.",
+   "tip": "schwimmen with a direction or goal (über den See, ans Ufer) is a movement: sein."
+  },
+  {
+   "id": "per54",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Das Kind ___ schnell gewachsen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Das Kind ist schnell gewachsen.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+  },
+  {
+   "id": "per55",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Gestern ___ ich einen Film gesehen.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Gestern habe ich einen Film gesehen.",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+  },
+  {
+   "id": "per56",
+   "tense": "perfect",
+   "person": "du",
+   "sentence": "___ du schon gegessen?",
+   "answer": "haben",
+   "form": "Hast",
+   "full": "Hast du schon gegessen?",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+  },
+  {
+   "id": "per57",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ gestern Pizza gemacht.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben gestern Pizza gemacht.",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+  },
+  {
+   "id": "per58",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ den ganzen Abend gearbeitet.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat den ganzen Abend gearbeitet.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+  },
+  {
+   "id": "per59",
+   "tense": "perfect",
+   "person": "ihr",
+   "sentence": "Ihr ___ gestern lange geschlafen.",
+   "answer": "haben",
+   "form": "habt",
+   "full": "Ihr habt gestern lange geschlafen.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+  },
+  {
+   "id": "per60",
+   "tense": "perfect",
+   "person": "sie",
+   "sentence": "Die Kinder ___ im Garten gespielt.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Die Kinder haben im Garten gespielt.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+  },
+  {
+   "id": "per61",
+   "tense": "perfect",
+   "person": "Sie",
+   "sentence": "___ Sie das Buch gelesen?",
+   "answer": "haben",
+   "form": "Haben",
+   "full": "Haben Sie das Buch gelesen?",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+  },
+  {
+   "id": "per62",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Meine Mutter ___ mich angerufen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Meine Mutter hat mich angerufen.",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+  },
+  {
+   "id": "per63",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ mich sehr gefreut.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe mich sehr gefreut.",
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt."
+  },
+  {
+   "id": "per64",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ uns gestern getroffen.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben uns gestern getroffen.",
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt."
+  },
+  {
+   "id": "per65",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ das Auto seines Vaters gefahren.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat das Auto seines Vaters gefahren.",
+   "tip": "fahren with an accusative object (you drive a car) takes haben. Without one, it is a movement and takes sein."
+  },
+  {
+   "id": "per66",
+   "tense": "perfect",
+   "person": "du",
+   "sentence": "Du ___ für die Prüfung nicht genug gelernt.",
+   "answer": "haben",
+   "form": "hast",
+   "full": "Du hast für die Prüfung nicht genug gelernt.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+  },
+  {
+   "id": "per67",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ eine Stunde geschwommen.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben eine Stunde geschwommen.",
+   "tip": "schwimmen as an activity, with no direction or goal, takes haben."
+  },
+  {
+   "id": "per68",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Es ___ gestern den ganzen Tag geregnet.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Es hat gestern den ganzen Tag geregnet.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+  }
+ ]
+}

@@ -81,6 +81,21 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
 - `verb` and `subFinal` are used for the tips after a wrong answer.
 - A round uses each `pair` (the same two clauses) at most once.
 
+## Exercise format (sein/haben game)
+
+`data/questions/sein-haben.json` holds the exercises. Each one is a sentence with one blank:
+
+```json
+{ "id": "per45", "tense": "perfect", "person": "ich",
+  "sentence": "Gestern ___ ich nach Berlin gefahren.", "answer": "sein",
+  "form": "bin", "full": "Gestern bin ich nach Berlin gefahren.",
+  "tip": "Change of place (gehen, fahren, kommen, ...): the Perfekt uses sein." }
+```
+
+- `tense` is `present`, `perfect` or `preterite`. `answer` is `sein` or `haben`.
+- `form` is the conjugated verb shown after you answer; `full` is the complete sentence.
+- In the game: left arrow = sein, right arrow = haben, Enter or Space = next sentence.
+
 ## Grammar and vocabulary tabs
 
 A game page always has a **Play** tab. It gets two more tabs automatically if these files exist

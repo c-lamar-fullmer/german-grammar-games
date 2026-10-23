@@ -91,3 +91,30 @@ def test_connectors_page_has_all_three_tabs():
     assert 'data-tab="grammar"' in html
     assert 'data-tab="vocab"' in html
     assert "The connectors" in html
+
+
+def test_sein_haben_exercises_are_consistent():
+    client = app.test_client()
+    data = client.get("/api/games/sein-haben/questions").get_json()
+    exercises = data["exercises"]
+    assert set(data["tenses"]) == {"present", "perfect", "preterite"}
+    assert len(exercises) >= 45
+    for exercise in exercises:
+        assert exercise["tense"] in data["tenses"]
+        assert exercise["answer"] in ("sein", "haben")
+        assert exercise["sentence"].count("___") == 1
+        assert exercise["form"].lower() in exercise["full"].lower()
+        assert "___" not in exercise["full"]
+        assert exercise["tip"].strip()
+    for tense in data["tenses"]:                                   # each tense has both answers
+        answers = {e["answer"] for e in exercises if e["tense"] == tense}
+        assert answers == {"sein", "haben"}
+
+
+def test_sein_haben_page_has_all_three_tabs():
+    client = app.test_client()
+    html = client.get("/games/sein-haben").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "sein or haben?" in html
+    assert "sein and haben: all forms" in html
