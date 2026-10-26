@@ -16,29 +16,5 @@
     "title": "Sein oder haben?",
     "description": "Pick sein or haben with the arrow keys: Präsens, Perfekt and Präteritum.",
     "ready": true
-  },
-  {
-    "slug": "konjunktiv-ii",
-    "title": "Konjunktiv II",
-    "description": "Wishes, polite requests and hypotheticals.",
-    "ready": false
-  },
-  {
-    "slug": "passiv",
-    "title": "Passiv",
-    "description": "Turn active sentences into passive ones.",
-    "ready": false
-  },
-  {
-    "slug": "relativsaetze",
-    "title": "Relativsätze",
-    "description": "Pick the right relative pronoun.",
-    "ready": false
-  },
-  {
-    "slug": "nebensaetze",
-    "title": "Nebensätze",
-    "description": "Verb position in subordinate clauses.",
-    "ready": false
   }
 ]

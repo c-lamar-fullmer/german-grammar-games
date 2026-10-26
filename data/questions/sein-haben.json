@@ -23,7 +23,8 @@
    "answer": "sein",
    "form": "bin",
    "full": "Ich bin heute sehr müde.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre2",
@@ -33,7 +34,8 @@
    "answer": "sein",
    "form": "Bist",
    "full": "Bist du schon fertig?",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre3",
@@ -43,7 +45,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Wir sind zu Hause.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre4",
@@ -53,7 +56,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Meine Schwester ist Ärztin.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre5",
@@ -63,7 +67,8 @@
    "answer": "sein",
    "form": "seid",
    "full": "Ihr seid immer pünktlich.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre6",
@@ -73,7 +78,8 @@
    "answer": "sein",
    "form": "Sind",
    "full": "Sind Sie aus Deutschland?",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre7",
@@ -83,7 +89,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Die Kinder sind im Garten.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre8",
@@ -93,7 +100,8 @@
    "answer": "sein",
    "form": "bin",
    "full": "Ich bin 19 Jahre alt.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre9",
@@ -103,7 +111,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Das Wetter ist heute schön.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre10",
@@ -113,7 +122,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Wir sind nächste Woche in Berlin.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre11",
@@ -123,7 +133,8 @@
    "answer": "haben",
    "form": "habe",
    "full": "Ich habe großen Hunger.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre12",
@@ -133,7 +144,8 @@
    "answer": "haben",
    "form": "Hast",
    "full": "Hast du morgen Zeit?",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre13",
@@ -143,7 +155,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Wir haben einen Hund.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre14",
@@ -153,7 +166,8 @@
    "answer": "haben",
    "form": "hat",
    "full": "Mein Bruder hat Angst vor Spinnen.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre15",
@@ -163,7 +177,8 @@
    "answer": "haben",
    "form": "habt",
    "full": "Ihr habt heute eine Prüfung.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre16",
@@ -173,7 +188,8 @@
    "answer": "haben",
    "form": "Haben",
    "full": "Haben Sie Kinder?",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre17",
@@ -183,7 +199,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Die Studenten haben viele Hausaufgaben.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre18",
@@ -193,7 +210,8 @@
    "answer": "haben",
    "form": "habe",
    "full": "Ich habe Kopfschmerzen.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre19",
@@ -203,7 +221,8 @@
    "answer": "haben",
    "form": "hat",
    "full": "Anna hat morgen Geburtstag.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre20",
@@ -213,7 +232,8 @@
    "answer": "haben",
    "form": "hast",
    "full": "Du hast recht.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre21",
@@ -223,7 +243,8 @@
    "answer": "sein",
    "form": "war",
    "full": "Gestern war ich sehr müde.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre22",
@@ -233,7 +254,8 @@
    "answer": "sein",
    "form": "warst",
    "full": "Wo warst du letzte Woche?",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre23",
@@ -243,7 +265,8 @@
    "answer": "sein",
    "form": "waren",
    "full": "Wir waren letzten Sommer in Italien.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre24",
@@ -253,7 +276,8 @@
    "answer": "sein",
    "form": "war",
    "full": "Der Film war ziemlich langweilig.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre25",
@@ -263,7 +287,8 @@
    "answer": "sein",
    "form": "wart",
    "full": "Ihr wart gestern nicht in der Schule.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre26",
@@ -273,7 +298,8 @@
    "answer": "sein",
    "form": "Waren",
    "full": "Waren Sie schon einmal in Wien?",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre27",
@@ -283,7 +309,8 @@
    "answer": "sein",
    "form": "waren",
    "full": "Die Kinder waren gestern krank.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre28",
@@ -293,7 +320,8 @@
    "answer": "sein",
    "form": "war",
    "full": "Meine Oma war früher Lehrerin.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre29",
@@ -303,7 +331,8 @@
    "answer": "sein",
    "form": "war",
    "full": "Es war gestern sehr kalt.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre30",
@@ -313,7 +342,8 @@
    "answer": "sein",
    "form": "war",
    "full": "Die Prüfung war nicht schwer.",
-   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age."
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
   },
   {
    "id": "pre31",
@@ -323,7 +353,8 @@
    "answer": "haben",
    "form": "hatte",
    "full": "Gestern hatte ich keine Zeit.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre32",
@@ -333,7 +364,8 @@
    "answer": "haben",
    "form": "Hattest",
    "full": "Hattest du als Kind einen Hund?",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre33",
@@ -343,7 +375,8 @@
    "answer": "haben",
    "form": "hatten",
    "full": "Wir hatten letzte Woche eine Prüfung.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre34",
@@ -353,7 +386,8 @@
    "answer": "haben",
    "form": "hatte",
    "full": "Er hatte gestern Kopfschmerzen.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre35",
@@ -363,7 +397,8 @@
    "answer": "haben",
    "form": "hattet",
    "full": "Ihr hattet im Urlaub viel Glück.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre36",
@@ -373,7 +408,8 @@
    "answer": "haben",
    "form": "Hatten",
    "full": "Hatten Sie gestern Zeit?",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre37",
@@ -383,7 +419,8 @@
    "answer": "haben",
    "form": "hatten",
    "full": "Die Kinder hatten großen Hunger.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre38",
@@ -393,7 +430,8 @@
    "answer": "haben",
    "form": "hatten",
    "full": "Meine Eltern hatten früher ein Haus auf dem Land.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre39",
@@ -403,7 +441,8 @@
    "answer": "haben",
    "form": "hatte",
    "full": "Ich hatte als Kind Angst im Dunkeln.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "pre40",
@@ -413,7 +452,8 @@
    "answer": "haben",
    "form": "hatte",
    "full": "Anna hatte gestern Geburtstag.",
-   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday."
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
   },
   {
    "id": "per41",
@@ -423,7 +463,8 @@
    "answer": "sein",
    "form": "bin",
    "full": "Gestern bin ich nach Berlin gefahren.",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per42",
@@ -433,7 +474,8 @@
    "answer": "sein",
    "form": "Bist",
    "full": "Bist du schon aufgestanden?",
-   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per43",
@@ -443,7 +485,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Wir sind um acht Uhr angekommen.",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per44",
@@ -453,7 +496,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Er ist letzte Nacht früh eingeschlafen.",
-   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per45",
@@ -463,7 +507,8 @@
    "answer": "sein",
    "form": "seid",
    "full": "Ihr seid gestern zu Hause geblieben.",
-   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+   "tip": "sein, bleiben, werden, passieren and gelingen are special: their Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per46",
@@ -473,7 +518,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Was ist passiert?",
-   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+   "tip": "sein, bleiben, werden, passieren and gelingen are special: their Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per47",
@@ -483,7 +529,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Die Kinder sind in den Park gelaufen.",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per48",
@@ -493,7 +540,8 @@
    "answer": "sein",
    "form": "Sind",
    "full": "Sind Sie schon einmal nach Spanien geflogen?",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per49",
@@ -503,7 +551,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Meine Großmutter ist vor zwei Jahren gestorben.",
-   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per50",
@@ -513,7 +562,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Mein Bruder ist Arzt geworden.",
-   "tip": "sein, bleiben, werden and passieren are special: their Perfekt uses sein."
+   "tip": "sein, bleiben, werden, passieren and gelingen are special: their Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per51",
@@ -523,7 +573,8 @@
    "answer": "sein",
    "form": "sind",
    "full": "Wir sind letztes Jahr nach Hamburg umgezogen.",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per52",
@@ -533,7 +584,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Der Zug ist schon abgefahren.",
-   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein."
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per53",
@@ -543,7 +595,8 @@
    "answer": "sein",
    "form": "bin",
    "full": "Ich bin über den See geschwommen.",
-   "tip": "schwimmen with a direction or goal (über den See, ans Ufer) is a movement: sein."
+   "tip": "schwimmen with a direction or goal (über den See, ans Ufer) is a movement: sein.",
+   "tricky": true
   },
   {
    "id": "per54",
@@ -553,7 +606,8 @@
    "answer": "sein",
    "form": "ist",
    "full": "Das Kind ist schnell gewachsen.",
-   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein."
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
   },
   {
    "id": "per55",
@@ -563,7 +617,8 @@
    "answer": "haben",
    "form": "habe",
    "full": "Gestern habe ich einen Film gesehen.",
-   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per56",
@@ -573,7 +628,8 @@
    "answer": "haben",
    "form": "Hast",
    "full": "Hast du schon gegessen?",
-   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per57",
@@ -583,7 +639,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Wir haben gestern Pizza gemacht.",
-   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per58",
@@ -593,7 +650,8 @@
    "answer": "haben",
    "form": "hat",
    "full": "Er hat den ganzen Abend gearbeitet.",
-   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per59",
@@ -603,7 +661,8 @@
    "answer": "haben",
    "form": "habt",
    "full": "Ihr habt gestern lange geschlafen.",
-   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per60",
@@ -613,7 +672,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Die Kinder haben im Garten gespielt.",
-   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per61",
@@ -623,7 +683,8 @@
    "answer": "haben",
    "form": "Haben",
    "full": "Haben Sie das Buch gelesen?",
-   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per62",
@@ -633,7 +694,8 @@
    "answer": "haben",
    "form": "hat",
    "full": "Meine Mutter hat mich angerufen.",
-   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben."
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per63",
@@ -643,7 +705,8 @@
    "answer": "haben",
    "form": "habe",
    "full": "Ich habe mich sehr gefreut.",
-   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt."
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt.",
+   "tricky": false
   },
   {
    "id": "per64",
@@ -653,7 +716,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Wir haben uns gestern getroffen.",
-   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt."
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt.",
+   "tricky": false
   },
   {
    "id": "per65",
@@ -663,7 +727,8 @@
    "answer": "haben",
    "form": "hat",
    "full": "Er hat das Auto seines Vaters gefahren.",
-   "tip": "fahren with an accusative object (you drive a car) takes haben. Without one, it is a movement and takes sein."
+   "tip": "fahren and fliegen with an accusative object (you drive a car, you fly a plane) take haben. Without an object they are movements and take sein.",
+   "tricky": true
   },
   {
    "id": "per66",
@@ -673,7 +738,8 @@
    "answer": "haben",
    "form": "hast",
    "full": "Du hast für die Prüfung nicht genug gelernt.",
-   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
   },
   {
    "id": "per67",
@@ -683,7 +749,8 @@
    "answer": "haben",
    "form": "haben",
    "full": "Wir haben eine Stunde geschwommen.",
-   "tip": "schwimmen as an activity, with no direction or goal, takes haben."
+   "tip": "schwimmen as an activity, with no direction or goal, takes haben.",
+   "tricky": true
   },
   {
    "id": "per68",
@@ -693,7 +760,624 @@
    "answer": "haben",
    "form": "hat",
    "full": "Es hat gestern den ganzen Tag geregnet.",
-   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben."
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
+  },
+  {
+   "id": "pre69",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Mir ___ heute so kalt.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Mir ist heute so kalt.",
+   "tip": "Trap: with a dative (mir, dir...) feelings like kalt, warm, schlecht and egal use sein: Mir ist kalt. In English you say 'I am cold'.",
+   "tricky": true
+  },
+  {
+   "id": "pre70",
+   "tense": "present",
+   "person": "er",
+   "sentence": "___ dir auch so warm?",
+   "answer": "sein",
+   "form": "Ist",
+   "full": "Ist dir auch so warm?",
+   "tip": "Trap: with a dative (mir, dir...) feelings like kalt, warm, schlecht and egal use sein: Mir ist kalt. In English you say 'I am cold'.",
+   "tricky": true
+  },
+  {
+   "id": "pre71",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Das ___ mir völlig egal.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Das ist mir völlig egal.",
+   "tip": "Trap: with a dative (mir, dir...) feelings like kalt, warm, schlecht and egal use sein: Mir ist kalt. In English you say 'I am cold'.",
+   "tricky": true
+  },
+  {
+   "id": "pre72",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Mein Bruder ___ seit zwei Jahren verheiratet.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Mein Bruder ist seit zwei Jahren verheiratet.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre73",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Die Suppe ___ leider zu salzig.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Die Suppe ist leider zu salzig.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre74",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ von Beruf Lehrer.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin von Beruf Lehrer.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre75",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ heute keine Lust auf Pizza.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe heute keine Lust auf Pizza.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre76",
+   "tense": "present",
+   "person": "du",
+   "sentence": "___ du Durst?",
+   "answer": "haben",
+   "form": "Hast",
+   "full": "Hast du Durst?",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre77",
+   "tense": "present",
+   "person": "er",
+   "sentence": "Er ___ seit gestern Fieber.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat seit gestern Fieber.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre78",
+   "tense": "present",
+   "person": "wir",
+   "sentence": "Wir ___ nächste Woche Urlaub.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben nächste Woche Urlaub.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre79",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ morgen einen Termin beim Arzt.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe morgen einen Termin beim Arzt.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre80",
+   "tense": "present",
+   "person": "ich",
+   "sentence": "Ich ___ es heute leider sehr eilig.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe es heute leider sehr eilig.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre81",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Mir ___ gestern den ganzen Tag schlecht.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Mir war gestern den ganzen Tag schlecht.",
+   "tip": "Trap: with a dative (mir, dir...) feelings like kalt, warm, schlecht and egal use sein: Mir ist kalt. In English you say 'I am cold'.",
+   "tricky": true
+  },
+  {
+   "id": "pre82",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Es ___ gestern sehr windig.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Es war gestern sehr windig.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre83",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Der Kuchen ___ köstlich.",
+   "answer": "sein",
+   "form": "war",
+   "full": "Der Kuchen war köstlich.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre84",
+   "tense": "preterite",
+   "person": "wir",
+   "sentence": "Wir ___ damals sehr jung.",
+   "answer": "sein",
+   "form": "waren",
+   "full": "Wir waren damals sehr jung.",
+   "tip": "sein links a subject to a state: feelings of tiredness, jobs, places, adjectives, age.",
+   "tricky": false
+  },
+  {
+   "id": "pre85",
+   "tense": "preterite",
+   "person": "wir",
+   "sentence": "Wir ___ im Urlaub großes Glück.",
+   "answer": "haben",
+   "form": "hatten",
+   "full": "Wir hatten im Urlaub großes Glück.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre86",
+   "tense": "preterite",
+   "person": "ich",
+   "sentence": "Ich ___ eigentlich keine Lust.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Ich hatte eigentlich keine Lust.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre87",
+   "tense": "preterite",
+   "person": "ihr",
+   "sentence": "Ihr ___ gestern recht.",
+   "answer": "haben",
+   "form": "hattet",
+   "full": "Ihr hattet gestern recht.",
+   "tip": "Trap: these fixed expressions use haben (Lust, Durst, Fieber, Recht, Glück, Urlaub, einen Termin, es eilig). Learn them as a block.",
+   "tricky": true
+  },
+  {
+   "id": "pre88",
+   "tense": "preterite",
+   "person": "er",
+   "sentence": "Er ___ damals viel Geld.",
+   "answer": "haben",
+   "form": "hatte",
+   "full": "Er hatte damals viel Geld.",
+   "tip": "haben means to have or own something. In German you HAVE hunger, fear, time, a headache or a birthday.",
+   "tricky": false
+  },
+  {
+   "id": "per89",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ mitten in der Nacht aufgewacht.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin mitten in der Nacht aufgewacht.",
+   "tip": "aufwecken (to wake someone up) has an accusative object: haben. aufwachen (to wake up yourself) is a change of state: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per90",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ in Frankfurt umgestiegen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind in Frankfurt umgestiegen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per91",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Das Brot ___ im Ofen verbrannt.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Das Brot ist im Ofen verbrannt.",
+   "tip": "verbrennen without an object (the bread burned) is a change of state: sein. With an object (I burned the bread) it is haben.",
+   "tricky": true
+  },
+  {
+   "id": "per92",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Schnee ___ in der Sonne geschmolzen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Der Schnee ist in der Sonne geschmolzen.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per93",
+   "tense": "perfect",
+   "person": "sie",
+   "sentence": "Die Preise ___ im letzten Jahr stark gestiegen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Die Preise sind im letzten Jahr stark gestiegen.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per94",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Es ___ plötzlich dunkel geworden.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Es ist plötzlich dunkel geworden.",
+   "tip": "False friend: werden = to become, so sein (Es ist dunkel geworden). bekommen = to get, so haben (Ich habe ein Paket bekommen).",
+   "tricky": true
+  },
+  {
+   "id": "per95",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Kuchen ___ mir gut gelungen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Der Kuchen ist mir gut gelungen.",
+   "tip": "sein, bleiben, werden, passieren and gelingen are special: their Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per96",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ letztes Jahr durch Spanien gereist.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind letztes Jahr durch Spanien gereist.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per97",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ aus der Wohnung ausgezogen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Er ist aus der Wohnung ausgezogen.",
+   "tip": "Moving in or out of a flat (einziehen, ausziehen, umziehen) is a change of place: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per98",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Mein Handy ___ ins Wasser gefallen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Mein Handy ist ins Wasser gefallen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per99",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ noch nie in Japan gewesen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind noch nie in Japan gewesen.",
+   "tip": "sein itself takes sein in the Perfekt: Ich bin in Rom gewesen. (In the past people usually prefer war.)",
+   "tricky": true
+  },
+  {
+   "id": "per100",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Mein Schlüssel ___ plötzlich verschwunden.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Mein Schlüssel ist plötzlich verschwunden.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per101",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ in die neue Wohnung eingezogen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind in die neue Wohnung eingezogen.",
+   "tip": "Moving in or out of a flat (einziehen, ausziehen, umziehen) is a change of place: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per102",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ gestern Abend spät nach Hause gekommen.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin gestern Abend spät nach Hause gekommen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per103",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ am Samstag lange im Bett geblieben.",
+   "answer": "sein",
+   "form": "bin",
+   "full": "Ich bin am Samstag lange im Bett geblieben.",
+   "tip": "sein, bleiben, werden, passieren and gelingen are special: their Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per104",
+   "tense": "perfect",
+   "person": "sie",
+   "sentence": "Die Gäste ___ pünktlich angekommen.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Die Gäste sind pünktlich angekommen.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per105",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Meine Tochter ___ in diesem Jahr stark gewachsen.",
+   "answer": "sein",
+   "form": "ist",
+   "full": "Meine Tochter ist in diesem Jahr stark gewachsen.",
+   "tip": "Change of state (aufwachen, einschlafen, aufstehen, sterben, wachsen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per106",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ mit dem Fahrrad zur Arbeit gefahren.",
+   "answer": "sein",
+   "form": "sind",
+   "full": "Wir sind mit dem Fahrrad zur Arbeit gefahren.",
+   "tip": "Change of place (gehen, fahren, kommen, fliegen, laufen...): the Perfekt uses sein.",
+   "tricky": false
+  },
+  {
+   "id": "per107",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ meinen Bruder aufgeweckt.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe meinen Bruder aufgeweckt.",
+   "tip": "aufwecken (to wake someone up) has an accusative object: haben. aufwachen (to wake up yourself) is a change of state: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per108",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ das Brot im Ofen verbrannt.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe das Brot im Ofen verbrannt.",
+   "tip": "verbrennen with an object (I burned the bread): haben. Without an object the bread simply burned: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per109",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Meine Schwester ___ letztes Jahr geheiratet.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Meine Schwester hat letztes Jahr geheiratet.",
+   "tip": "Exception: heiraten takes haben, although it feels like a change of state. Learn it by heart.",
+   "tricky": true
+  },
+  {
+   "id": "per110",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Regen ___ endlich aufgehört.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Der Regen hat endlich aufgehört.",
+   "tip": "aufhören, anfangen and beginnen always take haben, although something starts or stops.",
+   "tricky": true
+  },
+  {
+   "id": "per111",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Film ___ um acht Uhr angefangen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Der Film hat um acht Uhr angefangen.",
+   "tip": "aufhören, anfangen and beginnen always take haben, although something starts or stops.",
+   "tricky": true
+  },
+  {
+   "id": "per112",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ den ganzen Abend vor dem Fernseher gesessen.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben den ganzen Abend vor dem Fernseher gesessen.",
+   "tip": "sitzen, stehen, liegen: standard German (and the north) uses haben. In the south, Austria and Switzerland you also hear sein.",
+   "tricky": true
+  },
+  {
+   "id": "per113",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ lange im Bett gelegen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat lange im Bett gelegen.",
+   "tip": "sitzen, stehen, liegen: standard German (and the north) uses haben. In the south, Austria and Switzerland you also hear sein.",
+   "tricky": true
+  },
+  {
+   "id": "per114",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ mich schnell umgezogen.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe mich schnell umgezogen.",
+   "tip": "False friend: sich umziehen (to change clothes) is reflexive, so haben. umziehen (to move house) is a change of place: sein.",
+   "tricky": true
+  },
+  {
+   "id": "per115",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Sie ___ sich neben mich gesetzt.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Sie hat sich neben mich gesetzt.",
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt.",
+   "tricky": false
+  },
+  {
+   "id": "per116",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ ihm beim Umzug geholfen.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben ihm beim Umzug geholfen.",
+   "tip": "helfen, gefallen and danken take a dative object but still use haben. Only movement and change of state take sein.",
+   "tricky": true
+  },
+  {
+   "id": "per117",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Der Film ___ mir gut gefallen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Der Film hat mir gut gefallen.",
+   "tip": "helfen, gefallen and danken take a dative object but still use haben. Only movement and change of state take sein.",
+   "tricky": true
+  },
+  {
+   "id": "per118",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ gestern ein Paket bekommen.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe gestern ein Paket bekommen.",
+   "tip": "False friend: werden = to become, so sein (Es ist dunkel geworden). bekommen = to get, so haben (Ich habe ein Paket bekommen).",
+   "tricky": true
+  },
+  {
+   "id": "per119",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ gestern keine Zeit gehabt.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe gestern keine Zeit gehabt.",
+   "tip": "haben itself takes haben in the Perfekt: Ich habe Zeit gehabt. (In the past people usually prefer hatte.)",
+   "tricky": true
+  },
+  {
+   "id": "per120",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Sie ___ sich in Tim verliebt.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Sie hat sich in Tim verliebt.",
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt.",
+   "tricky": false
+  },
+  {
+   "id": "per121",
+   "tense": "perfect",
+   "person": "wir",
+   "sentence": "Wir ___ drei Jahre in Köln gewohnt.",
+   "answer": "haben",
+   "form": "haben",
+   "full": "Wir haben drei Jahre in Köln gewohnt.",
+   "tip": "No movement and no change of state (arbeiten, schlafen, spielen, regnen...): the Perfekt uses haben.",
+   "tricky": false
+  },
+  {
+   "id": "per122",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ das Flugzeug selbst geflogen.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat das Flugzeug selbst geflogen.",
+   "tip": "fahren and fliegen with an accusative object (you drive a car, you fly a plane) take haben. Without an object they are movements and take sein.",
+   "tricky": true
+  },
+  {
+   "id": "per123",
+   "tense": "perfect",
+   "person": "ich",
+   "sentence": "Ich ___ mich nicht an seinen Namen erinnert.",
+   "answer": "haben",
+   "form": "habe",
+   "full": "Ich habe mich nicht an seinen Namen erinnert.",
+   "tip": "Reflexive verbs (sich freuen, sich treffen...) always use haben in the Perfekt.",
+   "tricky": false
+  },
+  {
+   "id": "per124",
+   "tense": "perfect",
+   "person": "er",
+   "sentence": "Er ___ seinen Schlüssel verloren.",
+   "answer": "haben",
+   "form": "hat",
+   "full": "Er hat seinen Schlüssel verloren.",
+   "tip": "The verb can take an accusative object (you see/make/read/eat something): the Perfekt uses haben.",
+   "tricky": false
   }
  ]
 }

@@ -3,7 +3,7 @@ from app import app
 
 def test_pages_load():
     client = app.test_client()
-    for path in ["/", "/games", "/games/passiv"]:
+    for path in ["/", "/games", "/games/sein-haben"]:
         assert client.get(path).status_code == 200
 
 
@@ -14,7 +14,7 @@ def test_unknown_game_is_404():
 
 def test_questions_api_returns_404_json_when_no_questions():
     client = app.test_client()
-    response = client.get("/api/games/passiv/questions")
+    response = client.get("/api/games/does-not-exist/questions")
     assert response.status_code == 404
     assert "error" in response.get_json()
 
@@ -50,12 +50,17 @@ def test_praeteritum_page_has_grammar_and_vocabulary_tabs():
     assert "The 100 verbs" in html             # first vocabulary table
 
 
-def test_game_without_guide_or_vocab_only_has_play_tab():
+def test_every_listed_game_is_ready_and_has_questions():
+    import json
+    from pathlib import Path
+
+    root = Path(__file__).parent.parent
+    games = json.loads((root / "data" / "games.json").read_text(encoding="utf-8"))
     client = app.test_client()
-    html = client.get("/games/passiv").get_data(as_text=True)
-    assert 'data-tab="play"' in html
-    assert 'data-tab="grammar"' not in html
-    assert 'data-tab="vocab"' not in html
+    for game in games:
+        assert game["ready"], f"{game['slug']} is listed but not ready"
+        assert client.get(f"/games/{game['slug']}").status_code == 200
+        assert client.get(f"/api/games/{game['slug']}/questions").status_code == 200
 
 
 def test_vocabulary_file_is_complete():
@@ -109,6 +114,9 @@ def test_sein_haben_exercises_are_consistent():
     for tense in data["tenses"]:                                   # each tense has both answers
         answers = {e["answer"] for e in exercises if e["tense"] == tense}
         assert answers == {"sein", "haben"}
+        tricky = {e["answer"] for e in exercises if e["tense"] == tense and e["tricky"]}
+        assert tricky == {"sein", "haben"}                         # also in "only tricky" mode
+    assert sum(e["tricky"] for e in exercises) >= 20
 
 
 def test_sein_haben_page_has_all_three_tabs():

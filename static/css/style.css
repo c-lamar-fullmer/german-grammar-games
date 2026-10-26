@@ -186,3 +186,11 @@ button.secondary:hover { background: #4b5563; }
 .sh-review-item p { margin: 0.25rem 0; }
 .sh-sentence-small { font-size: 1.1rem; font-weight: 600; }
 .sh-actions { margin-top: 1.25rem; }
+
+/* sein / haben: timer */
+.sh-timer { height: 0.5rem; background: #e5e7eb; border-radius: 999px; overflow: hidden; }
+.sh-timer-fill { height: 100%; width: 100%; background: #b45309; }
+.sh-timer.low .sh-timer-fill { background: #dc2626; }
+.sh-time { text-align: right; margin: 0.2rem 0 0; min-height: 1.5rem; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+.sh-tricky { display: block; margin: 0.5rem 0 1rem; cursor: pointer; }
+.sh-setup input[type="radio"] { margin-right: 0.2rem; }

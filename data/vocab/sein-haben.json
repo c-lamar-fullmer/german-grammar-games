@@ -232,6 +232,192 @@
      "geregnet",
      "haben",
      "to rain"
+    ],
+    [
+     "aufwachen",
+     "aufgewacht",
+     "sein",
+     "to wake up"
+    ],
+    [
+     "aufwecken",
+     "aufgeweckt",
+     "haben",
+     "to wake (someone) up"
+    ],
+    [
+     "umsteigen",
+     "umgestiegen",
+     "sein",
+     "to change (trains)"
+    ],
+    [
+     "verbrennen (no object)",
+     "verbrannt",
+     "sein",
+     "to burn (the bread burned)"
+    ],
+    [
+     "verbrennen + object",
+     "verbrannt",
+     "haben",
+     "to burn (something)"
+    ],
+    [
+     "schmelzen",
+     "geschmolzen",
+     "sein",
+     "to melt"
+    ],
+    [
+     "steigen",
+     "gestiegen",
+     "sein",
+     "to rise, to climb"
+    ],
+    [
+     "gelingen",
+     "gelungen",
+     "sein",
+     "to succeed, to turn out well"
+    ],
+    [
+     "reisen",
+     "gereist",
+     "sein",
+     "to travel"
+    ],
+    [
+     "ausziehen (move out)",
+     "ausgezogen",
+     "sein",
+     "to move out"
+    ],
+    [
+     "einziehen",
+     "eingezogen",
+     "sein",
+     "to move in"
+    ],
+    [
+     "fallen",
+     "gefallen",
+     "sein",
+     "to fall"
+    ],
+    [
+     "sein",
+     "gewesen",
+     "sein",
+     "to be"
+    ],
+    [
+     "haben",
+     "gehabt",
+     "haben",
+     "to have"
+    ],
+    [
+     "verschwinden",
+     "verschwunden",
+     "sein",
+     "to disappear"
+    ],
+    [
+     "kommen",
+     "gekommen",
+     "sein",
+     "to come"
+    ],
+    [
+     "heiraten",
+     "geheiratet",
+     "haben",
+     "to marry (exception: haben!)"
+    ],
+    [
+     "aufhören",
+     "aufgehört",
+     "haben",
+     "to stop (exception: haben!)"
+    ],
+    [
+     "anfangen",
+     "angefangen",
+     "haben",
+     "to begin (exception: haben!)"
+    ],
+    [
+     "sitzen",
+     "gesessen",
+     "haben",
+     "to sit (south: sein)"
+    ],
+    [
+     "liegen",
+     "gelegen",
+     "haben",
+     "to lie (south: sein)"
+    ],
+    [
+     "sich umziehen",
+     "(sich) umgezogen",
+     "haben",
+     "to change clothes"
+    ],
+    [
+     "sich setzen",
+     "(sich) gesetzt",
+     "haben",
+     "to sit down"
+    ],
+    [
+     "helfen",
+     "geholfen",
+     "haben",
+     "to help (+ dative)"
+    ],
+    [
+     "gefallen",
+     "gefallen",
+     "haben",
+     "to please, to be liked (+ dative)"
+    ],
+    [
+     "bekommen",
+     "bekommen",
+     "haben",
+     "to get, to receive"
+    ],
+    [
+     "sich verlieben",
+     "(sich) verliebt",
+     "haben",
+     "to fall in love"
+    ],
+    [
+     "wohnen",
+     "gewohnt",
+     "haben",
+     "to live (somewhere)"
+    ],
+    [
+     "fliegen + object",
+     "geflogen",
+     "haben",
+     "to fly (a plane)"
+    ],
+    [
+     "sich erinnern",
+     "(sich) erinnert",
+     "haben",
+     "to remember"
+    ],
+    [
+     "verlieren",
+     "verloren",
+     "haben",
+     "to lose"
     ]
    ]
   },
@@ -297,6 +483,22 @@
     [
      "den ganzen Tag",
      "all day"
+    ],
+    [
+     "mitten in der Nacht",
+     "in the middle of the night"
+    ],
+    [
+     "plötzlich",
+     "suddenly"
+    ],
+    [
+     "endlich",
+     "finally"
+    ],
+    [
+     "noch nie",
+     "never (yet)"
     ]
    ]
   }

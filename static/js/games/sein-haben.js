@@ -1,5 +1,7 @@
 // Sein or haben game: read a sentence with a blank and press the LEFT arrow (sein) or the
-// RIGHT arrow (haben). Then the full sentence is shown with the correct, conjugated verb.
+// RIGHT arrow (haben). The answer is revealed at once, with the reason.
+// You read it at your own pace and press Enter or Space for the next sentence.
+// A timer counts down for every sentence (you can switch it off).
 //
 // Uses shuffle() and loadQuestions() from main.js. The data file looks like:
 //   { roundLength: 15, tenses: { present: {label, english}, ... },
@@ -8,11 +10,17 @@
 const root = document.getElementById("game-root");
 
 const TENSE_ORDER = ["present", "perfect", "preterite"];
-
+const SPEEDS = {
+  relaxed: { label: "Relaxed", seconds: 10 },
+  normal: { label: "Normal", seconds: 6 },
+  sprint: { label: "Sprint", seconds: 3 },
+  none: { label: "No timer", seconds: 0 },
+};
 let data = null;
-let settings = { tenses: [...TENSE_ORDER] };
+let settings = { tenses: [...TENSE_ORDER], speed: "normal", trickyOnly: false };
 let round = null;     // the round being played
 let phase = "setup";  // "setup" | "question" | "feedback" | "summary"
+let timer = null;     // the countdown for the current sentence
 
 // ---------- small helpers ----------
 
@@ -23,20 +31,21 @@ function makeElement(tag, text = "", className = "") {
   return element;
 }
 
+// Best round per speed, saved in this browser.
 function loadBest() {
   try {
-    return JSON.parse(localStorage.getItem("seinhaben-best")) || null;
+    return JSON.parse(localStorage.getItem("seinhaben-best-by-speed")) || {};
   } catch (error) {
-    return null;
+    return {};
   }
 }
 
-// Remember the best result (most correct answers, in a round of the same length).
-function saveBest(correct, total) {
+function saveBest(speed, correct, total) {
   const best = loadBest();
-  if (!best || correct > best.correct) {
+  if (!best[speed] || correct > best[speed].correct) {
+    best[speed] = { correct, total };
     try {
-      localStorage.setItem("seinhaben-best", JSON.stringify({ correct, total }));
+      localStorage.setItem("seinhaben-best-by-speed", JSON.stringify(best));
     } catch (error) {
       // saving is optional
     }
@@ -61,7 +70,8 @@ function sentenceElement(exercise, revealed, className) {
 // Take exercises from every chosen tense in turn, so a round is a real mix.
 function pickExercises() {
   const lists = settings.tenses.map(tense =>
-    shuffle(data.exercises.filter(exercise => exercise.tense === tense)));
+    shuffle(data.exercises.filter(exercise =>
+      exercise.tense === tense && (!settings.trickyOnly || exercise.tricky))));
   const picked = [];
   while (picked.length < data.roundLength && lists.some(list => list.length > 0)) {
     for (const list of lists) {
@@ -71,19 +81,70 @@ function pickExercises() {
   return shuffle(picked);
 }
 
+function topBar() {
+  const top = makeElement("div", "", "sh-top");
+  top.append(
+    makeElement("span", `Sentence ${round.index + 1} / ${round.exercises.length}`),
+    makeElement("span", round.streak >= 2 ? `🔥 ${round.streak} in a row` : "", "sh-streak"),
+    makeElement("span", `Correct: ${round.correct}`),
+  );
+  return top;
+}
+
+// ---------- timer ----------
+
+function startTimer(seconds, onTimeUp) {
+  stopTimer();
+  timer = { seconds, deadline: Date.now() + seconds * 1000, last: Date.now() };
+  timer.id = setInterval(() => {
+    const now = Date.now();
+    // Pause while you look at another tab (Grammar / Vocabulary) or another window.
+    if (document.hidden || root.offsetParent === null) {
+      timer.deadline += now - timer.last;
+      timer.last = now;
+      return;
+    }
+    timer.last = now;
+    updateTimerDisplay();
+    if (secondsLeft() <= 0) onTimeUp();
+  }, 50);
+  updateTimerDisplay();
+}
+
+function stopTimer() {
+  if (timer) clearInterval(timer.id);
+  timer = null;
+}
+
+function secondsLeft() {
+  return timer ? Math.max(0, (timer.deadline - Date.now()) / 1000) : 0;
+}
+
+function updateTimerDisplay() {
+  const fill = root.querySelector(".sh-timer-fill");
+  const text = root.querySelector(".sh-time");
+  if (!fill || !timer) return;
+  const left = secondsLeft();
+  fill.style.width = `${(left / timer.seconds) * 100}%`;
+  text.textContent = `${left.toFixed(1)} s`;
+  fill.parentElement.classList.toggle("low", left <= 1.5);
+}
+
 // ---------- screens ----------
 
 function showSetup() {
+  stopTimer();
   phase = "setup";
   root.replaceChildren();
   const box = makeElement("div", "", "sh-setup");
 
   box.append(makeElement("p", "You see a sentence with a blank. Press the left arrow key for sein "
-    + "or the right arrow key for haben (you can also click the buttons). Then you see the full "
-    + `sentence with the right form. A round has ${data.roundLength} sentences.`));
+    + "or the right arrow key for haben (you can also click the buttons). The answer shows right "
+    + "away. Read the explanation, then press Enter or Space for the next sentence. "
+    + `A round has ${data.roundLength} sentences.`));
 
-  const fieldset = makeElement("fieldset");
-  fieldset.append(makeElement("legend", "Tenses"));
+  const tenses = makeElement("fieldset");
+  tenses.append(makeElement("legend", "Tenses"));
   const checkboxes = {};
   for (const tense of TENSE_ORDER) {
     const label = document.createElement("label");
@@ -92,9 +153,35 @@ function showSetup() {
     checkbox.checked = settings.tenses.includes(tense);
     checkboxes[tense] = checkbox;
     label.append(checkbox, ` ${tenseName(tense)}`);
-    fieldset.append(label);
+    tenses.append(label);
   }
-  box.append(fieldset);
+  box.append(tenses);
+
+  const speeds = makeElement("fieldset");
+  speeds.append(makeElement("legend", "Speed"));
+  for (const [key, speed] of Object.entries(SPEEDS)) {
+    const label = document.createElement("label");
+    const radio = document.createElement("input");
+    radio.type = "radio";
+    radio.name = "speed";
+    radio.checked = settings.speed === key;
+    radio.addEventListener("change", () => { settings.speed = key; });
+    const text = speed.seconds > 0
+      ? ` ${speed.label} (${speed.seconds} s per sentence)`
+      : ` ${speed.label} (take your time)`;
+    label.append(radio, text);
+    speeds.append(label);
+  }
+  box.append(speeds);
+
+  const trickyLabel = document.createElement("label");
+  const trickyBox = document.createElement("input");
+  trickyBox.type = "checkbox";
+  trickyBox.checked = settings.trickyOnly;
+  trickyBox.addEventListener("change", () => { settings.trickyOnly = trickyBox.checked; });
+  trickyLabel.append(trickyBox, " Only tricky sentences (false friends and exceptions)");
+  trickyLabel.className = "sh-tricky";
+  box.append(trickyLabel);
 
   const start = makeElement("button", "Start round", "button");
   start.type = "button";
@@ -107,8 +194,10 @@ function showSetup() {
   start.addEventListener("click", startRound);
   box.append(start);
 
-  const best = loadBest();
-  if (best) box.append(makeElement("p", `Best round so far: ${best.correct} / ${best.total} correct`, "muted"));
+  const best = loadBest()[settings.speed];
+  if (best) {
+    box.append(makeElement("p", `Best round at this speed: ${best.correct} / ${best.total} correct`, "muted"));
+  }
 
   root.append(box);
 }
@@ -121,15 +210,17 @@ function startRound() {
 function showQuestion() {
   phase = "question";
   const exercise = round.exercises[round.index];
+  const seconds = SPEEDS[settings.speed].seconds;
   root.replaceChildren();
 
-  const top = makeElement("div", "", "sh-top");
-  top.append(
-    makeElement("span", `Sentence ${round.index + 1} / ${round.exercises.length}`),
-    makeElement("span", round.streak >= 2 ? `🔥 ${round.streak} in a row` : ""),
-    makeElement("span", `Correct: ${round.correct}`),
-  );
-  root.append(top);
+  root.append(topBar());
+
+  const bar = makeElement("div", "", "sh-timer");
+  if (seconds > 0) {
+    bar.append(makeElement("div", "", "sh-timer-fill"));
+  }
+  const clock = makeElement("p", seconds > 0 ? "" : "No timer", "sh-time muted");
+  root.append(bar, clock);
 
   root.append(sentenceElement(exercise, false, "sh-sentence").paragraph);
 
@@ -147,11 +238,15 @@ function showQuestion() {
   }
   root.append(choices);
   root.append(makeElement("p", "Left arrow = sein · Right arrow = haben", "muted sh-hint"));
+
+  if (seconds > 0) startTimer(seconds, () => answer(null));
 }
 
+// choice is "sein", "haben", or null when the time ran out.
 function answer(choice) {
   if (phase !== "question") return;
   phase = "feedback";
+  stopTimer();
   const exercise = round.exercises[round.index];
   const correct = choice === exercise.answer;
 
@@ -160,21 +255,18 @@ function answer(choice) {
   round.results.push({ exercise, choice, correct });
 
   root.replaceChildren();
-
-  const top = makeElement("div", "", "sh-top");
-  top.append(
-    makeElement("span", `Sentence ${round.index + 1} / ${round.exercises.length}`),
-    makeElement("span", round.streak >= 2 ? `🔥 ${round.streak} in a row` : ""),
-    makeElement("span", `Correct: ${round.correct}`),
-  );
-  root.append(top);
+  root.append(topBar());
 
   const { paragraph, slot } = sentenceElement(exercise, true, "sh-sentence");
   slot.classList.add(correct ? "good" : "bad");
   root.append(paragraph);
 
+  let status = "✓ Correct!";
+  if (choice === null) status = `⏱ Time's up: it is ${exercise.answer}.`;
+  else if (!correct) status = `✗ Not quite: it is ${exercise.answer}.`;
+
   const box = makeElement("div", "", `sh-feedback ${correct ? "good" : "bad"}`);
-  box.append(makeElement("p", correct ? "✓ Correct!" : `✗ Not quite: it is ${exercise.answer}.`, "sh-status"));
+  box.append(makeElement("p", status, "sh-status"));
   box.append(makeElement("p", `${exercise.form} → ${exercise.answer}  ·  ${tenseName(exercise.tense)}`, "sh-form"));
   box.append(makeElement("p", exercise.tip, "sh-tip"));
   root.append(box);
@@ -185,6 +277,7 @@ function answer(choice) {
   next.addEventListener("click", nextQuestion);
   root.append(next, makeElement("span", "  (Enter or Space)", "muted"));
   next.focus();
+
 }
 
 function nextQuestion() {
@@ -199,14 +292,17 @@ function nextQuestion() {
 
 function showSummary() {
   phase = "summary";
+  stopTimer();
   const total = round.exercises.length;
-  saveBest(round.correct, total);
+  saveBest(settings.speed, round.correct, total);
   root.replaceChildren();
 
   root.append(makeElement("h3", "Round finished"));
   root.append(makeElement("p", `${round.correct} / ${total} correct`, "sh-score"));
-  const best = loadBest();
-  if (best) root.append(makeElement("p", `Best round so far: ${best.correct} / ${best.total}`, "muted"));
+  const best = loadBest()[settings.speed];
+  if (best) {
+    root.append(makeElement("p", `Best round at this speed (${SPEEDS[settings.speed].label}): ${best.correct} / ${best.total}`, "muted"));
+  }
 
   // result per tense
   const table = makeElement("table", "", "vocab-table");
@@ -232,9 +328,10 @@ function showSummary() {
     root.append(makeElement("h3", "Review your mistakes", "sh-review"));
     for (const { exercise, choice } of mistakes) {
       const item = makeElement("div", "", "sh-review-item");
+      const youPicked = choice === null ? "You ran out of time." : `You picked ${choice}.`;
       item.append(
         makeElement("p", exercise.full, "sh-sentence-small"),
-        makeElement("p", `You picked ${choice}. Answer: ${exercise.answer} (${tenseName(exercise.tense)})`, "muted"),
+        makeElement("p", `${youPicked} Answer: ${exercise.answer} (${tenseName(exercise.tense)})`, "muted"),
         makeElement("p", exercise.tip, "sh-tip"),
       );
       root.append(item);

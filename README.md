@@ -31,10 +31,10 @@ tests/            automated tests (run with: pytest)
 
 ## How the pieces talk to each other
 
-1. The browser asks for a page, e.g. `/games/passiv`. Flask fills in a template and sends HTML back.
-2. The page loads `static/js/games/passiv.js`.
-3. That script calls `loadQuestions("passiv")` (from `main.js`), which asks the backend
-   at `/api/games/passiv/questions`. Flask replies with JSON from `data/questions/passiv.json`.
+1. The browser asks for a page, e.g. `/games/praeteritum`. Flask fills in a template and sends HTML back.
+2. The page loads `static/js/games/praeteritum.js`.
+3. That script calls `loadQuestions("praeteritum")` (from `main.js`), which asks the backend
+   at `/api/games/praeteritum/questions`. Flask replies with JSON from `data/questions/praeteritum.json`.
 4. The script uses the questions to run the game in the browser.
 
 ## Adding a game
@@ -94,7 +94,10 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
 
 - `tense` is `present`, `perfect` or `preterite`. `answer` is `sein` or `haben`.
 - `form` is the conjugated verb shown after you answer; `full` is the complete sentence.
-- In the game: left arrow = sein, right arrow = haben, Enter or Space = next sentence.
+- `tricky` is `true` for the false friends and exceptions. The setup screen has an "Only tricky sentences" option.
+- In the game: left arrow = sein, right arrow = haben. The answer shows at once, with the reason, and stays until
+  you press Enter or Space. A timer per sentence (10 / 6 / 3 s, or off) counts a missed sentence as wrong.
+  Best rounds are saved per speed.
 
 ## Grammar and vocabulary tabs
 
