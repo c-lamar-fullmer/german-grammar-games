@@ -126,3 +126,34 @@ def test_sein_haben_page_has_all_three_tabs():
     assert 'data-tab="vocab"' in html
     assert "sein or haben?" in html
     assert "sein and haben: all forms" in html
+
+
+def test_case_game_exercises_are_consistent():
+    client = app.test_client()
+    data = client.get("/api/games/akkusativ-dativ/questions").get_json()
+    exercises = data["exercises"]
+    assert set(data["categories"]) == {"akk", "dat", "two", "verb"}
+    assert len(exercises) >= 100
+    for exercise in exercises:
+        assert exercise["category"] in data["categories"]
+        assert exercise["answer"] in ("akk", "dat")
+        assert exercise["sentence"].count("___") == 1
+        assert exercise["form"] in exercise["full"].split()
+        assert "___" not in exercise["full"]
+        assert exercise["tip"].strip()
+    for category in ("akk", "dat"):                      # "always" categories have one answer
+        expected = category
+        assert {e["answer"] for e in exercises if e["category"] == category} == {expected}
+    for category in ("two", "verb"):                     # these need both answers
+        assert {e["answer"] for e in exercises if e["category"] == category} == {"akk", "dat"}
+    assert sum(e["category"] == "two" for e in exercises) >= 40   # enough for half of every round
+    assert sum(e["tricky"] for e in exercises) >= 20
+
+
+def test_case_game_page_has_all_three_tabs():
+    client = app.test_client()
+    html = client.get("/games/akkusativ-dativ").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "Always accusative prepositions" in html
+    assert "Two-way prepositions (the hard part)" in html

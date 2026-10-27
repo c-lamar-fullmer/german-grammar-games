@@ -16,5 +16,11 @@
     "title": "Sein oder haben?",
     "description": "Pick sein or haben with the arrow keys: Präsens, Perfekt and Präteritum.",
     "ready": true
+  },
+  {
+    "slug": "akkusativ-dativ",
+    "title": "Akkusativ oder Dativ?",
+    "description": "Pick the right case: prepositions (always accusative, always dative, two-way) and verbs.",
+    "ready": true
   }
 ]

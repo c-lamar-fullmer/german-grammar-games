@@ -194,3 +194,54 @@ button.secondary:hover { background: #4b5563; }
 .sh-time { text-align: right; margin: 0.2rem 0 0; min-height: 1.5rem; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
 .sh-tricky { display: block; margin: 0.5rem 0 1rem; cursor: pointer; }
 .sh-setup input[type="radio"] { margin-right: 0.2rem; }
+
+/* ---------- Akkusativ / Dativ game ---------- */
+
+.cs-setup fieldset { border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.6rem 1rem; margin: 1rem 0; background: #fff; }
+.cs-setup legend { font-weight: 600; padding: 0 0.4rem; }
+.cs-setup label { display: block; padding: 0.2rem 0; cursor: pointer; }
+.cs-setup button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.cs-top { display: flex; justify-content: space-between; gap: 1rem; font-weight: 600; margin-bottom: 0.5rem; }
+.cs-sentence { font-size: 1.8rem; line-height: 1.5; text-align: center; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.5rem 1rem; margin: 0.5rem 0 1.25rem; }
+.cs-slot { display: inline-block; min-width: 4.5rem; border-bottom: 3px solid #b45309; padding: 0 0.4rem; font-weight: 700; color: #b45309; }
+.cs-slot.good { border-bottom-color: #16a34a; color: #166534; background: #dcfce7; }
+.cs-slot.bad { border-bottom-color: #dc2626; color: #991b1b; background: #fee2e2; }
+
+.cs-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+.cs-choice { font: inherit; display: flex; align-items: center; justify-content: center; gap: 0.75rem; padding: 1.1rem 1rem; background: #fff; border: 2px solid #d1d5db; border-radius: 10px; cursor: pointer; }
+.cs-choice:hover { border-color: #b45309; background: #fff7ed; }
+.cs-arrow { font-size: 1.6rem; color: #b45309; }
+.cs-word { font-size: 1.5rem; font-weight: 700; }
+.cs-hint { text-align: center; margin-top: 0.75rem; }
+
+.cs-feedback { padding: 0.75rem 1rem; border-radius: 8px; border-left: 4px solid; margin-bottom: 1rem; }
+.cs-feedback.good { background: #f0fdf4; border-color: #16a34a; }
+.cs-feedback.bad { background: #fef2f2; border-color: #dc2626; }
+.cs-feedback p { margin: 0.3rem 0; }
+.cs-status { font-size: 1.2rem; font-weight: 700; }
+.cs-form { font-weight: 600; }
+.cs-tip { color: #374151; font-size: 0.95rem; }
+
+.cs-score { font-size: 1.6rem; font-weight: 700; margin: 0.25rem 0; }
+.cs-review { margin: 1.5rem 0 0.5rem; }
+.cs-review-item { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.4rem 1rem; margin: 0.5rem 0; }
+.cs-review-item p { margin: 0.25rem 0; }
+.cs-sentence-small { font-size: 1.1rem; font-weight: 600; }
+.cs-actions { margin-top: 1.25rem; }
+
+/* Akkusativ / Dativ: timer */
+.cs-timer { height: 0.5rem; background: #e5e7eb; border-radius: 999px; overflow: hidden; }
+.cs-timer-fill { height: 100%; width: 100%; background: #b45309; }
+.cs-timer.low .cs-timer-fill { background: #dc2626; }
+.cs-time { text-align: right; margin: 0.2rem 0 0; min-height: 1.5rem; font-variant-numeric: tabular-nums; font-size: 0.9rem; }
+.cs-tricky { display: block; margin: 0.5rem 0 1rem; cursor: pointer; }
+.cs-setup input[type="radio"] { margin-right: 0.2rem; }
+
+/* Akkusativ / Dativ: extras */
+.cs-word { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.2; }
+.cs-word small { font-size: 0.85rem; font-weight: 400; color: #6b7280; }
+.cs-detail { font-size: 0.9rem; }
+.cs-note { margin: 0.4rem 0 0.2rem; font-size: 0.9rem; }
+.cs-spots { margin: 1rem 0 0; font-weight: 600; }
+.cs-sentence { font-size: 1.6rem; }

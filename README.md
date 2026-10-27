@@ -99,6 +99,25 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
   you press Enter or Space. A timer per sentence (10 / 6 / 3 s, or off) counts a missed sentence as wrong.
   Best rounds are saved per speed.
 
+## Exercise format (Akkusativ/Dativ game)
+
+`data/questions/akkusativ-dativ.json` holds the settings texts and the exercises. Each exercise is a sentence with one blank article:
+
+```json
+{ "id": "two7", "category": "two", "group": null,
+  "sentence": "Ich gehe in ___ Park.", "answer": "akk", "form": "den",
+  "full": "Ich gehe in den Park.", "key": "in",
+  "tip": "Wohin? gehen = you are moving to a new place → Akkusativ. (in is a two-way preposition.)",
+  "tricky": false }
+```
+
+- `category` is `akk` (always accusative), `dat` (always dative), `two` (two-way) or `verb`.
+- `answer` is `akk` or `dat`. `key` is the preposition or verb (shown after answering and in "Practise these").
+- `group` is only used for verbs: dative verb, accusative verb or verb + preposition.
+- The setup screen lets you pick the categories, the round length, the speed and "only tricky sentences".
+  When "two" is picked with other categories, it gets half of the round (`twoWayShare` in the JSON file).
+- Left arrow = Akkusativ, right arrow = Dativ, Enter or Space = next sentence.
+
 ## Grammar and vocabulary tabs
 
 A game page always has a **Play** tab. It gets two more tabs automatically if these files exist

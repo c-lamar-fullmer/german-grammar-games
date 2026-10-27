@@ -1,0 +1,530 @@
+{
+ "sections": [
+  {
+   "title": "The articles",
+   "note": "Only the masculine changes between nominative and accusative (der → den). In the dative every gender changes, and the dative plural noun adds -n.",
+   "columns": [
+    "Case",
+    "masculine",
+    "feminine",
+    "neuter",
+    "plural"
+   ],
+   "rows": [
+    [
+     "Nominativ (who/what?)",
+     "der / ein / mein",
+     "die / eine / meine",
+     "das / ein / mein",
+     "die / – / meine"
+    ],
+    [
+     "Akkusativ",
+     "den / einen / meinen",
+     "die / eine / meine",
+     "das / ein / mein",
+     "die / – / meine"
+    ],
+    [
+     "Dativ",
+     "dem / einem / meinem",
+     "der / einer / meiner",
+     "dem / einem / meinem",
+     "den / – / meinen (+ -n)"
+    ]
+   ]
+  },
+  {
+   "title": "Always accusative prepositions",
+   "note": "Memory aid: DOGFU = durch, ohne, gegen, für, um.",
+   "columns": [
+    "Preposition",
+    "English",
+    "Example"
+   ],
+   "rows": [
+    [
+     "durch",
+     "through",
+     "Wir gehen durch den Park."
+    ],
+    [
+     "für",
+     "for",
+     "Das Geschenk ist für meine Mutter."
+    ],
+    [
+     "gegen",
+     "against, into",
+     "Das Auto fährt gegen den Baum."
+    ],
+    [
+     "ohne",
+     "without",
+     "Er kommt ohne seine Freundin."
+    ],
+    [
+     "um",
+     "around, at (time)",
+     "Wir sitzen um den Tisch."
+    ],
+    [
+     "entlang",
+     "along (after the noun)",
+     "Wir gehen die Straße entlang."
+    ],
+    [
+     "bis",
+     "until, up to (usually without an article)",
+     "Ich warte bis Montag."
+    ]
+   ]
+  },
+  {
+   "title": "Always dative prepositions",
+   "note": "Memory aid: aus, bei, mit, nach, seit, von, zu.",
+   "columns": [
+    "Preposition",
+    "English",
+    "Example"
+   ],
+   "rows": [
+    [
+     "aus",
+     "out of, from",
+     "Er kommt aus dem Haus."
+    ],
+    [
+     "bei",
+     "at (someone's place), with",
+     "Ich wohne bei meiner Oma."
+    ],
+    [
+     "mit",
+     "with, by (transport)",
+     "Ich fahre mit dem Bus."
+    ],
+    [
+     "nach",
+     "after, to (cities)",
+     "Nach dem Essen gehen wir spazieren."
+    ],
+    [
+     "seit",
+     "since, for (time)",
+     "Ich wohne seit einem Jahr hier."
+    ],
+    [
+     "von",
+     "from, of, by",
+     "Das Geschenk ist von meiner Oma."
+    ],
+    [
+     "zu",
+     "to (people, places)",
+     "Ich gehe zum Arzt."
+    ],
+    [
+     "gegenüber",
+     "opposite",
+     "Das Café ist gegenüber dem Bahnhof."
+    ],
+    [
+     "außer",
+     "except, apart from",
+     "Alle sind gekommen, außer meinem Bruder."
+    ]
+   ]
+  },
+  {
+   "title": "Two-way prepositions",
+   "note": "Wohin? (movement to a new place) = accusative. Wo? (position, or moving inside one place) = dative. Time expressions with an, in, vor, zwischen are dative. über = about a topic is accusative.",
+   "columns": [
+    "Preposition",
+    "English",
+    "wo? (Dativ)",
+    "wohin? (Akkusativ)"
+   ],
+   "rows": [
+    [
+     "an",
+     "at, on (a vertical surface)",
+     "Das Bild hängt an der Wand.",
+     "Er hängt das Bild an die Wand."
+    ],
+    [
+     "auf",
+     "on (top of)",
+     "Das Buch liegt auf dem Tisch.",
+     "Sie legt das Buch auf den Tisch."
+    ],
+    [
+     "hinter",
+     "behind",
+     "Das Fahrrad steht hinter dem Haus.",
+     "Er stellt das Fahrrad hinter das Haus."
+    ],
+    [
+     "in",
+     "in, into",
+     "Ich bin in dem Park.",
+     "Ich gehe in den Park."
+    ],
+    [
+     "neben",
+     "next to",
+     "Das Handy liegt neben dem Bett.",
+     "Ich lege das Handy neben das Bett."
+    ],
+    [
+     "über",
+     "over, above, across, about",
+     "Die Lampe hängt über dem Tisch.",
+     "Sie hängt die Lampe über den Tisch."
+    ],
+    [
+     "unter",
+     "under",
+     "Die Katze schläft unter dem Bett.",
+     "Ich schiebe die Kiste unter das Bett."
+    ],
+    [
+     "vor",
+     "in front of, before",
+     "Der Stuhl steht vor der Tür.",
+     "Er stellt den Stuhl vor die Tür."
+    ],
+    [
+     "zwischen",
+     "between",
+     "Er sitzt zwischen den Kindern.",
+     "Setz dich zwischen die Kinder."
+    ]
+   ]
+  },
+  {
+   "title": "Position or movement? The verb pairs",
+   "note": "Position verbs answer wo? (dative). Movement verbs answer wohin? (accusative). hängen is both: intransitive (it hangs) = dative, with an object (you hang it up) = accusative.",
+   "columns": [
+    "Position (Dativ)",
+    "Movement (Akkusativ)",
+    "English"
+   ],
+   "rows": [
+    [
+     "liegen",
+     "legen / sich legen",
+     "to lie / to lay"
+    ],
+    [
+     "stehen",
+     "stellen / sich stellen",
+     "to stand / to put upright"
+    ],
+    [
+     "sitzen",
+     "setzen / sich setzen",
+     "to sit / to seat"
+    ],
+    [
+     "hängen (intransitive)",
+     "hängen (+ object)",
+     "to hang"
+    ],
+    [
+     "sein, bleiben, wohnen",
+     "gehen, fahren, kommen, fliegen",
+     "to be, stay, live / to go, drive, come, fly"
+    ]
+   ]
+  },
+  {
+   "title": "Verbs that take the dative",
+   "note": "Often the person is the dative object. With geben, zeigen, schenken, schicken, erklären the thing is accusative.",
+   "columns": [
+    "Verb",
+    "English",
+    "Example"
+   ],
+   "rows": [
+    [
+     "helfen",
+     "to help",
+     "Ich helfe dem Mann."
+    ],
+    [
+     "danken",
+     "to thank",
+     "Wir danken der Lehrerin."
+    ],
+    [
+     "gefallen",
+     "to please, to be liked",
+     "Der Film gefällt den Kindern."
+    ],
+    [
+     "gehören",
+     "to belong to",
+     "Das Fahrrad gehört meinem Bruder."
+    ],
+    [
+     "antworten",
+     "to answer",
+     "Sie antwortet ihrem Chef."
+    ],
+    [
+     "folgen",
+     "to follow",
+     "Der Hund folgt der Frau."
+    ],
+    [
+     "passen",
+     "to fit, to suit",
+     "Die Jacke passt deiner Schwester."
+    ],
+    [
+     "schmecken",
+     "to taste (good)",
+     "Die Suppe schmeckt dem Kind."
+    ],
+    [
+     "wehtun",
+     "to hurt",
+     "Der Kopf tut meiner Mutter weh."
+    ],
+    [
+     "gratulieren",
+     "to congratulate",
+     "Ich gratuliere meinem Freund."
+    ],
+    [
+     "zuhören",
+     "to listen to",
+     "Wir hören dem Lehrer zu."
+    ],
+    [
+     "geben",
+     "to give",
+     "Ich gebe dem Kind einen Apfel."
+    ],
+    [
+     "zeigen",
+     "to show",
+     "Sie zeigt den Gästen das Zimmer."
+    ],
+    [
+     "schenken",
+     "to give (a present)",
+     "Er schenkt seiner Freundin Blumen."
+    ],
+    [
+     "schicken",
+     "to send",
+     "Wir schicken unserer Oma eine Karte."
+    ],
+    [
+     "erklären",
+     "to explain",
+     "Ich erkläre den Schülern die Regel."
+    ],
+    [
+     "stehen (clothes)",
+     "to suit",
+     "Das Kleid steht der Frau gut."
+    ],
+    [
+     "glauben (someone)",
+     "to believe",
+     "Ich glaube deinem Freund."
+    ],
+    [
+     "verzeihen",
+     "to forgive",
+     "Er verzeiht seinem Bruder."
+    ]
+   ]
+  },
+  {
+   "title": "Verbs that take the accusative",
+   "note": "Most verbs with a direct object. Watch the contrasts: fragen (Akk) vs antworten (Dat), anrufen (Akk) vs zuhören (Dat).",
+   "columns": [
+    "Verb",
+    "English",
+    "Example"
+   ],
+   "rows": [
+    [
+     "besuchen",
+     "to visit",
+     "Ich besuche meine Oma."
+    ],
+    [
+     "sehen",
+     "to see",
+     "Wir sehen den Film."
+    ],
+    [
+     "kennen",
+     "to know (a person)",
+     "Sie kennt deinen Lehrer."
+    ],
+    [
+     "treffen",
+     "to meet",
+     "Er trifft seinen Freund."
+    ],
+    [
+     "fragen",
+     "to ask",
+     "Wir fragen den Lehrer."
+    ],
+    [
+     "anrufen",
+     "to call",
+     "Ich rufe den Arzt an."
+    ],
+    [
+     "einladen",
+     "to invite",
+     "Sie lädt ihre Freundin ein."
+    ],
+    [
+     "suchen",
+     "to look for",
+     "Ich suche meinen Schlüssel."
+    ],
+    [
+     "brauchen",
+     "to need",
+     "Er braucht ein Auto."
+    ],
+    [
+     "vermissen",
+     "to miss",
+     "Wir vermissen unsere Eltern."
+    ],
+    [
+     "lesen",
+     "to read",
+     "Ich lese das Buch."
+    ],
+    [
+     "bitten (um)",
+     "to ask (for)",
+     "Sie bittet die Lehrerin um Hilfe."
+    ],
+    [
+     "unterstützen",
+     "to support",
+     "Er unterstützt seine Freunde."
+    ],
+    [
+     "vergessen",
+     "to forget",
+     "Ich vergesse meine Hausaufgaben nie."
+    ],
+    [
+     "haben",
+     "to have",
+     "Sie hat einen Hund."
+    ]
+   ]
+  },
+  {
+   "title": "Verbs with a fixed preposition",
+   "note": "Learn the verb together with its preposition and case. The preposition here does not answer wo? or wohin?.",
+   "columns": [
+    "Verb + preposition",
+    "Case",
+    "Example"
+   ],
+   "rows": [
+    [
+     "warten auf",
+     "Akkusativ",
+     "Ich warte auf den Bus."
+    ],
+    [
+     "sich freuen auf",
+     "Akkusativ",
+     "Wir freuen uns auf das Wochenende."
+    ],
+    [
+     "denken an",
+     "Akkusativ",
+     "Sie denkt an ihren Urlaub."
+    ],
+    [
+     "sich interessieren für",
+     "Akkusativ",
+     "Er interessiert sich für die Musik."
+    ],
+    [
+     "sich ärgern über",
+     "Akkusativ",
+     "Ich ärgere mich über meinen Fehler."
+    ],
+    [
+     "sich bewerben um",
+     "Akkusativ",
+     "Sie bewirbt sich um eine Stelle."
+    ],
+    [
+     "sich kümmern um",
+     "Akkusativ",
+     "Wir kümmern uns um die Kinder."
+    ],
+    [
+     "sich erinnern an",
+     "Akkusativ",
+     "Ich erinnere mich an den Sommer."
+    ],
+    [
+     "träumen von",
+     "Dativ",
+     "Ich träume von einer Reise."
+    ],
+    [
+     "sprechen mit",
+     "Dativ",
+     "Er spricht mit der Lehrerin."
+    ],
+    [
+     "teilnehmen an",
+     "Dativ",
+     "Wir nehmen an dem Kurs teil."
+    ],
+    [
+     "arbeiten an",
+     "Dativ",
+     "Ich arbeite an einem Projekt."
+    ],
+    [
+     "fragen nach",
+     "Dativ",
+     "Sie fragt nach dem Weg."
+    ],
+    [
+     "Angst haben vor",
+     "Dativ",
+     "Ich habe Angst vor der Prüfung."
+    ],
+    [
+     "erzählen von",
+     "Dativ",
+     "Er erzählt von seinem Urlaub."
+    ],
+    [
+     "sich treffen mit",
+     "Dativ",
+     "Wir treffen uns mit unseren Freunden."
+    ],
+    [
+     "zufrieden sein mit",
+     "Dativ",
+     "Ich bin zufrieden mit dem Ergebnis."
+    ]
+   ]
+  }
+ ]
+}
