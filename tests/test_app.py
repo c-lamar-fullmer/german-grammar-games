@@ -157,3 +157,36 @@ def test_case_game_page_has_all_three_tabs():
     assert 'data-tab="vocab"' in html
     assert "Always accusative prepositions" in html
     assert "Two-way prepositions (the hard part)" in html
+
+
+def test_da_wo_exercises_are_consistent():
+    client = app.test_client()
+    data = client.get("/api/games/da-wo-words/questions").get_json()
+    assert [entry["prep"] for entry in data["prepositions"]] == [
+        "für", "mit", "auf", "über", "an", "von", "zu", "vor", "in", "gegen"]
+    words = set()
+    for entry in data["prepositions"]:
+        vowel = entry["prep"][0] in "aeiouäöü"
+        assert entry["da"] == ("dar" if vowel else "da") + entry["prep"]
+        assert entry["wo"] == ("wor" if vowel else "wo") + entry["prep"]
+        words |= {entry["da"], entry["wo"]}
+    assert len(words) == 20
+    for exercise in data["exercises"]:
+        assert exercise["answer"] in words
+        assert sum(line.count("___") for line in exercise["lines"]) == 1
+        assert "___" in exercise["lines"][exercise["gapLine"]]
+        assert len(exercise["en"]) == len(exercise["lines"])
+        assert exercise["kind"] in ("da", "wo")
+    for entry in data["prepositions"]:                    # every word has several sentences
+        for kind in ("da", "wo"):
+            count = sum(1 for e in data["exercises"] if e["answer"] == entry[kind])
+            assert count >= 3
+
+
+def test_da_wo_page_has_all_three_tabs():
+    client = app.test_client()
+    html = client.get("/games/da-wo-words").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "da- and wo-words" in html
+    assert "The 20 words" in html

@@ -1,0 +1,1088 @@
+{
+ "roundLengths": [
+  5,
+  8,
+  10
+ ],
+ "defaultRoundLength": 8,
+ "extraPieceChoices": [
+  0,
+  2,
+  4
+ ],
+ "defaultExtraPieces": 2,
+ "prepositions": [
+  {
+   "prep": "für",
+   "da": "dafür",
+   "wo": "wofür"
+  },
+  {
+   "prep": "mit",
+   "da": "damit",
+   "wo": "womit"
+  },
+  {
+   "prep": "auf",
+   "da": "darauf",
+   "wo": "worauf"
+  },
+  {
+   "prep": "über",
+   "da": "darüber",
+   "wo": "worüber"
+  },
+  {
+   "prep": "an",
+   "da": "daran",
+   "wo": "woran"
+  },
+  {
+   "prep": "von",
+   "da": "davon",
+   "wo": "wovon"
+  },
+  {
+   "prep": "zu",
+   "da": "dazu",
+   "wo": "wozu"
+  },
+  {
+   "prep": "vor",
+   "da": "davor",
+   "wo": "wovor"
+  },
+  {
+   "prep": "in",
+   "da": "darin",
+   "wo": "worin"
+  },
+  {
+   "prep": "gegen",
+   "da": "dagegen",
+   "wo": "wogegen"
+  }
+ ],
+ "exercises": [
+  {
+   "id": "da-für-1",
+   "prep": "für",
+   "kind": "da",
+   "answer": "dafür",
+   "lines": [
+    "Interessierst du dich für Musik?",
+    "Ja, ich interessiere mich sehr ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Are you interested in music?",
+    "Yes, I am very interested in it."
+   ],
+   "expression": "sich interessieren für",
+   "meaning": "to be interested in"
+  },
+  {
+   "id": "da-für-2",
+   "prep": "für",
+   "kind": "da",
+   "answer": "dafür",
+   "lines": [
+    "Wir brauchen Geld für das Projekt.",
+    "Wir sammeln ___ Spenden."
+   ],
+   "gapLine": 1,
+   "en": [
+    "We need money for the project.",
+    "We are collecting donations for it."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "da-für-3",
+   "prep": "für",
+   "kind": "da",
+   "answer": "dafür",
+   "lines": [
+    "Dein Plan ist gut.",
+    "Ich bin ___, dass wir ihn sofort umsetzen."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Your plan is good.",
+    "I am in favour of us putting it into action right away."
+   ],
+   "expression": "dafür sein",
+   "meaning": "to be in favour of it"
+  },
+  {
+   "id": "wo-für-1",
+   "prep": "für",
+   "kind": "wo",
+   "answer": "wofür",
+   "lines": [
+    "___ interessierst du dich?",
+    "Für Geschichte und Kunst."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you interested in?",
+    "In history and art."
+   ],
+   "expression": "sich interessieren für",
+   "meaning": "to be interested in"
+  },
+  {
+   "id": "wo-für-2",
+   "prep": "für",
+   "kind": "wo",
+   "answer": "wofür",
+   "lines": [
+    "___ brauchst du das Geld?",
+    "Für die Miete."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you need the money for?",
+    "For the rent."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-für-3",
+   "prep": "für",
+   "kind": "wo",
+   "answer": "wofür",
+   "lines": [
+    "___ bist du dankbar?",
+    "Für deine Hilfe."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you grateful for?",
+    "For your help."
+   ],
+   "expression": "dankbar sein für",
+   "meaning": "to be grateful for"
+  },
+  {
+   "id": "da-mit-1",
+   "prep": "mit",
+   "kind": "da",
+   "answer": "damit",
+   "lines": [
+    "Hast du einen Stift?",
+    "Ja, ich schreibe ___ meine Notizen."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Do you have a pen?",
+    "Yes, I write my notes with it."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "da-mit-2",
+   "prep": "mit",
+   "kind": "da",
+   "answer": "damit",
+   "lines": [
+    "Der Chef ist mit dem Ergebnis zufrieden.",
+    "Ich bin auch ___ zufrieden."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The boss is satisfied with the result.",
+    "I am satisfied with it too."
+   ],
+   "expression": "zufrieden sein mit",
+   "meaning": "to be satisfied with"
+  },
+  {
+   "id": "da-mit-3",
+   "prep": "mit",
+   "kind": "da",
+   "answer": "damit",
+   "lines": [
+    "Wann fängst du mit dem Studium an?",
+    "Ich fange im Oktober ___ an."
+   ],
+   "gapLine": 1,
+   "en": [
+    "When are you starting your studies?",
+    "I am starting (with it) in October."
+   ],
+   "expression": "anfangen mit",
+   "meaning": "to begin with"
+  },
+  {
+   "id": "wo-mit-1",
+   "prep": "mit",
+   "kind": "wo",
+   "answer": "womit",
+   "lines": [
+    "___ schreibst du?",
+    "Mit einem Bleistift."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you write with?",
+    "With a pencil."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-mit-2",
+   "prep": "mit",
+   "kind": "wo",
+   "answer": "womit",
+   "lines": [
+    "___ beschäftigst du dich gerade?",
+    "Mit meiner Hausarbeit."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you busy with at the moment?",
+    "With my homework assignment."
+   ],
+   "expression": "sich beschäftigen mit",
+   "meaning": "to be busy with"
+  },
+  {
+   "id": "wo-mit-3",
+   "prep": "mit",
+   "kind": "wo",
+   "answer": "womit",
+   "lines": [
+    "___ fährst du zur Arbeit?",
+    "Mit dem Zug."
+   ],
+   "gapLine": 0,
+   "en": [
+    "How (by what) do you get to work?",
+    "By train."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "da-auf-1",
+   "prep": "auf",
+   "kind": "da",
+   "answer": "darauf",
+   "lines": [
+    "Wartest du auf den Bus?",
+    "Ja, ich warte schon lange ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Are you waiting for the bus?",
+    "Yes, I have been waiting for it for a long time."
+   ],
+   "expression": "warten auf",
+   "meaning": "to wait for"
+  },
+  {
+   "id": "da-auf-2",
+   "prep": "auf",
+   "kind": "da",
+   "answer": "darauf",
+   "lines": [
+    "Nächste Woche ist die Party!",
+    "Ich freue mich schon ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The party is next week!",
+    "I am already looking forward to it."
+   ],
+   "expression": "sich freuen auf",
+   "meaning": "to look forward to"
+  },
+  {
+   "id": "da-auf-3",
+   "prep": "auf",
+   "kind": "da",
+   "answer": "darauf",
+   "lines": [
+    "Der Test ist schwer.",
+    "Wir müssen uns gut ___ vorbereiten."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The test is hard.",
+    "We have to prepare for it well."
+   ],
+   "expression": "sich vorbereiten auf",
+   "meaning": "to prepare for"
+  },
+  {
+   "id": "wo-auf-1",
+   "prep": "auf",
+   "kind": "wo",
+   "answer": "worauf",
+   "lines": [
+    "___ wartest du?",
+    "Auf einen Anruf."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you waiting for?",
+    "For a phone call."
+   ],
+   "expression": "warten auf",
+   "meaning": "to wait for"
+  },
+  {
+   "id": "wo-auf-2",
+   "prep": "auf",
+   "kind": "wo",
+   "answer": "worauf",
+   "lines": [
+    "___ freust du dich am meisten?",
+    "Auf den Urlaub."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you looking forward to the most?",
+    "To the holiday."
+   ],
+   "expression": "sich freuen auf",
+   "meaning": "to look forward to"
+  },
+  {
+   "id": "wo-auf-3",
+   "prep": "auf",
+   "kind": "wo",
+   "answer": "worauf",
+   "lines": [
+    "___ hast du Lust?",
+    "Auf Pizza."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you feel like having?",
+    "Pizza."
+   ],
+   "expression": "Lust haben auf",
+   "meaning": "to feel like (having)"
+  },
+  {
+   "id": "da-über-1",
+   "prep": "über",
+   "kind": "da",
+   "answer": "darüber",
+   "lines": [
+    "Ich habe ein Problem mit meinem Chef.",
+    "Kannst du mit mir ___ sprechen?"
+   ],
+   "gapLine": 1,
+   "en": [
+    "I have a problem with my boss.",
+    "Can you talk to me about it?"
+   ],
+   "expression": "sprechen über",
+   "meaning": "to talk about"
+  },
+  {
+   "id": "da-über-2",
+   "prep": "über",
+   "kind": "da",
+   "answer": "darüber",
+   "lines": [
+    "Der Film war sehr lustig.",
+    "Wir haben lange ___ gelacht."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The film was very funny.",
+    "We laughed about it for a long time."
+   ],
+   "expression": "lachen über",
+   "meaning": "to laugh about"
+  },
+  {
+   "id": "da-über-3",
+   "prep": "über",
+   "kind": "da",
+   "answer": "darüber",
+   "lines": [
+    "Dein Verhalten war nicht fair.",
+    "Ich ärgere mich ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Your behaviour was not fair.",
+    "I am annoyed about it."
+   ],
+   "expression": "sich ärgern über",
+   "meaning": "to be annoyed about"
+  },
+  {
+   "id": "wo-über-1",
+   "prep": "über",
+   "kind": "wo",
+   "answer": "worüber",
+   "lines": [
+    "___ sprecht ihr?",
+    "Über die Reise nach Italien."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you talking about?",
+    "About the trip to Italy."
+   ],
+   "expression": "sprechen über",
+   "meaning": "to talk about"
+  },
+  {
+   "id": "wo-über-2",
+   "prep": "über",
+   "kind": "wo",
+   "answer": "worüber",
+   "lines": [
+    "___ ärgerst du dich?",
+    "Über den Lärm."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you annoyed about?",
+    "About the noise."
+   ],
+   "expression": "sich ärgern über",
+   "meaning": "to be annoyed about"
+  },
+  {
+   "id": "wo-über-3",
+   "prep": "über",
+   "kind": "wo",
+   "answer": "worüber",
+   "lines": [
+    "___ hast du dich so gefreut?",
+    "Über das Geschenk."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What were you so happy about?",
+    "About the present."
+   ],
+   "expression": "sich freuen über",
+   "meaning": "to be happy about"
+  },
+  {
+   "id": "da-an-1",
+   "prep": "an",
+   "kind": "da",
+   "answer": "daran",
+   "lines": [
+    "Hast du an den Termin gedacht?",
+    "Nein, ich habe nicht ___ gedacht."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Did you think of the appointment?",
+    "No, I did not think of it."
+   ],
+   "expression": "denken an",
+   "meaning": "to think of"
+  },
+  {
+   "id": "da-an-2",
+   "prep": "an",
+   "kind": "da",
+   "answer": "daran",
+   "lines": [
+    "Das Seminar ist morgen.",
+    "Ich möchte gern ___ teilnehmen."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The seminar is tomorrow.",
+    "I would like to take part in it."
+   ],
+   "expression": "teilnehmen an",
+   "meaning": "to take part in"
+  },
+  {
+   "id": "da-an-3",
+   "prep": "an",
+   "kind": "da",
+   "answer": "daran",
+   "lines": [
+    "Der Plan ist neu.",
+    "Ich glaube ___, dass er funktioniert."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The plan is new.",
+    "I believe that it will work."
+   ],
+   "expression": "glauben an",
+   "meaning": "to believe in"
+  },
+  {
+   "id": "wo-an-1",
+   "prep": "an",
+   "kind": "wo",
+   "answer": "woran",
+   "lines": [
+    "___ denkst du?",
+    "An den Urlaub."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you thinking of?",
+    "Of the holiday."
+   ],
+   "expression": "denken an",
+   "meaning": "to think of"
+  },
+  {
+   "id": "wo-an-2",
+   "prep": "an",
+   "kind": "wo",
+   "answer": "woran",
+   "lines": [
+    "___ erinnerst du dich?",
+    "An unsere erste Reise."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you remember?",
+    "Our first trip."
+   ],
+   "expression": "sich erinnern an",
+   "meaning": "to remember"
+  },
+  {
+   "id": "wo-an-3",
+   "prep": "an",
+   "kind": "wo",
+   "answer": "woran",
+   "lines": [
+    "___ arbeitest du gerade?",
+    "An meiner Bachelorarbeit."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you working on at the moment?",
+    "On my bachelor's thesis."
+   ],
+   "expression": "arbeiten an",
+   "meaning": "to work on"
+  },
+  {
+   "id": "da-von-1",
+   "prep": "von",
+   "kind": "da",
+   "answer": "davon",
+   "lines": [
+    "Mein Bruder hat ein neues Auto.",
+    "Er erzählt oft ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "My brother has a new car.",
+    "He often talks about it."
+   ],
+   "expression": "erzählen von",
+   "meaning": "to tell about"
+  },
+  {
+   "id": "da-von-2",
+   "prep": "von",
+   "kind": "da",
+   "answer": "davon",
+   "lines": [
+    "Ich möchte Ärztin werden.",
+    "Ich träume schon lange ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "I want to become a doctor.",
+    "I have been dreaming of it for a long time."
+   ],
+   "expression": "träumen von",
+   "meaning": "to dream of"
+  },
+  {
+   "id": "da-von-3",
+   "prep": "von",
+   "kind": "da",
+   "answer": "davon",
+   "lines": [
+    "Das Konzert war toll.",
+    "Ich habe meinen Freunden ___ erzählt."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The concert was great.",
+    "I told my friends about it."
+   ],
+   "expression": "erzählen von",
+   "meaning": "to tell about"
+  },
+  {
+   "id": "wo-von-1",
+   "prep": "von",
+   "kind": "wo",
+   "answer": "wovon",
+   "lines": [
+    "___ träumst du?",
+    "Von einem eigenen Haus."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you dream of?",
+    "Of a house of my own."
+   ],
+   "expression": "träumen von",
+   "meaning": "to dream of"
+  },
+  {
+   "id": "wo-von-2",
+   "prep": "von",
+   "kind": "wo",
+   "answer": "wovon",
+   "lines": [
+    "___ erzählst du?",
+    "Von meinem Urlaub in Spanien."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you telling about?",
+    "About my holiday in Spain."
+   ],
+   "expression": "erzählen von",
+   "meaning": "to tell about"
+  },
+  {
+   "id": "wo-von-3",
+   "prep": "von",
+   "kind": "wo",
+   "answer": "wovon",
+   "lines": [
+    "___ hängt das ab?",
+    "Vom Wetter."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What does that depend on?",
+    "On the weather."
+   ],
+   "expression": "abhängen von",
+   "meaning": "to depend on"
+  },
+  {
+   "id": "da-zu-1",
+   "prep": "zu",
+   "kind": "da",
+   "answer": "dazu",
+   "lines": [
+    "Möchtest du ein Stück Kuchen?",
+    "Ja, und ich trinke gern einen Kaffee ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Would you like a piece of cake?",
+    "Yes, and I like to drink a coffee with it."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "da-zu-2",
+   "prep": "zu",
+   "kind": "da",
+   "answer": "dazu",
+   "lines": [
+    "Wir machen morgen ein Grillfest.",
+    "Ich lade dich herzlich ___ ein."
+   ],
+   "gapLine": 1,
+   "en": [
+    "We are having a barbecue tomorrow.",
+    "I warmly invite you to it."
+   ],
+   "expression": "einladen zu",
+   "meaning": "to invite to"
+  },
+  {
+   "id": "da-zu-3",
+   "prep": "zu",
+   "kind": "da",
+   "answer": "dazu",
+   "lines": [
+    "Du hast viel Stress.",
+    "Was sagst du ___?"
+   ],
+   "gapLine": 1,
+   "en": [
+    "You have a lot of stress.",
+    "What do you say to that?"
+   ],
+   "expression": "sagen zu",
+   "meaning": "to say to (something)"
+  },
+  {
+   "id": "wo-zu-1",
+   "prep": "zu",
+   "kind": "wo",
+   "answer": "wozu",
+   "lines": [
+    "___ brauchst du den Schlüssel?",
+    "Zum Öffnen der Tür."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What do you need the key for?",
+    "For opening the door."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-zu-2",
+   "prep": "zu",
+   "kind": "wo",
+   "answer": "wozu",
+   "lines": [
+    "___ gehört dieser Schlüssel?",
+    "Zu meiner alten Wohnung."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What does this key belong to?",
+    "To my old flat."
+   ],
+   "expression": "gehören zu",
+   "meaning": "to belong to"
+  },
+  {
+   "id": "wo-zu-3",
+   "prep": "zu",
+   "kind": "wo",
+   "answer": "wozu",
+   "lines": [
+    "___ lädst du uns ein?",
+    "Zu meiner Geburtstagsparty."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you inviting us to?",
+    "To my birthday party."
+   ],
+   "expression": "einladen zu",
+   "meaning": "to invite to"
+  },
+  {
+   "id": "da-vor-1",
+   "prep": "vor",
+   "kind": "da",
+   "answer": "davor",
+   "lines": [
+    "Hast du Angst vor der Prüfung?",
+    "Nein, ich habe keine Angst ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Are you afraid of the exam?",
+    "No, I am not afraid of it."
+   ],
+   "expression": "Angst haben vor",
+   "meaning": "to be afraid of"
+  },
+  {
+   "id": "da-vor-2",
+   "prep": "vor",
+   "kind": "da",
+   "answer": "davor",
+   "lines": [
+    "Der Hund ist gefährlich.",
+    "Ich warne dich ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The dog is dangerous.",
+    "I am warning you about it."
+   ],
+   "expression": "warnen vor",
+   "meaning": "to warn about"
+  },
+  {
+   "id": "da-vor-3",
+   "prep": "vor",
+   "kind": "da",
+   "answer": "davor",
+   "lines": [
+    "Wir gehen ins Kino.",
+    "Wir essen ___ noch eine Pizza."
+   ],
+   "gapLine": 1,
+   "en": [
+    "We are going to the cinema.",
+    "We will eat a pizza before that."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-vor-1",
+   "prep": "vor",
+   "kind": "wo",
+   "answer": "wovor",
+   "lines": [
+    "___ hast du Angst?",
+    "Vor Spinnen."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you afraid of?",
+    "Of spiders."
+   ],
+   "expression": "Angst haben vor",
+   "meaning": "to be afraid of"
+  },
+  {
+   "id": "wo-vor-2",
+   "prep": "vor",
+   "kind": "wo",
+   "answer": "wovor",
+   "lines": [
+    "___ fürchtest du dich?",
+    "Vor der Dunkelheit."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you scared of?",
+    "Of the dark."
+   ],
+   "expression": "sich fürchten vor",
+   "meaning": "to be scared of"
+  },
+  {
+   "id": "wo-vor-3",
+   "prep": "vor",
+   "kind": "wo",
+   "answer": "wovor",
+   "lines": [
+    "___ warnt das Schild?",
+    "Vor dem Hund."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What does the sign warn about?",
+    "About the dog."
+   ],
+   "expression": "warnen vor",
+   "meaning": "to warn about"
+  },
+  {
+   "id": "da-in-1",
+   "prep": "in",
+   "kind": "da",
+   "answer": "darin",
+   "lines": [
+    "Mein Job ist schwierig.",
+    "Er besteht ___, viele Termine zu planen."
+   ],
+   "gapLine": 1,
+   "en": [
+    "My job is difficult.",
+    "It consists of planning many appointments."
+   ],
+   "expression": "bestehen in",
+   "meaning": "to consist of"
+  },
+  {
+   "id": "da-in-2",
+   "prep": "in",
+   "kind": "da",
+   "answer": "darin",
+   "lines": [
+    "Die Firma wächst schnell.",
+    "Wir investieren viel Geld ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The company is growing fast.",
+    "We are investing a lot of money in it."
+   ],
+   "expression": "investieren in",
+   "meaning": "to invest in"
+  },
+  {
+   "id": "da-in-3",
+   "prep": "in",
+   "kind": "da",
+   "answer": "darin",
+   "lines": [
+    "Hast du die Schlüssel in der Tasche?",
+    "Ja, sie sind ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Do you have the keys in your bag?",
+    "Yes, they are in it."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-in-1",
+   "prep": "in",
+   "kind": "wo",
+   "answer": "worin",
+   "lines": [
+    "___ besteht der Unterschied?",
+    "Im Preis."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What is the difference?",
+    "The price."
+   ],
+   "expression": "bestehen in",
+   "meaning": "to consist of"
+  },
+  {
+   "id": "wo-in-2",
+   "prep": "in",
+   "kind": "wo",
+   "answer": "worin",
+   "lines": [
+    "___ liegt das Problem?",
+    "In der Planung."
+   ],
+   "gapLine": 0,
+   "en": [
+    "Where does the problem lie?",
+    "In the planning."
+   ],
+   "expression": "liegen in",
+   "meaning": "to lie in"
+  },
+  {
+   "id": "wo-in-3",
+   "prep": "in",
+   "kind": "wo",
+   "answer": "worin",
+   "lines": [
+    "___ investiert die Firma?",
+    "In neue Maschinen."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What does the company invest in?",
+    "In new machines."
+   ],
+   "expression": "investieren in",
+   "meaning": "to invest in"
+  },
+  {
+   "id": "da-gegen-1",
+   "prep": "gegen",
+   "kind": "da",
+   "answer": "dagegen",
+   "lines": [
+    "Der Plan hat viele Probleme.",
+    "Ich bin ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "The plan has many problems.",
+    "I am against it."
+   ],
+   "expression": "dagegen sein",
+   "meaning": "to be against it"
+  },
+  {
+   "id": "da-gegen-2",
+   "prep": "gegen",
+   "kind": "da",
+   "answer": "dagegen",
+   "lines": [
+    "Es gibt eine neue Straße.",
+    "Viele Bürger protestieren ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "There is a new road.",
+    "Many citizens are protesting against it."
+   ],
+   "expression": "protestieren gegen",
+   "meaning": "to protest against"
+  },
+  {
+   "id": "da-gegen-3",
+   "prep": "gegen",
+   "kind": "da",
+   "answer": "dagegen",
+   "lines": [
+    "Hast du Husten?",
+    "Ich nehme Tabletten ___."
+   ],
+   "gapLine": 1,
+   "en": [
+    "Do you have a cough?",
+    "I take tablets for it."
+   ],
+   "expression": null,
+   "meaning": null
+  },
+  {
+   "id": "wo-gegen-1",
+   "prep": "gegen",
+   "kind": "wo",
+   "answer": "wogegen",
+   "lines": [
+    "___ protestieren die Studenten?",
+    "Gegen höhere Preise."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are the students protesting against?",
+    "Against higher prices."
+   ],
+   "expression": "protestieren gegen",
+   "meaning": "to protest against"
+  },
+  {
+   "id": "wo-gegen-2",
+   "prep": "gegen",
+   "kind": "wo",
+   "answer": "wogegen",
+   "lines": [
+    "___ bist du allergisch?",
+    "Gegen Katzen."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What are you allergic to?",
+    "To cats."
+   ],
+   "expression": "allergisch sein gegen",
+   "meaning": "to be allergic to"
+  },
+  {
+   "id": "wo-gegen-3",
+   "prep": "gegen",
+   "kind": "wo",
+   "answer": "wogegen",
+   "lines": [
+    "___ kämpft die Organisation?",
+    "Gegen Armut."
+   ],
+   "gapLine": 0,
+   "en": [
+    "What does the organisation fight against?",
+    "Against poverty."
+   ],
+   "expression": "kämpfen gegen",
+   "meaning": "to fight against"
+  }
+ ]
+}

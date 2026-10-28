@@ -22,5 +22,11 @@
     "title": "Akkusativ oder Dativ?",
     "description": "Pick the right case: prepositions (always accusative, always dative, two-way) and verbs.",
     "ready": true
+  },
+  {
+    "slug": "da-wo-words",
+    "title": "Da- und wo-Wörter",
+    "description": "Drag damit, womit, darauf, worauf and friends into the right sentences, then read the translations.",
+    "ready": true
   }
 ]

@@ -118,6 +118,24 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
   When "two" is picked with other categories, it gets half of the round (`twoWayShare` in the JSON file).
 - Left arrow = Akkusativ, right arrow = Dativ, Enter or Space = next sentence.
 
+## Exercise format (da-/wo-words game)
+
+`data/questions/da-wo-words.json` holds the 10 prepositions with their da- and wo-word, and the exercises:
+
+```json
+{ "id": "da-auf-1", "prep": "auf", "kind": "da", "answer": "darauf",
+  "lines": ["Wartest du auf den Bus?", "Ja, ich warte schon lange ___."], "gapLine": 1,
+  "en": ["Are you waiting for the bus?", "Yes, I have been waiting for it for a long time."],
+  "expression": "warten auf", "meaning": "to wait for" }
+```
+
+- `lines` is one or two German lines with exactly one `___`; `gapLine` says which line has it.
+- `en` is the English translation, one entry per line. It is shown after "Check answers".
+- `expression` and `meaning` (optional) name the verb + preposition combination, shown after checking.
+- In a round every sentence has a different `answer`, so each piece belongs to exactly one gap.
+  Extra pieces (set on the setup screen) are other da-/wo-words that fit nowhere.
+- Dragging uses the browser's drag-and-drop. Click-to-place (click a piece, then a gap) works too.
+
 ## Grammar and vocabulary tabs
 
 A game page always has a **Play** tab. It gets two more tabs automatically if these files exist

@@ -1,0 +1,376 @@
+{
+ "sections": [
+  {
+   "title": "The 20 words",
+   "note": "da- words replace a preposition + a THING that was already mentioned (darauf = auf den Bus). wo- words ask about a thing (worauf = auf was?). Before a vowel the form is dar- / wor-.",
+   "columns": [
+    "Preposition",
+    "da-word",
+    "wo-word",
+    "Example (da)",
+    "Example (wo)"
+   ],
+   "rows": [
+    [
+     "für",
+     "dafür",
+     "wofür",
+     "Ja, ich interessiere mich sehr dafür.",
+     "Wofür interessierst du dich?"
+    ],
+    [
+     "mit",
+     "damit",
+     "womit",
+     "Ja, ich schreibe damit meine Notizen.",
+     "Womit schreibst du?"
+    ],
+    [
+     "auf",
+     "darauf",
+     "worauf",
+     "Ja, ich warte schon lange darauf.",
+     "Worauf wartest du?"
+    ],
+    [
+     "über",
+     "darüber",
+     "worüber",
+     "Kannst du mit mir darüber sprechen?",
+     "Worüber sprecht ihr?"
+    ],
+    [
+     "an",
+     "daran",
+     "woran",
+     "Nein, ich habe nicht daran gedacht.",
+     "Woran denkst du?"
+    ],
+    [
+     "von",
+     "davon",
+     "wovon",
+     "Er erzählt oft davon.",
+     "Wovon träumst du?"
+    ],
+    [
+     "zu",
+     "dazu",
+     "wozu",
+     "Ja, und ich trinke gern einen Kaffee dazu.",
+     "Wozu brauchst du den Schlüssel?"
+    ],
+    [
+     "vor",
+     "davor",
+     "wovor",
+     "Nein, ich habe keine Angst davor.",
+     "Wovor hast du Angst?"
+    ],
+    [
+     "in",
+     "darin",
+     "worin",
+     "Er besteht darin, viele Termine zu planen.",
+     "Worin besteht der Unterschied?"
+    ],
+    [
+     "gegen",
+     "dagegen",
+     "wogegen",
+     "Ich bin dagegen.",
+     "Wogegen protestieren die Studenten?"
+    ]
+   ]
+  },
+  {
+   "title": "People or things?",
+   "note": "da- and wo- words are only for things and ideas. For people, use the preposition + a pronoun.",
+   "columns": [
+    "",
+    "Thing",
+    "Person"
+   ],
+   "rows": [
+    [
+     "question",
+     "Worauf wartest du? (Auf den Bus.)",
+     "Auf wen wartest du? (Auf meinen Bruder.)"
+    ],
+    [
+     "answer",
+     "Ich warte darauf.",
+     "Ich warte auf ihn."
+    ],
+    [
+     "question",
+     "Wovon träumst du? (Von einem Haus.)",
+     "Von wem träumst du? (Von meiner Oma.)"
+    ],
+    [
+     "answer",
+     "Ich träume davon.",
+     "Ich träume von ihr."
+    ]
+   ]
+  },
+  {
+   "title": "Verbs and expressions in the exercises",
+   "note": "Many verbs come with a fixed preposition. Learn the verb together with it.",
+   "columns": [
+    "Expression",
+    "English",
+    "da-word",
+    "wo-word",
+    "Example"
+   ],
+   "rows": [
+    [
+     "dafür sein",
+     "to be in favour of it",
+     "dafür",
+     "wofür",
+     "Ich bin dafür, dass wir ihn sofort umsetzen."
+    ],
+    [
+     "dankbar sein für",
+     "to be grateful for",
+     "dafür",
+     "wofür",
+     "Wofür bist du dankbar?"
+    ],
+    [
+     "sich interessieren für",
+     "to be interested in",
+     "dafür",
+     "wofür",
+     "Ja, ich interessiere mich sehr dafür."
+    ],
+    [
+     "anfangen mit",
+     "to begin with",
+     "damit",
+     "womit",
+     "Ich fange im Oktober damit an."
+    ],
+    [
+     "sich beschäftigen mit",
+     "to be busy with",
+     "damit",
+     "womit",
+     "Womit beschäftigst du dich gerade?"
+    ],
+    [
+     "zufrieden sein mit",
+     "to be satisfied with",
+     "damit",
+     "womit",
+     "Ich bin auch damit zufrieden."
+    ],
+    [
+     "Lust haben auf",
+     "to feel like (having)",
+     "darauf",
+     "worauf",
+     "Worauf hast du Lust?"
+    ],
+    [
+     "sich freuen auf",
+     "to look forward to",
+     "darauf",
+     "worauf",
+     "Ich freue mich schon darauf."
+    ],
+    [
+     "sich vorbereiten auf",
+     "to prepare for",
+     "darauf",
+     "worauf",
+     "Wir müssen uns gut darauf vorbereiten."
+    ],
+    [
+     "warten auf",
+     "to wait for",
+     "darauf",
+     "worauf",
+     "Ja, ich warte schon lange darauf."
+    ],
+    [
+     "lachen über",
+     "to laugh about",
+     "darüber",
+     "worüber",
+     "Wir haben lange darüber gelacht."
+    ],
+    [
+     "sich freuen über",
+     "to be happy about",
+     "darüber",
+     "worüber",
+     "Worüber hast du dich so gefreut?"
+    ],
+    [
+     "sich ärgern über",
+     "to be annoyed about",
+     "darüber",
+     "worüber",
+     "Ich ärgere mich darüber."
+    ],
+    [
+     "sprechen über",
+     "to talk about",
+     "darüber",
+     "worüber",
+     "Kannst du mit mir darüber sprechen?"
+    ],
+    [
+     "arbeiten an",
+     "to work on",
+     "daran",
+     "woran",
+     "Woran arbeitest du gerade?"
+    ],
+    [
+     "denken an",
+     "to think of",
+     "daran",
+     "woran",
+     "Nein, ich habe nicht daran gedacht."
+    ],
+    [
+     "glauben an",
+     "to believe in",
+     "daran",
+     "woran",
+     "Ich glaube daran, dass er funktioniert."
+    ],
+    [
+     "sich erinnern an",
+     "to remember",
+     "daran",
+     "woran",
+     "Woran erinnerst du dich?"
+    ],
+    [
+     "teilnehmen an",
+     "to take part in",
+     "daran",
+     "woran",
+     "Ich möchte gern daran teilnehmen."
+    ],
+    [
+     "abhängen von",
+     "to depend on",
+     "davon",
+     "wovon",
+     "Wovon hängt das ab?"
+    ],
+    [
+     "erzählen von",
+     "to tell about",
+     "davon",
+     "wovon",
+     "Er erzählt oft davon."
+    ],
+    [
+     "träumen von",
+     "to dream of",
+     "davon",
+     "wovon",
+     "Ich träume schon lange davon."
+    ],
+    [
+     "einladen zu",
+     "to invite to",
+     "dazu",
+     "wozu",
+     "Ich lade dich herzlich dazu ein."
+    ],
+    [
+     "gehören zu",
+     "to belong to",
+     "dazu",
+     "wozu",
+     "Wozu gehört dieser Schlüssel?"
+    ],
+    [
+     "sagen zu",
+     "to say to (something)",
+     "dazu",
+     "wozu",
+     "Was sagst du dazu?"
+    ],
+    [
+     "Angst haben vor",
+     "to be afraid of",
+     "davor",
+     "wovor",
+     "Nein, ich habe keine Angst davor."
+    ],
+    [
+     "sich fürchten vor",
+     "to be scared of",
+     "davor",
+     "wovor",
+     "Wovor fürchtest du dich?"
+    ],
+    [
+     "warnen vor",
+     "to warn about",
+     "davor",
+     "wovor",
+     "Ich warne dich davor."
+    ],
+    [
+     "bestehen in",
+     "to consist of",
+     "darin",
+     "worin",
+     "Er besteht darin, viele Termine zu planen."
+    ],
+    [
+     "investieren in",
+     "to invest in",
+     "darin",
+     "worin",
+     "Wir investieren viel Geld darin."
+    ],
+    [
+     "liegen in",
+     "to lie in",
+     "darin",
+     "worin",
+     "Worin liegt das Problem?"
+    ],
+    [
+     "allergisch sein gegen",
+     "to be allergic to",
+     "dagegen",
+     "wogegen",
+     "Wogegen bist du allergisch?"
+    ],
+    [
+     "dagegen sein",
+     "to be against it",
+     "dagegen",
+     "wogegen",
+     "Ich bin dagegen."
+    ],
+    [
+     "kämpfen gegen",
+     "to fight against",
+     "dagegen",
+     "wogegen",
+     "Wogegen kämpft die Organisation?"
+    ],
+    [
+     "protestieren gegen",
+     "to protest against",
+     "dagegen",
+     "wogegen",
+     "Viele Bürger protestieren dagegen."
+    ]
+   ]
+  }
+ ]
+}

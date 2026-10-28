@@ -245,3 +245,50 @@ button.secondary:hover { background: #4b5563; }
 .cs-note { margin: 0.4rem 0 0.2rem; font-size: 0.9rem; }
 .cs-spots { margin: 1rem 0 0; font-weight: 600; }
 .cs-sentence { font-size: 1.6rem; }
+
+/* ---------- da- / wo-words game ---------- */
+
+.dw-setup fieldset { border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.6rem 1rem; margin: 1rem 0; background: #fff; }
+.dw-setup legend { font-weight: 600; padding: 0 0.4rem; }
+.dw-setup label { display: inline-block; padding: 0.2rem 0.9rem 0.2rem 0; cursor: pointer; }
+.dw-setup fieldset > label { display: block; }
+.dw-setup button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.dw-progress, .dw-score { font-weight: 700; margin: 0 0 0.5rem; }
+.dw-score { font-size: 1.5rem; }
+.dw-spots { font-weight: 600; margin: 0.25rem 0 0.75rem; }
+
+.dw-bank { position: sticky; top: 0; z-index: 5; background: #fafaf7; border: 2px dashed #d1d5db; border-radius: 10px; padding: 0.5rem 0.75rem 0.7rem; margin-bottom: 1rem; box-shadow: 0 6px 6px -6px rgba(0, 0, 0, 0.2); }
+.dw-bank.over { border-color: #b45309; background: #fff7ed; }
+.dw-bank-title { margin: 0 0 0.3rem; font-size: 0.85rem; }
+.dw-bank-row { display: flex; flex-wrap: wrap; gap: 0.5rem; min-height: 2.4rem; align-items: center; }
+
+.dw-piece { font: inherit; font-weight: 600; padding: 0.3rem 0.8rem; background: #fff; color: #92400e; border: 2px solid #b45309; border-radius: 999px; cursor: grab; touch-action: manipulation; }
+.dw-piece:hover { background: #fff7ed; }
+.dw-piece.selected { background: #b45309; color: #fff; }
+.dw-piece.placed { padding: 0.05rem 0.7rem; }
+.dw-piece[draggable="false"] { cursor: default; }
+
+.dw-list { display: grid; gap: 0.75rem; }
+.dw-card { display: flex; gap: 0.75rem; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.7rem 1rem; }
+.dw-number { flex: none; width: 1.6rem; height: 1.6rem; border-radius: 50%; background: #f3f4f6; color: #6b7280; font-size: 0.85rem; font-weight: 700; display: flex; align-items: center; justify-content: center; margin-top: 0.15rem; }
+.dw-body { flex: 1; min-width: 0; }
+.dw-line { margin: 0.15rem 0; font-size: 1.15rem; line-height: 2.2; }
+
+.dw-gap { display: inline-block; min-width: 7.5rem; min-height: 2rem; vertical-align: middle; text-align: center; border: 2px dashed #9ca3af; border-radius: 8px; padding: 0 0.3rem; margin: 0 0.15rem; background: #f9fafb; cursor: pointer; }
+.dw-gap.over { border-color: #b45309; background: #fff7ed; }
+.dw-gap:has(.placed) { border-style: solid; border-color: #b45309; background: #fff; }
+.dw-gap.good { border-style: solid; border-color: #16a34a; background: #dcfce7; }
+.dw-gap.bad { border-style: solid; border-color: #dc2626; background: #fee2e2; }
+.dw-gap.good .dw-piece, .dw-gap.bad .dw-piece { border-color: transparent; background: transparent; color: inherit; }
+.dw-empty { color: transparent; }
+
+.dw-result { margin-top: 0.4rem; padding: 0.5rem 0.8rem; border-radius: 6px; border-left: 4px solid; }
+.dw-result.good { background: #f0fdf4; border-color: #16a34a; }
+.dw-result.bad { background: #fef2f2; border-color: #dc2626; }
+.dw-result p { margin: 0.2rem 0; }
+.dw-verdict { font-weight: 700; }
+.dw-german { font-weight: 600; }
+.dw-english { color: #374151; font-style: italic; }
+.dw-note { font-size: 0.9rem; }
+.dw-actions { margin-top: 1.25rem; }
