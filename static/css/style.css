@@ -292,3 +292,43 @@ button.secondary:hover { background: #4b5563; }
 .dw-english { color: #374151; font-style: italic; }
 .dw-note { font-size: 0.9rem; }
 .dw-actions { margin-top: 1.25rem; }
+
+/* ---------- adjective endings game ---------- */
+.ae-setup fieldset { border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.6rem 1rem; margin: 1rem 0; background: #fff; }
+.ae-setup legend { font-weight: 600; padding: 0 0.4rem; }
+.ae-setup label { display: block; padding: 0.2rem 0; cursor: pointer; }
+.ae-setup button:disabled { opacity: 0.5; cursor: not-allowed; }
+.ae-filters { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 0 0.75rem; }
+@media (max-width: 700px) { .ae-filters { grid-template-columns: 1fr; } }
+.ae-custom { margin: 0.3rem 0 0; }
+.ae-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; font-weight: 600; margin-bottom: 0.4rem; }
+.ae-time { font-variant-numeric: tabular-nums; }
+.ae-timer { height: 0.5rem; background: #e5e7eb; border-radius: 999px; overflow: hidden; margin-bottom: 1.25rem; }
+.ae-timer-fill { height: 100%; width: 100%; background: #b45309; transition: width 0.1s linear; }
+.ae-timer.low .ae-timer-fill { background: #dc2626; }
+.ae-sentence { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1.25rem 1rem; font-size: 1.5rem; line-height: 2.4rem; margin: 1rem 0 0.75rem; }
+.ae-input { font: inherit; width: 3.6ch; box-sizing: content-box; text-align: center; padding: 0 0.3rem; margin: 0 0.1rem; border: 0; border-bottom: 3px solid #b45309; background: #fffbeb; border-radius: 4px 4px 0 0; }
+.ae-input:focus { outline: none; background: #fef3c7; }
+.ae-input:disabled { color: inherit; }
+.ae-input.good { background: #dcfce7; border-color: #16a34a; }
+.ae-input.bad { background: #fee2e2; border-color: #dc2626; }
+.ae-help { min-height: 2.4rem; margin-bottom: 0.5rem; }
+.ae-chips { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.ae-chip { display: inline-block; padding: 0.15rem 0.7rem; border-radius: 999px; background: #f3f4f6; border: 1px solid #d1d5db; font-size: 0.95rem; font-weight: 600; }
+.ae-actions { margin-top: 0.75rem; }
+.ae-actions button:disabled { opacity: 0.5; cursor: default; }
+.ae-feedback { margin: 1.25rem 0 0.75rem; padding: 0.75rem 1rem; border-radius: 8px; border-left: 4px solid; }
+.ae-feedback.good { background: #f0fdf4; border-color: #16a34a; }
+.ae-feedback.bad { background: #fef2f2; border-color: #dc2626; }
+.ae-feedback p { margin: 0.3rem 0; }
+.ae-status { font-size: 1.2rem; font-weight: 700; }
+.ae-full { font-size: 1.15rem; font-weight: 600; }
+.ae-full mark { background: #fde68a; padding: 0 0.15rem; border-radius: 3px; }
+.ae-rule { font-size: 0.95rem; color: #374151; }
+.ae-feedback details { margin: 0.6rem 0 0.2rem; }
+.ae-feedback summary { cursor: pointer; font-size: 0.9rem; color: #6b7280; }
+.ae-table td.hl, .ae-table td.hl { background: #fde68a; font-weight: 700; }
+.ae-result-tables { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 0.75rem; align-items: start; }
+.ae-review { margin: 1.5rem 0 0.5rem; font-size: 1.1rem; }
+.ae-review-item { background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 0.4rem 1rem; margin: 0.5rem 0; }
+.ae-review-item p { margin: 0.25rem 0; }

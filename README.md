@@ -5,16 +5,28 @@ A small web app for building and playing German grammar games (B1).
 - **Backend:** Python + Flask (`app.py`)
 - **Frontend:** HTML templates, CSS and JavaScript
 
-## Run it
+## Run it (Mac)
+
+First time only, in the project folder:
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate          # Mac/Linux: source .venv/bin/activate
-pip install -r requirements.txt
-python app.py
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt -r requirements-dev.txt
 ```
 
-Open http://127.0.0.1:5000. The server restarts automatically when you save a file.
+Every time:
+
+```bash
+.venv/bin/python app.py
+```
+
+Open http://127.0.0.1:5000. The server restarts automatically when you save a file. Stop it with Ctrl+C.
+
+Run the tests: `.venv/bin/python -m pytest`
+
+Why the full `.venv/bin/python` path? Conda's `(base)` environment can come first on the PATH, and it does not have Flask installed. Calling the venv's Python directly always uses the right one. (If VS Code has `./.venv/bin/python` selected as the interpreter, new terminals activate the venv and plain `python app.py` also works.)
+
+Requirements only need to be installed again when `requirements.txt` changes.
 
 ## Project layout
 
@@ -135,6 +147,29 @@ Stories live in `data/questions/praeteritum.json`. Each story looks like this:
 - In a round every sentence has a different `answer`, so each piece belongs to exactly one gap.
   Extra pieces (set on the setup screen) are other da-/wo-words that fit nowhere.
 - Dragging uses the browser's drag-and-drop. Click-to-place (click a piece, then a gap) works too.
+
+## Exercise format (adjective endings game)
+
+`data/questions/adjektivendungen.json` holds the settings and the sentences:
+
+```json
+{
+  "roundLengths": [10, 15, 20], "defaultRoundLength": 15,
+  "types": {"weak": {"label": "Weak", "detail": "..."}, ...},
+  "steps": [{"label": "Step 1", "text": "...", "types": ["weak"], "cases": ["nom", "akk"]}, ...],
+  "tables": {"weak": {"nom": {"m": "e", "f": "e", "n": "e", "p": "en"}, ...}, ...},
+  "exercises": [
+    {"id": "adj1", "type": "weak", "case": "akk", "gender": "m",
+     "before": "Ich sehe den klein", "after": " Hund im Garten.",
+     "stem": "klein", "ending": "en", "full": "...", "tip": "...", "hard": false}
+  ]
+}
+```
+
+- The player types only the ending (`en`, `-en` or the whole word `kleinen` all work).
+- `type` is weak / mixed / strong, `case` is nom / akk / dat / gen, `gender` is m / f / n / p (plural).
+- The endings were **computed from the tables** by a generator script, not typed by hand. If you add sentences by hand, `ending` must equal `tables[type][case][gender]`; the test in `tests/test_app.py` checks this.
+- The setup screen has eight learning steps (presets for the type and case filters), free filters for type, case and gender, a "tricky endings only" filter, three help levels, round length and speed.
 
 ## Grammar and vocabulary tabs
 

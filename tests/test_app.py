@@ -190,3 +190,35 @@ def test_da_wo_page_has_all_three_tabs():
     assert 'data-tab="vocab"' in html
     assert "da- and wo-words" in html
     assert "The 20 words" in html
+
+
+def test_adjective_exercises_are_consistent():
+    client = app.test_client()
+    data = client.get("/api/games/adjektivendungen/questions").get_json()
+    exercises = data["exercises"]
+    assert len(exercises) >= 100
+    # every type / case / gender combination has at least one sentence
+    cells = {(e["type"], e["case"], e["gender"]) for e in exercises}
+    assert len(cells) == 3 * 4 * 4
+    for exercise in exercises:
+        table = data["tables"][exercise["type"]][exercise["case"]]
+        assert exercise["ending"] == table[exercise["gender"]]
+        assert exercise["before"].lower().endswith(exercise["stem"])
+        assert exercise["full"] == exercise["before"] + exercise["ending"] + exercise["after"]
+        assert exercise["tip"].strip()
+        assert exercise["hard"] == (exercise["ending"] in ("er", "es", "em"))
+    assert len({e["full"] for e in exercises}) == len(exercises)
+    # the learning steps only name types and cases that exist, and each has enough sentences for a round
+    for step in data["steps"]:
+        assert set(step["types"]) <= set(data["types"]) and set(step["cases"]) <= set(data["cases"])
+        count = sum(e["type"] in step["types"] and e["case"] in step["cases"] for e in exercises)
+        assert count >= max(data["roundLengths"]) or step["label"] == "Step 1" and count >= 15
+
+
+def test_adjective_page_has_all_three_tabs():
+    client = app.test_client()
+    html = client.get("/games/adjektivendungen").get_data(as_text=True)
+    assert 'data-tab="grammar"' in html
+    assert 'data-tab="vocab"' in html
+    assert "Adjective endings" in html
+    assert "Adjectives in the exercises" in html

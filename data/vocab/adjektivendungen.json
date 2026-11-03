@@ -1,0 +1,568 @@
+{
+ "sections": [
+  {
+   "title": "Words before the adjective",
+   "note": "The type of declension depends on the word before the adjective.",
+   "columns": [
+    "Type",
+    "Words",
+    "Nominativ m / f / n / pl",
+    "Dativ m / f / n / pl"
+   ],
+   "rows": [
+    [
+     "Weak",
+     "der, dieser, jeder, welcher, alle",
+     "der / die / das / die",
+     "dem / der / dem / den"
+    ],
+    [
+     "Mixed",
+     "ein, kein, mein, dein, sein, ihr, unser",
+     "ein / eine / ein / keine",
+     "einem / einer / einem / keinen"
+    ],
+    [
+     "Strong",
+     "no article; viele, einige, wenige, mehrere",
+     "–",
+     "–"
+    ]
+   ]
+  },
+  {
+   "title": "Adjectives in the exercises",
+   "note": "These adjectives need no spelling change before the ending.",
+   "columns": [
+    "Adjective",
+    "English"
+   ],
+   "rows": [
+    [
+     "alt",
+     "old"
+    ],
+    [
+     "bekannt",
+     "well-known"
+    ],
+    [
+     "berühmt",
+     "famous"
+    ],
+    [
+     "billig",
+     "cheap"
+    ],
+    [
+     "blau",
+     "blue"
+    ],
+    [
+     "bunt",
+     "colourful"
+    ],
+    [
+     "dick",
+     "thick"
+    ],
+    [
+     "ehrlich",
+     "honest"
+    ],
+    [
+     "fleißig",
+     "hard-working"
+    ],
+    [
+     "freundlich",
+     "friendly"
+    ],
+    [
+     "frisch",
+     "fresh"
+    ],
+    [
+     "gesund",
+     "healthy"
+    ],
+    [
+     "glücklich",
+     "happy"
+    ],
+    [
+     "groß",
+     "big"
+    ],
+    [
+     "grün",
+     "green"
+    ],
+    [
+     "gut",
+     "good"
+    ],
+    [
+     "heiß",
+     "hot"
+    ],
+    [
+     "höflich",
+     "polite"
+    ],
+    [
+     "interessant",
+     "interesting"
+    ],
+    [
+     "jung",
+     "young"
+    ],
+    [
+     "kalt",
+     "cold"
+    ],
+    [
+     "kaputt",
+     "broken"
+    ],
+    [
+     "klein",
+     "small"
+    ],
+    [
+     "klug",
+     "clever"
+    ],
+    [
+     "krank",
+     "ill"
+    ],
+    [
+     "laut",
+     "loud"
+    ],
+    [
+     "lecker",
+     "tasty"
+    ],
+    [
+     "leicht",
+     "light, easy"
+    ],
+    [
+     "lustig",
+     "funny"
+    ],
+    [
+     "modern",
+     "modern"
+    ],
+    [
+     "nett",
+     "nice"
+    ],
+    [
+     "neu",
+     "new"
+    ],
+    [
+     "praktisch",
+     "practical"
+    ],
+    [
+     "rot",
+     "red"
+    ],
+    [
+     "ruhig",
+     "quiet, calm"
+    ],
+    [
+     "sauber",
+     "clean"
+    ],
+    [
+     "schlecht",
+     "bad"
+    ],
+    [
+     "schlimm",
+     "terrible"
+    ],
+    [
+     "schnell",
+     "fast"
+    ],
+    [
+     "schwarz",
+     "black"
+    ],
+    [
+     "schwer",
+     "heavy, serious"
+    ],
+    [
+     "schön",
+     "beautiful, nice"
+    ],
+    [
+     "stark",
+     "strong, heavy"
+    ],
+    [
+     "süß",
+     "sweet"
+    ],
+    [
+     "warm",
+     "warm"
+    ],
+    [
+     "weiß",
+     "white"
+    ]
+   ]
+  },
+  {
+   "title": "Nouns in the exercises",
+   "columns": [
+    "Noun",
+    "Plural",
+    "English"
+   ],
+   "rows": [
+    [
+     "das Baby",
+     "die Babys",
+     "baby"
+    ],
+    [
+     "das Bier",
+     "–",
+     "beer"
+    ],
+    [
+     "das Brot",
+     "die Brote",
+     "bread"
+    ],
+    [
+     "der Bruder",
+     "die Brüder",
+     "brother"
+    ],
+    [
+     "der Bus",
+     "die Busse",
+     "bus"
+    ],
+    [
+     "die Butter",
+     "–",
+     "butter"
+    ],
+    [
+     "das Café",
+     "die Cafés",
+     "café"
+    ],
+    [
+     "der Computer",
+     "die Computer",
+     "computer"
+    ],
+    [
+     "das Dorf",
+     "die Dörfer",
+     "village"
+    ],
+    [
+     "das Eis",
+     "–",
+     "ice cream"
+    ],
+    [
+     "die Eltern (plural only)",
+     "",
+     "parents"
+    ],
+    [
+     "das Fahrrad",
+     "die Fahrräder",
+     "bicycle"
+    ],
+    [
+     "die Flasche",
+     "die Flaschen",
+     "bottle"
+    ],
+    [
+     "die Frau",
+     "die Frauen",
+     "woman"
+    ],
+    [
+     "der Freund",
+     "die Freunde",
+     "friend (male)"
+    ],
+    [
+     "die Freundin",
+     "die Freundinnen",
+     "friend (female)"
+    ],
+    [
+     "der Garten",
+     "die Gärten",
+     "garden"
+    ],
+    [
+     "das Gemüse",
+     "–",
+     "vegetables"
+    ],
+    [
+     "das Geschenk",
+     "die Geschenke",
+     "present"
+    ],
+    [
+     "das Hemd",
+     "die Hemden",
+     "shirt"
+    ],
+    [
+     "die Hitze",
+     "–",
+     "heat"
+    ],
+    [
+     "die Hose",
+     "die Hosen",
+     "trousers"
+    ],
+    [
+     "der Hund",
+     "die Hunde",
+     "dog"
+    ],
+    [
+     "die Jacke",
+     "die Jacken",
+     "jacket"
+    ],
+    [
+     "der Kaffee",
+     "–",
+     "coffee"
+    ],
+    [
+     "die Kamera",
+     "die Kameras",
+     "camera"
+    ],
+    [
+     "das Kind",
+     "die Kinder",
+     "child"
+    ],
+    [
+     "das Kleid",
+     "die Kleider",
+     "dress"
+    ],
+    [
+     "die Krankheit",
+     "die Krankheiten",
+     "illness"
+    ],
+    [
+     "der Kuchen",
+     "die Kuchen",
+     "cake"
+    ],
+    [
+     "der Käse",
+     "–",
+     "cheese"
+    ],
+    [
+     "der Lehrer",
+     "die Lehrer",
+     "teacher (male)"
+    ],
+    [
+     "die Lehrerin",
+     "die Lehrerinnen",
+     "teacher (female)"
+    ],
+    [
+     "die Leute (plural only)",
+     "",
+     "people"
+    ],
+    [
+     "die Luft",
+     "–",
+     "air"
+    ],
+    [
+     "der Mann",
+     "die Männer",
+     "man"
+    ],
+    [
+     "der Mantel",
+     "die Mäntel",
+     "coat"
+    ],
+    [
+     "die Milch",
+     "–",
+     "milk"
+    ],
+    [
+     "die Musik",
+     "–",
+     "music"
+    ],
+    [
+     "das Obst",
+     "–",
+     "fruit"
+    ],
+    [
+     "die Pizza",
+     "die Pizzas",
+     "pizza"
+    ],
+    [
+     "die Probleme (plural only)",
+     "",
+     "problems"
+    ],
+    [
+     "der Regen",
+     "–",
+     "rain"
+    ],
+    [
+     "das Restaurant",
+     "die Restaurants",
+     "restaurant"
+    ],
+    [
+     "der Rucksack",
+     "die Rucksäcke",
+     "backpack"
+    ],
+    [
+     "der Saft",
+     "–",
+     "juice"
+    ],
+    [
+     "die Sahne",
+     "–",
+     "cream"
+    ],
+    [
+     "der Salat",
+     "–",
+     "salad"
+    ],
+    [
+     "die Schmerzen (plural only)",
+     "",
+     "pain"
+    ],
+    [
+     "die Schwester",
+     "die Schwestern",
+     "sister"
+    ],
+    [
+     "das Sofa",
+     "die Sofas",
+     "sofa"
+    ],
+    [
+     "die Stadt",
+     "die Städte",
+     "city"
+    ],
+    [
+     "der Stau",
+     "–",
+     "traffic jam"
+    ],
+    [
+     "die Straßenbahn",
+     "die Straßenbahnen",
+     "tram"
+    ],
+    [
+     "der Stuhl",
+     "die Stühle",
+     "chair"
+    ],
+    [
+     "die Suppe",
+     "die Suppen",
+     "soup"
+    ],
+    [
+     "das Taxi",
+     "die Taxis",
+     "taxi"
+    ],
+    [
+     "der Tee",
+     "–",
+     "tea"
+    ],
+    [
+     "die Uhr",
+     "die Uhren",
+     "watch, clock"
+    ],
+    [
+     "die Verspätung",
+     "die Verspätungen",
+     "delay"
+    ],
+    [
+     "der Vogel",
+     "die Vögel",
+     "bird"
+    ],
+    [
+     "das Wasser",
+     "–",
+     "water"
+    ],
+    [
+     "der Wein",
+     "–",
+     "wine"
+    ],
+    [
+     "das Wetter",
+     "–",
+     "weather"
+    ],
+    [
+     "die Wohnung",
+     "die Wohnungen",
+     "flat"
+    ],
+    [
+     "die Zeitung",
+     "die Zeitungen",
+     "newspaper"
+    ]
+   ]
+  }
+ ]
+}

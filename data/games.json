@@ -28,5 +28,11 @@
     "title": "Da- und wo-Wörter",
     "description": "Drag damit, womit, darauf, worauf and friends into the right sentences, then read the translations.",
     "ready": true
+  },
+  {
+    "slug": "adjektivendungen",
+    "title": "Adjektivendungen",
+    "description": "Read a sentence and type the missing adjective ending. Build up step by step from weak to mixed to strong endings and from Nominativ to Genitiv.",
+    "ready": true
   }
 ]
